@@ -47,29 +47,28 @@
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       const button = form.querySelector('button') as HTMLButtonElement;
-      const email = new FormData(form as HTMLFormElement).get('email');
+      const emailInput = form.querySelector('input[name="email"]') as HTMLInputElement;
+      const email = emailInput.value;
       const originalText = button.textContent;
 
       button.textContent = 'Joining...';
       button.disabled = true;
 
       try {
-        const res = await fetch(GOOGLE_SCRIPT_URL, {
+        // Use no-cors mode to avoid CORS issues with Google Apps Script
+        await fetch(GOOGLE_SCRIPT_URL, {
           method: 'POST',
+          mode: 'no-cors',
+          headers: {
+            'Content-Type': 'text/plain',
+          },
           body: JSON.stringify({ email }),
         });
 
-        const data = await res.json();
-
-        if (data.success) {
-          button.textContent = "You're on the list!";
-          button.style.background = 'var(--color-teal)';
-          (form as HTMLFormElement).reset();
-        } else if (data.error === 'Already registered') {
-          button.textContent = 'Already signed up!';
-        } else {
-          button.textContent = 'Error - Try again';
-        }
+        // With no-cors we can't read the response, so assume success
+        button.textContent = "You're on the list!";
+        button.style.background = 'var(--color-teal)';
+        (form as HTMLFormElement).reset();
       } catch (err) {
         button.textContent = 'Error - Try again';
       }
