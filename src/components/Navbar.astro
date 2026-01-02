@@ -4,11 +4,11 @@
 
 <nav
   id="navbar"
-  class="fixed top-0 left-0 right-0 px-6 lg:px-10 py-4 flex justify-between items-center z-50 transition-all duration-300"
+  class="fixed top-0 left-0 right-0 px-4 sm:px-6 lg:px-10 py-3 sm:py-4 flex justify-between items-center z-50 transition-all duration-300"
   style="background: linear-gradient(to bottom, var(--color-cream) 60%, transparent);"
 >
   <a href="#" class="flex items-center gap-2 no-underline">
-    <svg class="w-9 h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="w-8 h-8 sm:w-9 sm:h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="18" cy="18" r="16" fill="#1a3a32" />
       <path
         d="M10 24 L14 16 L18 20 L22 12 L26 18"
@@ -19,12 +19,13 @@
       />
       <circle cx="26" cy="18" r="3" fill="#c9a962" />
     </svg>
-    <span class="font-display text-2xl font-semibold" style="color: var(--color-forest);">
+    <span class="font-display text-xl sm:text-2xl font-semibold" style="color: var(--color-forest);">
       Growfolio
     </span>
   </a>
 
-  <ul class="hidden md:flex items-center gap-8 list-none m-0 p-0">
+  <!-- Desktop Nav -->
+  <ul class="hidden md:flex items-center gap-6 lg:gap-8 list-none m-0 p-0">
     <li>
       <a
         href="#problem"
@@ -59,4 +60,13 @@
       </a>
     </li>
   </ul>
+
+  <!-- Mobile CTA -->
+  <a
+    href="#waitlist"
+    class="md:hidden px-3 py-1.5 rounded-full text-xs font-medium no-underline"
+    style="background: var(--color-forest); color: var(--color-cream);"
+  >
+    Join Waitlist
+  </a>
 </nav>

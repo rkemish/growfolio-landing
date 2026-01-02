@@ -2,9 +2,9 @@
 // Pricing section with 3 tiers
 ---
 
-<section id="pricing" class="py-24 lg:py-32 px-6 lg:px-10" style="background: var(--color-cream);">
+<section id="pricing" class="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-10" style="background: var(--color-cream);">
   <div class="max-w-6xl mx-auto">
-    <div class="text-center mb-16 reveal">
+    <div class="text-center mb-10 sm:mb-16 reveal">
       <span
         class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
         style="color: var(--color-gold);"
@@ -16,10 +16,10 @@
       </h2>
     </div>
 
-    <div class="grid md:grid-cols-3 gap-6 lg:gap-8 mt-12">
+    <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6 lg:gap-8 mt-8 sm:mt-12">
       <!-- Basic -->
       <div
-        class="reveal bg-white rounded-3xl p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
+        class="reveal bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
       >
         <div class="font-display text-2xl font-semibold mb-2" style="color: var(--color-forest);">
           Basic
@@ -59,7 +59,8 @@
 
       <!-- Family (Featured) -->
       <div
-        class="reveal bg-white rounded-3xl p-8 text-center relative transition-all duration-300 hover:shadow-xl pricing-featured"
+        class="reveal bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-center relative transition-all duration-300 hover:shadow-xl sm:col-span-2 md:col-span-1 border-2 md:scale-105"
+        style="border-color: var(--color-teal);"
       >
         <div
           class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-semibold"
@@ -105,7 +106,7 @@
 
       <!-- Premium -->
       <div
-        class="reveal bg-white rounded-3xl p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
+        class="reveal bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
       >
         <div class="font-display text-2xl font-semibold mb-2" style="color: var(--color-forest);">
           Premium
