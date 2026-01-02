@@ -1,0 +1,62 @@
+---
+// Navbar component with fixed positioning and scroll effect
+---
+
+<nav
+  id="navbar"
+  class="fixed top-0 left-0 right-0 px-6 lg:px-10 py-4 flex justify-between items-center z-50 transition-all duration-300"
+  style="background: linear-gradient(to bottom, var(--color-cream) 60%, transparent);"
+>
+  <a href="#" class="flex items-center gap-2 no-underline">
+    <svg class="w-9 h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="18" cy="18" r="16" fill="#1a3a32" />
+      <path
+        d="M10 24 L14 16 L18 20 L22 12 L26 18"
+        stroke="#c9a962"
+        stroke-width="2.5"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      />
+      <circle cx="26" cy="18" r="3" fill="#c9a962" />
+    </svg>
+    <span class="font-display text-2xl font-semibold" style="color: var(--color-forest);">
+      Growfolio
+    </span>
+  </a>
+
+  <ul class="hidden md:flex items-center gap-8 list-none m-0 p-0">
+    <li>
+      <a
+        href="#problem"
+        class="text-gray-500 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
+      >
+        Why Invest
+      </a>
+    </li>
+    <li>
+      <a
+        href="#solution"
+        class="text-gray-500 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
+      >
+        How It Works
+      </a>
+    </li>
+    <li>
+      <a
+        href="#pricing"
+        class="text-gray-500 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
+      >
+        Pricing
+      </a>
+    </li>
+    <li>
+      <a
+        href="#waitlist"
+        class="px-4 py-2 rounded-full text-sm font-medium no-underline transition-all hover:translate-y-[-1px]"
+        style="background: var(--color-forest); color: var(--color-cream);"
+      >
+        Join Waitlist
+      </a>
+    </li>
+  </ul>
+</nav>

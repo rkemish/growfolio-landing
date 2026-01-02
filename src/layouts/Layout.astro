@@ -1,0 +1,103 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Europe's first DCA investing platform purpose-built for families. Automated US equity investments starting from €25/month." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+
+    <!-- SEO -->
+    <title>{title}</title>
+    <meta name="description" content={description} />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:type" content="website" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Styles -->
+    <style is:global>
+      @import '../styles/global.css';
+    </style>
+  </head>
+  <body>
+    <!-- Background Pattern -->
+    <div class="bg-pattern">
+      <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+            <circle cx="30" cy="30" r="1" fill="rgba(26, 58, 50, 0.08)" />
+          </pattern>
+        </defs>
+        <rect width="100%" height="100%" fill="url(#grid)" />
+      </svg>
+    </div>
+
+    <slot />
+
+    <!-- Global Scripts -->
+    <script>
+      // Navbar scroll effect
+      const navbar = document.getElementById('navbar');
+      if (navbar) {
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 50) {
+            navbar.classList.add('scrolled');
+          } else {
+            navbar.classList.remove('scrolled');
+          }
+        });
+      }
+
+      // Scroll reveal animation
+      const reveals = document.querySelectorAll('.reveal');
+      const revealOnScroll = () => {
+        reveals.forEach((el) => {
+          const windowHeight = window.innerHeight;
+          const revealTop = el.getBoundingClientRect().top;
+          const revealPoint = 150;
+
+          if (revealTop < windowHeight - revealPoint) {
+            el.classList.add('active');
+          }
+        });
+      };
+      window.addEventListener('scroll', revealOnScroll);
+      revealOnScroll(); // Initial check
+
+      // Smooth scroll for anchor links
+      document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const href = this.getAttribute('href');
+          if (href) {
+            const target = document.querySelector(href);
+            if (target) {
+              target.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+              });
+            }
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

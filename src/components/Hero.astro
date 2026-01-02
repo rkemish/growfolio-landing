@@ -1,0 +1,170 @@
+---
+// Hero section with animated growth chart and floating cards
+---
+
+<section class="min-h-screen flex items-center px-6 lg:px-10 pt-32 pb-16 lg:pt-40 lg:pb-24">
+  <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+    <!-- Content -->
+    <div class="animate-fade-in-up">
+      <div
+        class="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold mb-6 animate-fade-in-up delay-100"
+        style="background: var(--color-gold-light); color: var(--color-forest);"
+      >
+        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path
+            d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+          ></path>
+        </svg>
+        Coming Soon to Europe
+      </div>
+
+      <h1
+        class="font-display text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight mb-6 animate-fade-in-up delay-200"
+        style="color: var(--color-forest);"
+      >
+        Build <span class="underline-accent" style="color: var(--color-teal);">Generational Wealth</span> for Your Family
+      </h1>
+
+      <p class="text-xl text-gray-500 max-w-xl mb-8 animate-fade-in-up delay-300">
+        Europe's first DCA investing platform purpose-built for families. Invest in US equities
+        automatically, starting from just €25/month.
+      </p>
+
+      <div class="flex flex-wrap gap-4 animate-fade-in-up delay-400">
+        <a href="#waitlist" class="btn btn-primary">
+          Join the Waitlist
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M5 12h14M12 5l7 7-7 7"></path>
+          </svg>
+        </a>
+        <a href="#solution" class="btn btn-secondary"> See How It Works </a>
+      </div>
+
+      <div
+        class="flex gap-12 mt-12 pt-8 animate-fade-in-up delay-500"
+        style="border-top: 1px solid rgba(26, 58, 50, 0.1);"
+      >
+        <div>
+          <div class="font-display text-3xl font-semibold" style="color: var(--color-forest);">
+            €25
+          </div>
+          <div class="text-sm text-gray-500">Minimum investment</div>
+        </div>
+        <div>
+          <div class="font-display text-3xl font-semibold" style="color: var(--color-forest);">
+            450M
+          </div>
+          <div class="text-sm text-gray-500">European consumers</div>
+        </div>
+        <div>
+          <div class="font-display text-3xl font-semibold" style="color: var(--color-forest);">
+            0
+          </div>
+          <div class="text-sm text-gray-500">Trading fees</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Visual -->
+    <div class="relative animate-fade-in-right max-w-lg mx-auto lg:max-w-none">
+      <div class="relative aspect-square">
+        <!-- Growth Chart SVG -->
+        <svg class="absolute inset-0 w-full h-full" viewBox="0 0 400 400" fill="none">
+          <defs>
+            <linearGradient id="chartGradient" x1="0%" y1="100%" x2="0%" y2="0%">
+              <stop offset="0%" stop-color="rgba(61, 139, 122, 0.1)"></stop>
+              <stop offset="100%" stop-color="rgba(61, 139, 122, 0.4)"></stop>
+            </linearGradient>
+          </defs>
+          <!-- Grid lines -->
+          <line x1="50" y1="50" x2="50" y2="350" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="150" y1="50" x2="150" y2="350" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="250" y1="50" x2="250" y2="350" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="350" y1="50" x2="350" y2="350" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="50" y1="350" x2="350" y2="350" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="50" y1="250" x2="350" y2="250" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <line x1="50" y1="150" x2="350" y2="150" stroke="rgba(26, 58, 50, 0.1)" stroke-width="1"
+          ></line>
+          <!-- Area fill -->
+          <path
+            d="M50 350 L50 320 L100 280 L150 290 L200 220 L250 180 L300 140 L350 100 L350 350 Z"
+            fill="url(#chartGradient)"></path>
+          <!-- Growth line -->
+          <path
+            class="growth-line"
+            d="M50 320 Q75 300 100 280 T150 290 T200 220 T250 180 T300 140 T350 100"
+            stroke="#3d8b7a"
+            stroke-width="4"
+            stroke-linecap="round"
+            fill="none"></path>
+          <!-- End point -->
+          <circle class="animate-pulse-dot" cx="350" cy="100" r="8" fill="#c9a962"></circle>
+          <circle cx="350" cy="100" r="4" fill="#1a3a32"></circle>
+        </svg>
+
+        <!-- Floating Cards -->
+        <div
+          class="absolute top-[10%] right-[5%] bg-white rounded-2xl p-4 shadow-xl animate-float float-card-1"
+        >
+          <div
+            class="w-10 h-10 rounded-xl flex items-center justify-center mb-2"
+            style="background: #e8f5e9;"
+          >
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#3d8b7a" stroke-width="2">
+              <path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6"></path>
+            </svg>
+          </div>
+          <div class="text-sm font-semibold" style="color: var(--color-forest);">Monthly DCA</div>
+          <div class="font-display text-2xl font-semibold" style="color: var(--color-teal);">
+            €80
+          </div>
+        </div>
+
+        <div
+          class="absolute bottom-[20%] left-0 bg-white rounded-2xl p-4 shadow-xl animate-float float-card-2"
+        >
+          <div
+            class="w-10 h-10 rounded-xl flex items-center justify-center mb-2"
+            style="background: #fff3e0;"
+          >
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#c9a962" stroke-width="2">
+              <path d="M23 6l-9.5 9.5-5-5L1 18"></path>
+            </svg>
+          </div>
+          <div class="text-sm font-semibold" style="color: var(--color-forest);">
+            Portfolio Growth
+          </div>
+          <div class="font-display text-2xl font-semibold" style="color: var(--color-teal);">
+            +24.3%
+          </div>
+        </div>
+
+        <div
+          class="absolute top-[40%] right-[-5%] bg-white rounded-2xl p-4 shadow-xl animate-float float-card-3"
+        >
+          <div
+            class="w-10 h-10 rounded-xl flex items-center justify-center mb-2"
+            style="background: #fce4ec;"
+          >
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="#d4847c" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <path d="M12 6v6l4 2"></path>
+            </svg>
+          </div>
+          <div class="text-sm font-semibold" style="color: var(--color-forest);">
+            Next Investment
+          </div>
+          <div class="font-display text-2xl font-semibold" style="color: var(--color-teal);">
+            3 days
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
