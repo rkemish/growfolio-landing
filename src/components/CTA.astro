@@ -15,7 +15,16 @@
       Netherlands.
     </p>
 
-    <form id="waitlist-form" class="reveal flex flex-col sm:flex-row gap-4 max-w-lg mx-auto">
+    <!-- Hidden iframe for form submission -->
+    <iframe name="hidden-iframe" id="hidden-iframe" style="display: none;"></iframe>
+
+    <form
+      id="waitlist-form"
+      class="reveal flex flex-col sm:flex-row gap-4 max-w-lg mx-auto"
+      action="https://script.google.com/macros/s/AKfycbyFXlrs7fdGbFJs2wMH1jGXNRoY-_F7zayBuHDGq-veJwLtqewlYKTGmHLouri6eHLE/exec"
+      method="POST"
+      target="hidden-iframe"
+    >
       <input
         type="email"
         name="email"
@@ -40,44 +49,27 @@
 </section>
 
 <script>
-  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyFXlrs7fdGbFJs2wMH1jGXNRoY-_F7zayBuHDGq-veJwLtqewlYKTGmHLouri6eHLE/exec';
-
-  const form = document.getElementById('waitlist-form');
+  const form = document.getElementById('waitlist-form') as HTMLFormElement;
   if (form) {
-    form.addEventListener('submit', async (e) => {
-      e.preventDefault();
+    form.addEventListener('submit', () => {
       const button = form.querySelector('button') as HTMLButtonElement;
-      const emailInput = form.querySelector('input[name="email"]') as HTMLInputElement;
-      const email = emailInput.value;
       const originalText = button.textContent;
 
       button.textContent = 'Joining...';
       button.disabled = true;
 
-      try {
-        // Use no-cors mode to avoid CORS issues with Google Apps Script
-        await fetch(GOOGLE_SCRIPT_URL, {
-          method: 'POST',
-          mode: 'no-cors',
-          headers: {
-            'Content-Type': 'text/plain',
-          },
-          body: JSON.stringify({ email }),
-        });
-
-        // With no-cors we can't read the response, so assume success
+      // Show success after a short delay (form submits to iframe)
+      setTimeout(() => {
         button.textContent = "You're on the list!";
         button.style.background = 'var(--color-teal)';
-        (form as HTMLFormElement).reset();
-      } catch (err) {
-        button.textContent = 'Error - Try again';
-      }
+        form.reset();
 
-      setTimeout(() => {
-        button.textContent = originalText;
-        button.style.background = 'var(--color-gold)';
-        button.disabled = false;
-      }, 3000);
+        setTimeout(() => {
+          button.textContent = originalText;
+          button.style.background = 'var(--color-gold)';
+          button.disabled = false;
+        }, 3000);
+      }, 1000);
     });
   }
 </script>
