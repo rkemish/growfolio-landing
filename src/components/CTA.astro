@@ -40,14 +40,45 @@
 </section>
 
 <script>
+  const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbyFXlrs7fdGbFJs2wMH1jGXNRoY-_F7zayBuHDGq-veJwLtqewlYKTGmHLouri6eHLE/exec';
+
   const form = document.getElementById('waitlist-form');
   if (form) {
-    form.addEventListener('submit', (e) => {
+    form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const formData = new FormData(form as HTMLFormElement);
-      const email = formData.get('email');
-      alert(`Thanks for joining! We'll notify ${email} when we launch.`);
-      (form as HTMLFormElement).reset();
+      const button = form.querySelector('button') as HTMLButtonElement;
+      const email = new FormData(form as HTMLFormElement).get('email');
+      const originalText = button.textContent;
+
+      button.textContent = 'Joining...';
+      button.disabled = true;
+
+      try {
+        const res = await fetch(GOOGLE_SCRIPT_URL, {
+          method: 'POST',
+          body: JSON.stringify({ email }),
+        });
+
+        const data = await res.json();
+
+        if (data.success) {
+          button.textContent = "You're on the list!";
+          button.style.background = 'var(--color-teal)';
+          (form as HTMLFormElement).reset();
+        } else if (data.error === 'Already registered') {
+          button.textContent = 'Already signed up!';
+        } else {
+          button.textContent = 'Error - Try again';
+        }
+      } catch (err) {
+        button.textContent = 'Error - Try again';
+      }
+
+      setTimeout(() => {
+        button.textContent = originalText;
+        button.style.background = 'var(--color-gold)';
+        button.disabled = false;
+      }, 3000);
     });
   }
 </script>
