@@ -1,5 +1,14 @@
 ---
 // Problem section - dark background with stats
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+// Parse headline to handle <br /> tags
+const headline = t('problem.headline');
 ---
 
 <section id="problem" class="section-dark py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-10">
@@ -9,11 +18,9 @@
         class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
         style="color: var(--color-gold);"
       >
-        The Problem
+        {t('problem.section_label')}
       </span>
-      <h2 class="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold" style="color: var(--color-cream);">
-        Europe Is Falling Behind.<br />Your Savings Shouldn't.
-      </h2>
+      <h2 class="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold" style="color: var(--color-cream);" set:html={headline} />
     </div>
 
     <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-6">
@@ -22,16 +29,16 @@
         style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"
       >
         <div class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-none mb-3 sm:mb-4" style="color: var(--color-coral);">
-          0.9%
+          {t('problem.stats.productivity.value')}
         </div>
         <div class="text-base sm:text-lg font-semibold mb-2" style="color: var(--color-cream);">
-          EU Productivity Growth
+          {t('problem.stats.productivity.title')}
         </div>
         <p class="text-sm leading-relaxed" style="color: rgba(255, 255, 255, 0.7);">
-          EU labor productivity grew just 0.9% since 2019, while the US grew 6.7%.
+          {t('problem.stats.productivity.description')}
         </p>
         <p class="text-xs mt-3 sm:mt-4" style="color: rgba(255, 255, 255, 0.4);">
-          ECB Economic Bulletin 2024
+          {t('problem.stats.productivity.source')}
         </p>
       </div>
 
@@ -40,16 +47,16 @@
         style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"
       >
         <div class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-none mb-3 sm:mb-4" style="color: var(--color-coral);">
-          30%
+          {t('problem.stats.income_gap.value')}
         </div>
         <div class="text-base sm:text-lg font-semibold mb-2" style="color: var(--color-cream);">
-          Income Gap
+          {t('problem.stats.income_gap.title')}
         </div>
         <p class="text-sm leading-relaxed" style="color: rgba(255, 255, 255, 0.7);">
-          EU per capita income is now 30% below US levels and the gap is widening.
+          {t('problem.stats.income_gap.description')}
         </p>
         <p class="text-xs mt-3 sm:mt-4" style="color: rgba(255, 255, 255, 0.4);">
-          IMF "Europe's Choice" 2024
+          {t('problem.stats.income_gap.source')}
         </p>
       </div>
 
@@ -58,16 +65,16 @@
         style="background: rgba(255, 255, 255, 0.05); border: 1px solid rgba(255, 255, 255, 0.1);"
       >
         <div class="font-display text-4xl sm:text-5xl lg:text-6xl font-bold leading-none mb-3 sm:mb-4" style="color: var(--color-coral);">
-          ∞
+          {t('problem.stats.ai_wealth.value')}
         </div>
         <div class="text-base sm:text-lg font-semibold mb-2" style="color: var(--color-cream);">
-          AI Wealth Gap
+          {t('problem.stats.ai_wealth.title')}
         </div>
         <p class="text-sm leading-relaxed" style="color: rgba(255, 255, 255, 0.7);">
-          AI adoption consistently increases wealth inequality. Capital owners benefit disproportionately.
+          {t('problem.stats.ai_wealth.description')}
         </p>
         <p class="text-xs mt-3 sm:mt-4" style="color: rgba(255, 255, 255, 0.4);">
-          IMF Working Paper 2025
+          {t('problem.stats.ai_wealth.source')}
         </p>
       </div>
     </div>

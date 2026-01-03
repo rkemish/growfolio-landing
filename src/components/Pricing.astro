@@ -1,5 +1,16 @@
 ---
 // Pricing section with 3 tiers
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+// Get features arrays
+const basicFeatures = translations.pricing?.tiers?.basic?.features || [];
+const familyFeatures = translations.pricing?.tiers?.family?.features || [];
+const premiumFeatures = translations.pricing?.tiers?.premium?.features || [];
 ---
 
 <section id="pricing" class="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-10" style="background: var(--color-cream);">
@@ -9,10 +20,10 @@
         class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
         style="color: var(--color-gold);"
       >
-        Simple Pricing
+        {t('pricing.section_label')}
       </span>
       <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold" style="color: var(--color-forest);">
-        Plans That Grow With Your Family
+        {t('pricing.headline')}
       </h2>
     </div>
 
@@ -22,39 +33,23 @@
         class="reveal bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
       >
         <div class="font-display text-2xl font-semibold mb-2" style="color: var(--color-forest);">
-          Basic
+          {t('pricing.tiers.basic.name')}
         </div>
         <div class="mb-6">
-          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">€3</span>
-          <span class="text-gray-500">/month</span>
+          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">{t('pricing.tiers.basic.price')}</span>
+          <span class="text-gray-500">{t('pricing.per_month')}</span>
         </div>
         <ul class="space-y-3 mb-8">
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            1 investment goal
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            5 stocks
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Automated DCA
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Basic insights
-          </li>
+          {basicFeatures.map((feature: string) => (
+            <li class="flex items-center justify-center gap-2 text-gray-500">
+              <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 13l4 4L19 7"></path>
+              </svg>
+              {feature}
+            </li>
+          ))}
         </ul>
-        <a href="#waitlist" class="btn btn-secondary w-full justify-center">Get Started</a>
+        <a href="#waitlist" class="btn btn-secondary w-full justify-center">{t('pricing.get_started')}</a>
       </div>
 
       <!-- Family (Featured) -->
@@ -66,42 +61,26 @@
           class="absolute -top-3 left-1/2 -translate-x-1/2 px-4 py-1 rounded-full text-xs font-semibold"
           style="background: var(--color-teal); color: white;"
         >
-          Most Popular
+          {t('pricing.most_popular')}
         </div>
         <div class="font-display text-2xl font-semibold mb-2" style="color: var(--color-forest);">
-          Family
+          {t('pricing.tiers.family.name')}
         </div>
         <div class="mb-6">
-          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">€7</span>
-          <span class="text-gray-500">/month</span>
+          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">{t('pricing.tiers.family.price')}</span>
+          <span class="text-gray-500">{t('pricing.per_month')}</span>
         </div>
         <ul class="space-y-3 mb-8">
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Unlimited goals
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Unlimited stocks
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Family accounts
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            AI guidance
-          </li>
+          {familyFeatures.map((feature: string) => (
+            <li class="flex items-center justify-center gap-2 text-gray-500">
+              <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 13l4 4L19 7"></path>
+              </svg>
+              {feature}
+            </li>
+          ))}
         </ul>
-        <a href="#waitlist" class="btn btn-primary w-full justify-center">Get Started</a>
+        <a href="#waitlist" class="btn btn-primary w-full justify-center">{t('pricing.get_started')}</a>
       </div>
 
       <!-- Premium -->
@@ -109,39 +88,23 @@
         class="reveal bg-white rounded-2xl sm:rounded-3xl p-6 sm:p-8 text-center transition-all duration-300 hover:translate-y-[-5px] hover:shadow-xl"
       >
         <div class="font-display text-2xl font-semibold mb-2" style="color: var(--color-forest);">
-          Premium
+          {t('pricing.tiers.premium.name')}
         </div>
         <div class="mb-6">
-          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">€12</span>
-          <span class="text-gray-500">/month</span>
+          <span class="font-display text-5xl font-bold" style="color: var(--color-forest);">{t('pricing.tiers.premium.price')}</span>
+          <span class="text-gray-500">{t('pricing.per_month')}</span>
         </div>
         <ul class="space-y-3 mb-8">
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Everything in Family
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Advanced analytics
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Priority support
-          </li>
-          <li class="flex items-center justify-center gap-2 text-gray-500">
-            <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-              <path d="M5 13l4 4L19 7"></path>
-            </svg>
-            Premium AI features
-          </li>
+          {premiumFeatures.map((feature: string) => (
+            <li class="flex items-center justify-center gap-2 text-gray-500">
+              <svg class="w-5 h-5" style="color: var(--color-teal);" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 13l4 4L19 7"></path>
+              </svg>
+              {feature}
+            </li>
+          ))}
         </ul>
-        <a href="#waitlist" class="btn btn-secondary w-full justify-center">Get Started</a>
+        <a href="#waitlist" class="btn btn-secondary w-full justify-center">{t('pricing.get_started')}</a>
       </div>
     </div>
   </div>

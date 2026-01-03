@@ -1,5 +1,12 @@
 ---
-// Navbar component with fixed positioning and scroll effect
+// Navbar component with fixed positioning, scroll effect, and language switcher
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+import LanguageSwitcher from './LanguageSwitcher.astro';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
 ---
 
 <nav
@@ -7,7 +14,7 @@
   class="fixed top-0 left-0 right-0 px-4 sm:px-6 lg:px-10 py-3 sm:py-4 flex justify-between items-center z-50 transition-all duration-300"
   style="background: linear-gradient(to bottom, var(--color-cream) 60%, transparent);"
 >
-  <a href="#" class="flex items-center gap-2 no-underline">
+  <a href={`/${lang}/`} class="flex items-center gap-2 no-underline">
     <svg class="w-8 h-8 sm:w-9 sm:h-9" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
       <circle cx="18" cy="18" r="16" fill="#1a3a32" />
       <path
@@ -25,13 +32,13 @@
   </a>
 
   <!-- Desktop Nav -->
-  <ul class="hidden md:flex items-center gap-6 lg:gap-8 list-none m-0 p-0">
+  <ul class="hidden md:flex items-center gap-4 lg:gap-6 list-none m-0 p-0">
     <li>
       <a
         href="#problem"
         class="text-gray-600 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
       >
-        Why Invest
+        {t('navbar.why_invest')}
       </a>
     </li>
     <li>
@@ -39,7 +46,7 @@
         href="#solution"
         class="text-gray-600 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
       >
-        How It Works
+        {t('navbar.how_it_works')}
       </a>
     </li>
     <li>
@@ -47,8 +54,11 @@
         href="#pricing"
         class="text-gray-600 no-underline font-medium text-sm hover:text-[var(--color-forest)] transition-colors"
       >
-        Pricing
+        {t('navbar.pricing')}
       </a>
+    </li>
+    <li>
+      <LanguageSwitcher />
     </li>
     <li>
       <a
@@ -56,17 +66,20 @@
         class="px-4 py-2 rounded-full text-sm font-medium no-underline transition-all hover:translate-y-[-1px]"
         style="background: var(--color-forest); color: var(--color-cream);"
       >
-        Join Waitlist
+        {t('navbar.join_waitlist')}
       </a>
     </li>
   </ul>
 
-  <!-- Mobile CTA -->
-  <a
-    href="#waitlist"
-    class="md:hidden px-3 py-1.5 rounded-full text-xs font-medium no-underline"
-    style="background: var(--color-forest); color: var(--color-cream);"
-  >
-    Join Waitlist
-  </a>
+  <!-- Mobile: Language + CTA -->
+  <div class="md:hidden flex items-center gap-2">
+    <LanguageSwitcher />
+    <a
+      href="#waitlist"
+      class="px-3 py-1.5 rounded-full text-xs font-medium no-underline"
+      style="background: var(--color-forest); color: var(--color-cream);"
+    >
+      {t('navbar.join_waitlist')}
+    </a>
+  </div>
 </nav>

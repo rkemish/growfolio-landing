@@ -1,5 +1,14 @@
 ---
 // Social Proof section - European Opportunity
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+// Parse tagline to handle HTML
+const tagline = t('social_proof.tagline');
 ---
 
 <section class="py-24 lg:py-32 px-6 lg:px-10" style="background: var(--color-cream-dark);">
@@ -9,10 +18,10 @@
         class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
         style="color: var(--color-gold);"
       >
-        The Opportunity
+        {t('social_proof.section_label')}
       </span>
       <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold" style="color: var(--color-forest);">
-        A Massive Untapped Market
+        {t('social_proof.headline')}
       </h2>
     </div>
 
@@ -20,68 +29,66 @@
     <div class="reveal grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
       <div class="bg-white rounded-2xl p-6 lg:p-8 text-center shadow-sm">
         <div class="font-display text-3xl lg:text-4xl font-bold mb-2" style="color: var(--color-teal);">
-          450M
+          {t('social_proof.stats.consumers.value')}
         </div>
-        <div class="text-sm text-gray-500">European Consumers</div>
+        <div class="text-sm text-gray-500">{t('social_proof.stats.consumers.label')}</div>
       </div>
 
       <div class="bg-white rounded-2xl p-6 lg:p-8 text-center shadow-sm">
         <div class="font-display text-3xl lg:text-4xl font-bold mb-2" style="color: var(--color-teal);">
-          €0
+          {t('social_proof.stats.platforms.value', { amount: '€0' })}
         </div>
-        <div class="text-sm text-gray-500">Family DCA Platforms</div>
+        <div class="text-sm text-gray-500">{t('social_proof.stats.platforms.label')}</div>
       </div>
 
       <div class="bg-white rounded-2xl p-6 lg:p-8 text-center shadow-sm">
         <div class="font-display text-3xl lg:text-4xl font-bold mb-2" style="color: var(--color-teal);">
-          27
+          {t('social_proof.stats.countries.value')}
         </div>
-        <div class="text-sm text-gray-500">EU Countries</div>
+        <div class="text-sm text-gray-500">{t('social_proof.stats.countries.label')}</div>
       </div>
 
       <div class="bg-white rounded-2xl p-6 lg:p-8 text-center shadow-sm">
         <div class="font-display text-3xl lg:text-4xl font-bold mb-2" style="color: var(--color-teal);">
-          15%+
+          {t('social_proof.stats.growth.value')}
         </div>
-        <div class="text-sm text-gray-500">Expected S&P Growth</div>
+        <div class="text-sm text-gray-500">{t('social_proof.stats.growth.label')}</div>
       </div>
     </div>
 
     <!-- Value Props -->
     <div class="reveal grid md:grid-cols-3 gap-6 mt-12">
       <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm">
-        <div class="text-3xl mb-4">🎯</div>
+        <div class="text-3xl mb-4">{t('social_proof.value_props.families.emoji')}</div>
         <h3 class="font-display text-xl font-semibold mb-2" style="color: var(--color-forest);">
-          Purpose-Built for Families
+          {t('social_proof.value_props.families.title')}
         </h3>
         <p class="text-gray-500 text-sm">
-          Goal-based investing with family accounts, not another trading app disguised as long-term investing.
+          {t('social_proof.value_props.families.description')}
         </p>
       </div>
 
       <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm">
-        <div class="text-3xl mb-4">🔄</div>
+        <div class="text-3xl mb-4">{t('social_proof.value_props.automation.emoji')}</div>
         <h3 class="font-display text-xl font-semibold mb-2" style="color: var(--color-forest);">
-          True Automation
+          {t('social_proof.value_props.automation.title')}
         </h3>
         <p class="text-gray-500 text-sm">
-          Set it once and forget it. Weekly, bi-weekly, or monthly investments into your chosen stocks.
+          {t('social_proof.value_props.automation.description')}
         </p>
       </div>
 
       <div class="bg-white rounded-2xl p-6 lg:p-8 shadow-sm">
-        <div class="text-3xl mb-4">🌍</div>
+        <div class="text-3xl mb-4">{t('social_proof.value_props.us_growth.emoji')}</div>
         <h3 class="font-display text-xl font-semibold mb-2" style="color: var(--color-forest);">
-          Access US Growth
+          {t('social_proof.value_props.us_growth.title')}
         </h3>
         <p class="text-gray-500 text-sm">
-          Invest in the world's most innovative companies. Apple, Google, NVIDIA — from anywhere in Europe.
+          {t('social_proof.value_props.us_growth.description')}
         </p>
       </div>
     </div>
 
-    <p class="reveal text-center text-lg lg:text-xl text-gray-500 mt-12 max-w-2xl mx-auto">
-      <strong style="color: var(--color-forest);">European families deserve better.</strong> We're building the platform we wished existed for our own children.
-    </p>
+    <p class="reveal text-center text-lg lg:text-xl text-gray-500 mt-12 max-w-2xl mx-auto" set:html={tagline} />
   </div>
 </section>

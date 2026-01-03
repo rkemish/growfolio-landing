@@ -1,5 +1,11 @@
 ---
 // How It Works section - 3 step process
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
 ---
 
 <section class="py-24 lg:py-32 px-6 lg:px-10" style="background: var(--color-cream-dark);">
@@ -9,10 +15,10 @@
         class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
         style="color: var(--color-gold);"
       >
-        How It Works
+        {t('how_it_works.section_label')}
       </span>
       <h2 class="font-display text-3xl md:text-4xl lg:text-5xl font-semibold" style="color: var(--color-forest);">
-        Three Steps to Start Building Wealth
+        {t('how_it_works.headline')}
       </h2>
     </div>
 
@@ -29,12 +35,11 @@
           class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10"
           style="background: var(--color-cream); border: 3px solid var(--color-teal);"
         >
-          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">1</span>
+          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">{t('how_it_works.steps.step1.number')}</span>
         </div>
-        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">Set Your Goals</h3>
+        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">{t('how_it_works.steps.step1.title')}</h3>
         <p class="text-gray-500">
-          Name your investment goals and set target amounts. University fund? First home? Retirement?
-          You decide.
+          {t('how_it_works.steps.step1.description')}
         </p>
       </div>
 
@@ -44,12 +49,11 @@
           class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10"
           style="background: var(--color-cream); border: 3px solid var(--color-teal);"
         >
-          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">2</span>
+          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">{t('how_it_works.steps.step2.number')}</span>
         </div>
-        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">Choose Your Stocks</h3>
+        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">{t('how_it_works.steps.step2.title')}</h3>
         <p class="text-gray-500">
-          Pick the US companies you believe in. Apple, Google, NVIDIA — invest in the world's most
-          innovative firms.
+          {t('how_it_works.steps.step2.description')}
         </p>
       </div>
 
@@ -59,12 +63,11 @@
           class="w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-6 relative z-10"
           style="background: var(--color-cream); border: 3px solid var(--color-teal);"
         >
-          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">3</span>
+          <span class="font-display text-3xl font-semibold" style="color: var(--color-teal);">{t('how_it_works.steps.step3.number')}</span>
         </div>
-        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">Automate & Relax</h3>
+        <h3 class="text-xl font-semibold mb-2" style="color: var(--color-forest);">{t('how_it_works.steps.step3.title')}</h3>
         <p class="text-gray-500">
-          Set up automatic investments. We'll invest for you every week, bi-weekly, or monthly. You
-          focus on life.
+          {t('how_it_works.steps.step3.description')}
         </p>
       </div>
     </div>

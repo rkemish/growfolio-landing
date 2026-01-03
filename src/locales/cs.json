@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Budujte mezigenerační bohatství pro svou rodinu",
+    "description": "První evropská investiční platforma DCA navržená pro rodiny. Automatizované investice do amerických akcií od {minInvestment}/měsíc."
+  },
+  "navbar": {
+    "why_invest": "Proč investovat",
+    "how_it_works": "Jak to funguje",
+    "pricing": "Ceník",
+    "join_waitlist": "Připojit se k čekací listině"
+  },
+  "hero": {
+    "badge": "Již brzy v Evropě",
+    "headline": "Budujte <accent>mezigenerační bohatství</accent> pro svou rodinu",
+    "subheadline": "První evropská investiční platforma DCA navržená pro rodiny. Investujte do amerických akcií automaticky, již od {minInvestment}/měsíc.",
+    "cta_primary": "Připojte se k čekací listině",
+    "cta_secondary": "Podívejte se, jak to funguje",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investice",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Spotřebitelů v EU",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Obchodní poplatky"
+    },
+    "cards": {
+      "monthly_dca": "Měsíční DCA",
+      "portfolio_growth": "Růst portfolia",
+      "next_investment": "Další investice",
+      "days": "{count} dnů"
+    }
+  },
+  "problem": {
+    "section_label": "Problém",
+    "headline": "Evropa zaostává.<br />Vaše úspory by neměly.",
+    "stats": {
+      "productivity": {
+        "value": "0,9 %",
+        "title": "Růst produktivity EU",
+        "description": "Produktivita práce v EU vzrostla od roku 2019 pouze o 0,9 %, zatímco v USA o 6,7 %.",
+        "source": "ECB Economic Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30 %",
+        "title": "Příjmová propast",
+        "description": "Příjem na obyvatele v EU je nyní o 30 % nižší než v USA a rozdíl se prohlubuje.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Propast bohatství AI",
+        "description": "Adopce umělé inteligence konzistentně zvyšuje nerovnost v bohatství. Vlastníci kapitálu nepřiměřeně profitují.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Řešení",
+    "headline": "Investujte do amerického růstu.<br />Navrženo pro evropské rodiny.",
+    "description": "Nastavte jednou, investujte automaticky. Growfolio usnadňuje budování bohatství pro budoucnost vaší rodiny prostřednictvím pravidelného investování do předních amerických společností.",
+    "features": {
+      "min_investment": {
+        "title": "Začněte od {amount}/měsíc",
+        "description": "Žádný minimální zůstatek. Zlomkové akcie znamenají, že můžete vlastnit části jakékoli akcie."
+      },
+      "goal_based": {
+        "title": "Investování podle cílů",
+        "description": "Pojmenujte své cíle: \"Sofiina univerzita 2040\" nebo \"Fond na rodinný dům\". Sledujte pokrok vizuálně."
+      },
+      "family_accounts": {
+        "title": "Rodinné účty",
+        "description": "Podúčty pro rodiče a děti. Zapojte své děti, jak rostou."
+      },
+      "ai_education": {
+        "title": "Vzdělávání s pomocí AI",
+        "description": "Pochopte, co vlastníte. AI jednoduše vysvětlí společnosti, zisky a základní ukazatele."
+      }
+    },
+    "simulation": {
+      "title": "Simulace DCA",
+      "subtitle": "Nakonfigurujte svou investici",
+      "monthly_label": "Měsíčně",
+      "period_label": "Období",
+      "stocks_label": "Akcie",
+      "start_button": "Spustit simulaci",
+      "uses_real_data": "Využívá reálná historická data",
+      "results_title": "10 let DCA",
+      "gain": "+{percent} % zisk",
+      "shares": "{count} akcií",
+      "run_again": "Spustit znovu",
+      "based_on_real_data": "Založeno na reálných tržních datech",
+      "data_source": "Reálná historická data z"
+    },
+    "phone": {
+      "goal_title": "Sofiina univerzitní fond",
+      "goal_target": "Cíl: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Držené akcie"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Jak to funguje",
+    "headline": "Tři kroky k budování bohatství",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Nastavte své cíle",
+        "description": "Pojmenujte své investiční cíle a stanovte cílové částky. Univerzitní fond? První bydlení? Důchod? Vy rozhodujete."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Vyberte své akcie",
+        "description": "Vyberte americké společnosti, kterým věříte. Apple, Google, NVIDIA — investujte do nejinovativnějších firem světa."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizujte a relaxujte",
+        "description": "Nastavte automatické investice. Budeme za vás investovat každý týden, každé dva týdny nebo měsíčně. Vy se soustřeďte na život."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Příležitost",
+    "headline": "Obrovský nevyužitý trh",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Evropských spotřebitelů"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Rodinných DCA platforem"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Zemí EU"
+      },
+      "growth": {
+        "value": "15 %+",
+        "label": "Očekávaný růst S&P"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Navrženo pro rodiny",
+        "description": "Investování podle cílů s rodinnými účty, nikoli další obchodní aplikace převlečená za dlouhodobé investování."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Skutečná automatizace",
+        "description": "Nastavte jednou a zapomeňte. Týdenní, čtrnáctidenní nebo měsíční investice do vámi vybraných akcií."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Přístup k americkému růstu",
+        "description": "Investujte do nejinovativnějších společností světa. Apple, Google, NVIDIA — odkudkoli v Evropě."
+      }
+    },
+    "tagline": "<strong>Evropské rodiny si zaslouží lepší.</strong> Budujeme platformu, kterou bychom si přáli mít pro naše vlastní děti."
+  },
+  "pricing": {
+    "section_label": "Jednoduchý ceník",
+    "headline": "Plány, které rostou s vaší rodinou",
+    "per_month": "/měsíc",
+    "get_started": "Začít",
+    "most_popular": "Nejoblíbenější",
+    "tiers": {
+      "basic": {
+        "name": "Základní",
+        "price": "€3",
+        "features": [
+          "1 investiční cíl",
+          "5 akcií",
+          "Automatizované DCA",
+          "Základní přehledy"
+        ]
+      },
+      "family": {
+        "name": "Rodina",
+        "price": "€7",
+        "features": [
+          "Neomezené cíle",
+          "Neomezené akcie",
+          "Rodinné účty",
+          "AI asistence"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Vše z plánu Rodina",
+          "Pokročilé analýzy",
+          "Prioritní podpora",
+          "Premium AI funkce"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Buďte první, kdo vybuduje<br />budoucnost své rodiny",
+    "description": "Připojte se k čekací listině pro přednostní přístup. Brzy spouštíme ve Španělsku, Německu, Francii a Nizozemsku.",
+    "email_placeholder": "Zadejte svůj e-mail",
+    "button": "Připojit se k čekací listině",
+    "button_loading": "Připojování...",
+    "button_success": "Jste na seznamu!",
+    "privacy_note": "Žádný spam. Pouze aktualizace o našem spuštění."
+  },
+  "footer": {
+    "about": "O nás",
+    "privacy": "Ochrana soukromí",
+    "terms": "Podmínky",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio zatím nemá licenci a neposkytuje investiční poradenství. Tato stránka slouží pouze k informačním účelům. Investování zahrnuje riziko; váš kapitál může být ohrožen.",
+    "copyright": "© {year} Growfolio. Všechna práva vyhrazena."
+  },
+  "language_switcher": {
+    "label": "Jazyk",
+    "search_placeholder": "Hledat jazyky...",
+    "official_languages": "Úřední jazyky EU",
+    "regional_languages": "Regionální jazyky"
+  }
+}

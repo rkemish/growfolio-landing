@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Tóg Saibhreas Glúine do Do Theaghlach",
+    "description": "An chéad ardán infheistíochta DCA san Eoraip atá tógtha go speisialta do theaghlaigh. Infheistíochtaí uathoibríocha i scaircheannaíocht SAM ag tosú ó {minInvestment}/mí."
+  },
+  "navbar": {
+    "why_invest": "Cén Fáth Infheistiú",
+    "how_it_works": "Conas a Oibríonn Sé",
+    "pricing": "Praghsáil",
+    "join_waitlist": "Cláraigh ar an Liosta Feithimh"
+  },
+  "hero": {
+    "badge": "Ag Teacht go hEoraip Go Luath",
+    "headline": "Tóg <accent>Saibhreas Glúine</accent> do Do Theaghlach",
+    "subheadline": "An chéad ardán infheistíochta DCA san Eoraip atá tógtha go speisialta do theaghlaigh. Infheistigh i scaircheannaíocht SAM go huathoibríoch, ag tosú ó díreach {minInvestment}/mí.",
+    "cta_primary": "Cláraigh ar an Liosta Feithimh",
+    "cta_secondary": "Féach Conas a Oibríonn Sé",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Íosinfheistíocht",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Tomhaltóirí AE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Táillí trádála"
+    },
+    "cards": {
+      "monthly_dca": "DCA Míosúil",
+      "portfolio_growth": "Fás Punainne",
+      "next_investment": "An Chéad Infheistíocht Eile",
+      "days": "{count} lá"
+    }
+  },
+  "problem": {
+    "section_label": "An Fhadhb",
+    "headline": "Tá an Eoraip ag Titim Siar.<br />Níor Cheart do Do Choigilteas.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "Fás Táirgiúlachta AE",
+        "description": "Níor fhás táirgiúlacht saothair an AE ach 0.9% ó 2019, fad a d'fhás SAM 6.7%.",
+        "source": "Nuachtlitir Eacnamaíoch BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Bearna Ioncaim",
+        "description": "Tá ioncam per capita AE anois 30% faoi bhun leibhéil SAM agus tá an bhearna ag leathnú.",
+        "source": "CAI \"Rogha na hEorpa\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Bearna Saibhris IS",
+        "description": "Méadaíonn glacadh le hIntleacht Shaorga éagothroime saibhris go seasta. Baineann úinéirí caipitil tairbhe as go díréireach.",
+        "source": "Páipéar Oibre CAI 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "An Réiteach",
+    "headline": "Infheistigh i bhFás SAM.<br />Tógtha do Theaghlaigh Eorpacha.",
+    "description": "Socraigh suas uair amháin, infheistigh go huathoibríoch. Déanann Growfolio éasca é saibhreas a thógáil do thodhchaí do theaghlaigh trí mheán-chostas dolair i gcuideachtaí barr SAM.",
+    "features": {
+      "min_investment": {
+        "title": "Tosaigh ó {amount}/mí",
+        "description": "Gan íosiarmhéid. Ciallaíonn scaireanna codánacha gur féidir leat píosaí d'aon stoc a bheith agat."
+      },
+      "goal_based": {
+        "title": "Infheistíocht bunaithe ar Sprioc",
+        "description": "Ainmnigh do spriocanna: \"Ollscoil Shofía 2040\" nó \"Ciste Teach an Teaghlaigh\". Lean dul chun cinn go físiúil."
+      },
+      "family_accounts": {
+        "title": "Cuntais Teaghlaigh",
+        "description": "Fo-chuntais tuismitheora agus linbh. Cuir do pháistí páirteach de réir mar a fhásann siad."
+      },
+      "ai_education": {
+        "title": "Oideachas le Cumhacht IS",
+        "description": "Tuig cad atá agat. Míníonn IS cuideachtaí, tuillimh, agus bunúsáin go simplí."
+      }
+    },
+    "simulation": {
+      "title": "Ionsamhlú DCA",
+      "subtitle": "Cumraigh D'Infheistíocht",
+      "monthly_label": "Míosúil",
+      "period_label": "Tréimhse",
+      "stocks_label": "Stoic",
+      "start_button": "Tosaigh Ionsamhlú",
+      "uses_real_data": "Úsáideann sonraí fíor-stairiúla",
+      "results_title": "10 mBliana de DCA",
+      "gain": "+{percent}% gnóthachan",
+      "shares": "{count} scair",
+      "run_again": "Rith Arís",
+      "based_on_real_data": "Bunaithe ar shonraí fíor-mhargaidh",
+      "data_source": "Sonraí fíor-stairiúla ó"
+    },
+    "phone": {
+      "goal_title": "Ciste Ollscoile Shofía",
+      "goal_target": "Sprioc: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Sealúchais"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Conas a Oibríonn Sé",
+    "headline": "Trí Chéim chun Tosú ag Tógáil Saibhris",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Socraigh Do Spriocanna",
+        "description": "Ainmnigh do spriocanna infheistíochta agus socraigh méideanna sprice. Ciste ollscoile? Céad teach? Scor? Tusa a chinneann."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Roghnaigh Do Stoic",
+        "description": "Pioc na cuideachtaí SAM a gcreideann tú iontu. Apple, Google, NVIDIA — infheistigh sna gnólachtaí is nuálaí ar domhan."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Uathoibrigh & Lig Do Scíth",
+        "description": "Socraigh suas infheistíochtaí uathoibríocha. Infheisteoimid duit gach seachtain, gach coicís, nó go míosúil. Díríonn tú ar an saol."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "An Deis",
+    "headline": "Margadh Ollmhór Neamhthapaithe",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Tomhaltóirí Eorpacha"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Ardáin DCA Teaghlaigh"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Tíortha AE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Fás Ionchais S&P"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Tógtha go Speisialta do Theaghlaigh",
+        "description": "Infheistíocht bunaithe ar sprioc le cuntais teaghlaigh, ní aip trádála eile i bhfolach mar infheistíocht fhadtéarmach."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Uathoibrithe Fíor",
+        "description": "Socraigh suas uair amháin agus déan dearmad air. Infheistíochtaí seachtainiúla, coicísiúla, nó míosúla i do stoic roghnaithe."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Rochtain ar Fhás SAM",
+        "description": "Infheistigh sna cuideachtaí is nuálaí ar domhan. Apple, Google, NVIDIA — ó áit ar bith san Eoraip."
+      }
+    },
+    "tagline": "<strong>Tuillimid níos fearr do theaghlaigh Eorpacha.</strong> Táimid ag tógáil an ardáin a bhí uainn dár bpáistí féin."
+  },
+  "pricing": {
+    "section_label": "Praghsáil Shimplí",
+    "headline": "Pleananna a Fhásann le Do Theaghlach",
+    "per_month": "/mí",
+    "get_started": "Tosaigh",
+    "most_popular": "Is Coitianta",
+    "tiers": {
+      "basic": {
+        "name": "Bunúsach",
+        "price": "€3",
+        "features": [
+          "1 sprioc infheistíochta",
+          "5 stoc",
+          "DCA uathoibríoch",
+          "Léargais bhunúsacha"
+        ]
+      },
+      "family": {
+        "name": "Teaghlach",
+        "price": "€7",
+        "features": [
+          "Spriocanna gan teorainn",
+          "Stoic gan teorainn",
+          "Cuntais teaghlaigh",
+          "Treoir IS"
+        ]
+      },
+      "premium": {
+        "name": "Préimhe",
+        "price": "€12",
+        "features": [
+          "Gach rud i dTeaghlach",
+          "Anailísíocht ardleibhéil",
+          "Tacaíocht tosaíochta",
+          "Gnéithe préimhe IS"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Bí ar an gCéad Duine chun<br />Todhchaí do Theaghlaigh a Thógáil",
+    "description": "Cláraigh ar an liosta feithimh le haghaidh rochtana luath. Táimid ag seoladh go luath sa Spáinn, sa Ghearmáin, sa Fhrainc, agus san Ísiltír.",
+    "email_placeholder": "Cuir isteach do ríomhphost",
+    "button": "Cláraigh ar an Liosta Feithimh",
+    "button_loading": "Ag Clárú...",
+    "button_success": "Tá tú ar an liosta!",
+    "privacy_note": "Gan turscar. Nuashonruithe ar ár seoladh amháin."
+  },
+  "footer": {
+    "about": "Fúinn",
+    "privacy": "Príobháideachas",
+    "terms": "Téarmaí",
+    "contact": "Teagmháil",
+    "disclaimer": "Níl Growfolio ceadúnaithe fós agus níl comhairle infheistíochta á soláthar. Tá an leathanach tuirlingthe seo chun críocha faisnéise amháin. Baineann riosca le hinfheistiú; d'fhéadfadh do chaipiteal a bheith i mbaol.",
+    "copyright": "© {year} Growfolio. Gach ceart ar cosaint."
+  },
+  "language_switcher": {
+    "label": "Teanga",
+    "search_placeholder": "Cuardaigh teangacha...",
+    "official_languages": "Teangacha Oifigiúla AE",
+    "regional_languages": "Teangacha Réigiúnacha"
+  }
+}

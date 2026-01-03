@@ -1,0 +1,35 @@
+---
+// Dynamic route for localized landing page
+import Layout from '../../layouts/Layout.astro';
+import Navbar from '../../components/Navbar.astro';
+import Hero from '../../components/Hero.astro';
+import Problem from '../../components/Problem.astro';
+import Solution from '../../components/Solution.astro';
+import HowItWorks from '../../components/HowItWorks.astro';
+import SocialProof from '../../components/SocialProof.astro';
+import Pricing from '../../components/Pricing.astro';
+import CTA from '../../components/CTA.astro';
+import Footer from '../../components/Footer.astro';
+import { SUPPORTED_LOCALES } from '../../i18n/config';
+
+// Generate static paths for all supported locales
+export function getStaticPaths() {
+  return SUPPORTED_LOCALES.map(lang => ({
+    params: { lang }
+  }));
+}
+
+const { lang } = Astro.params;
+---
+
+<Layout>
+  <Navbar />
+  <Hero />
+  <Problem />
+  <Solution />
+  <HowItWorks />
+  <SocialProof />
+  <Pricing />
+  <CTA />
+  <Footer />
+</Layout>

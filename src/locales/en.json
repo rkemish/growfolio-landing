@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Build Generational Wealth for Your Family",
+    "description": "Europe's first DCA investing platform purpose-built for families. Automated US equity investments starting from {minInvestment}/month."
+  },
+  "navbar": {
+    "why_invest": "Why Invest",
+    "how_it_works": "How It Works",
+    "pricing": "Pricing",
+    "join_waitlist": "Join Waitlist"
+  },
+  "hero": {
+    "badge": "Coming Soon to Europe",
+    "headline": "Build <accent>Generational Wealth</accent> for Your Family",
+    "subheadline": "Europe's first DCA investing platform purpose-built for families. Invest in US equities automatically, starting from just {minInvestment}/month.",
+    "cta_primary": "Join the Waitlist",
+    "cta_secondary": "See How It Works",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investment",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU consumers",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Trading fees"
+    },
+    "cards": {
+      "monthly_dca": "Monthly DCA",
+      "portfolio_growth": "Portfolio Growth",
+      "next_investment": "Next Investment",
+      "days": "{count} days"
+    }
+  },
+  "problem": {
+    "section_label": "The Problem",
+    "headline": "Europe Is Falling Behind.<br />Your Savings Shouldn't.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "EU Productivity Growth",
+        "description": "EU labor productivity grew just 0.9% since 2019, while the US grew 6.7%.",
+        "source": "ECB Economic Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Income Gap",
+        "description": "EU per capita income is now 30% below US levels and the gap is widening.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI Wealth Gap",
+        "description": "AI adoption consistently increases wealth inequality. Capital owners benefit disproportionately.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "The Solution",
+    "headline": "Invest in US Growth.<br />Built for European Families.",
+    "description": "Set up once, invest automatically. Growfolio makes it effortless to build wealth for your family's future through dollar-cost averaging into top US companies.",
+    "features": {
+      "min_investment": {
+        "title": "Start from {amount}/month",
+        "description": "No minimum balance. Fractional shares mean you can own pieces of any stock."
+      },
+      "goal_based": {
+        "title": "Goal-Based Investing",
+        "description": "Name your goals: \"Sofia's University 2040\" or \"Family Home Fund\". Track progress visually."
+      },
+      "family_accounts": {
+        "title": "Family Accounts",
+        "description": "Parent and child sub-accounts. Involve your children as they grow up."
+      },
+      "ai_education": {
+        "title": "AI-Powered Education",
+        "description": "Understand what you own. AI explains companies, earnings, and fundamentals simply."
+      }
+    },
+    "simulation": {
+      "title": "DCA Simulation",
+      "subtitle": "Configure Your Investment",
+      "monthly_label": "Monthly",
+      "period_label": "Period",
+      "stocks_label": "Stocks",
+      "start_button": "Start Simulation",
+      "uses_real_data": "Uses real historical data",
+      "results_title": "10 Years of DCA",
+      "gain": "+{percent}% gain",
+      "shares": "{count} shares",
+      "run_again": "Run Again",
+      "based_on_real_data": "Based on real market data",
+      "data_source": "Real historical data from"
+    },
+    "phone": {
+      "goal_title": "Sofia's University Fund",
+      "goal_target": "Target: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Holdings"
+    }
+  },
+  "how_it_works": {
+    "section_label": "How It Works",
+    "headline": "Three Steps to Start Building Wealth",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Set Your Goals",
+        "description": "Name your investment goals and set target amounts. University fund? First home? Retirement? You decide."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Choose Your Stocks",
+        "description": "Pick the US companies you believe in. Apple, Google, NVIDIA — invest in the world's most innovative firms."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automate & Relax",
+        "description": "Set up automatic investments. We'll invest for you every week, bi-weekly, or monthly. You focus on life."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "The Opportunity",
+    "headline": "A Massive Untapped Market",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "European Consumers"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Family DCA Platforms"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU Countries"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Expected S&P Growth"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Purpose-Built for Families",
+        "description": "Goal-based investing with family accounts, not another trading app disguised as long-term investing."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "True Automation",
+        "description": "Set it once and forget it. Weekly, bi-weekly, or monthly investments into your chosen stocks."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Access US Growth",
+        "description": "Invest in the world's most innovative companies. Apple, Google, NVIDIA — from anywhere in Europe."
+      }
+    },
+    "tagline": "<strong>European families deserve better.</strong> We're building the platform we wished existed for our own children."
+  },
+  "pricing": {
+    "section_label": "Simple Pricing",
+    "headline": "Plans That Grow With Your Family",
+    "per_month": "/month",
+    "get_started": "Get Started",
+    "most_popular": "Most Popular",
+    "tiers": {
+      "basic": {
+        "name": "Basic",
+        "price": "€3",
+        "features": [
+          "1 investment goal",
+          "5 stocks",
+          "Automated DCA",
+          "Basic insights"
+        ]
+      },
+      "family": {
+        "name": "Family",
+        "price": "€7",
+        "features": [
+          "Unlimited goals",
+          "Unlimited stocks",
+          "Family accounts",
+          "AI guidance"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Everything in Family",
+          "Advanced analytics",
+          "Priority support",
+          "Premium AI features"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Be the First to Build<br />Your Family's Future",
+    "description": "Join the waitlist for early access. We're launching soon in Spain, Germany, France, and the Netherlands.",
+    "email_placeholder": "Enter your email",
+    "button": "Join Waitlist",
+    "button_loading": "Joining...",
+    "button_success": "You're on the list!",
+    "privacy_note": "No spam. Just updates on our launch."
+  },
+  "footer": {
+    "about": "About",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact",
+    "disclaimer": "Growfolio is not yet licensed and is not providing investment advice. This landing page is for informational purposes only. Investing involves risk; your capital may be at risk.",
+    "copyright": "© {year} Growfolio. All rights reserved."
+  },
+  "language_switcher": {
+    "label": "Language",
+    "search_placeholder": "Search languages...",
+    "official_languages": "EU Official Languages",
+    "regional_languages": "Regional Languages"
+  }
+}

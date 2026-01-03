@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Opbyg generationsformue for din familie",
+    "description": "Europas første DCA-investeringsplatform bygget til familier. Automatiserede amerikanske aktieinvesteringer fra {minInvestment}/måned."
+  },
+  "navbar": {
+    "why_invest": "Hvorfor investere",
+    "how_it_works": "Sådan fungerer det",
+    "pricing": "Priser",
+    "join_waitlist": "Tilmeld venteliste"
+  },
+  "hero": {
+    "badge": "Kommer snart til Europa",
+    "headline": "Opbyg <accent>generationsformue</accent> for din familie",
+    "subheadline": "Europas første DCA-investeringsplatform bygget til familier. Investér automatisk i amerikanske aktier fra kun {minInvestment}/måned.",
+    "cta_primary": "Tilmeld ventelisten",
+    "cta_secondary": "Se hvordan det fungerer",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investering",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU-forbrugere",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Handelsgebyrer"
+    },
+    "cards": {
+      "monthly_dca": "Månedlig DCA",
+      "portfolio_growth": "Porteføljevækst",
+      "next_investment": "Næste investering",
+      "days": "{count} dage"
+    }
+  },
+  "problem": {
+    "section_label": "Problemet",
+    "headline": "Europa sakker bagud.<br />Det skal din opsparing ikke.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "EU's produktivitetsvækst",
+        "description": "EU's arbejdsproduktivitet er kun vokset 0,9% siden 2019, mens USA voksede 6,7%.",
+        "source": "ECB Economic Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Indkomstkløft",
+        "description": "EU's indkomst per indbygger er nu 30% under USA's niveau, og kløften vokser.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI-formuekløft",
+        "description": "AI-adoption øger konsekvent uligheden i formue. Kapitalejere drager uforholdsmæssigt stor fordel.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Løsningen",
+    "headline": "Investér i amerikansk vækst.<br />Bygget til europæiske familier.",
+    "description": "Opsæt én gang, investér automatisk. Growfolio gør det ubesværet at opbygge formue til din families fremtid gennem dollar-cost averaging i førende amerikanske virksomheder.",
+    "features": {
+      "min_investment": {
+        "title": "Start fra {amount}/måned",
+        "description": "Ingen minimumssaldo. Fraktionerede aktier betyder, at du kan eje dele af enhver aktie."
+      },
+      "goal_based": {
+        "title": "Målbaseret investering",
+        "description": "Navngiv dine mål: \"Sofias universitet 2040\" eller \"Familieboligfond\". Følg fremskridt visuelt."
+      },
+      "family_accounts": {
+        "title": "Familiekonti",
+        "description": "Forældre- og børneunderkonti. Inddrag dine børn, efterhånden som de vokser op."
+      },
+      "ai_education": {
+        "title": "AI-drevet uddannelse",
+        "description": "Forstå hvad du ejer. AI forklarer virksomheder, indtjening og fundamentale forhold enkelt."
+      }
+    },
+    "simulation": {
+      "title": "DCA-simulering",
+      "subtitle": "Konfigurer din investering",
+      "monthly_label": "Månedligt",
+      "period_label": "Periode",
+      "stocks_label": "Aktier",
+      "start_button": "Start simulering",
+      "uses_real_data": "Bruger reelle historiske data",
+      "results_title": "10 års DCA",
+      "gain": "+{percent}% gevinst",
+      "shares": "{count} aktier",
+      "run_again": "Kør igen",
+      "based_on_real_data": "Baseret på reelle markedsdata",
+      "data_source": "Reelle historiske data fra"
+    },
+    "phone": {
+      "goal_title": "Sofias universitetsfond",
+      "goal_target": "Mål: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Beholdninger"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Sådan fungerer det",
+    "headline": "Tre trin til at begynde at opbygge formue",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Sæt dine mål",
+        "description": "Navngiv dine investeringsmål og sæt målbeløb. Universitetsfond? Første bolig? Pension? Du bestemmer."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Vælg dine aktier",
+        "description": "Vælg de amerikanske virksomheder, du tror på. Apple, Google, NVIDIA — investér i verdens mest innovative firmaer."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatisér og slap af",
+        "description": "Opsæt automatiske investeringer. Vi investerer for dig hver uge, hver anden uge eller månedligt. Du fokuserer på livet."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Muligheden",
+    "headline": "Et massivt uudnyttet marked",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europæiske forbrugere"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Familie-DCA-platforme"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU-lande"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Forventet S&P-vækst"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Bygget til familier",
+        "description": "Målbaseret investering med familiekonti, ikke endnu en handelsapp forklædt som langsigtet investering."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Ægte automatisering",
+        "description": "Opsæt én gang og glem det. Ugentlige, hver anden uge eller månedlige investeringer i dine valgte aktier."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Adgang til amerikansk vækst",
+        "description": "Investér i verdens mest innovative virksomheder. Apple, Google, NVIDIA — fra hvor som helst i Europa."
+      }
+    },
+    "tagline": "<strong>Europæiske familier fortjener bedre.</strong> Vi bygger den platform, vi ønskede fandtes for vores egne børn."
+  },
+  "pricing": {
+    "section_label": "Enkel prissætning",
+    "headline": "Planer der vokser med din familie",
+    "per_month": "/måned",
+    "get_started": "Kom i gang",
+    "most_popular": "Mest populær",
+    "tiers": {
+      "basic": {
+        "name": "Basis",
+        "price": "€3",
+        "features": [
+          "1 investeringsmål",
+          "5 aktier",
+          "Automatiseret DCA",
+          "Grundlæggende indsigt"
+        ]
+      },
+      "family": {
+        "name": "Familie",
+        "price": "€7",
+        "features": [
+          "Ubegrænsede mål",
+          "Ubegrænsede aktier",
+          "Familiekonti",
+          "AI-vejledning"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Alt i Familie",
+          "Avanceret analyse",
+          "Prioriteret support",
+          "Premium AI-funktioner"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Vær den første til at opbygge<br />din families fremtid",
+    "description": "Tilmeld dig ventelisten for tidlig adgang. Vi lancerer snart i Spanien, Tyskland, Frankrig og Holland.",
+    "email_placeholder": "Indtast din e-mail",
+    "button": "Tilmeld venteliste",
+    "button_loading": "Tilmelder...",
+    "button_success": "Du er på listen!",
+    "privacy_note": "Ingen spam. Kun opdateringer om vores lancering."
+  },
+  "footer": {
+    "about": "Om os",
+    "privacy": "Privatlivspolitik",
+    "terms": "Vilkår",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio er endnu ikke licenseret og yder ikke investeringsrådgivning. Denne landingsside er kun til informationsformål. Investering indebærer risiko; din kapital kan være i fare.",
+    "copyright": "© {year} Growfolio. Alle rettigheder forbeholdes."
+  },
+  "language_switcher": {
+    "label": "Sprog",
+    "search_placeholder": "Søg sprog...",
+    "official_languages": "EU's officielle sprog",
+    "regional_languages": "Regionale sprog"
+  }
+}

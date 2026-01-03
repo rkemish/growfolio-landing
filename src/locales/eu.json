@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Eraiki Belaunaldien Aberastasuna Zure Familiarentzat",
+    "description": "Europako lehen DCA inbertsio-plataforma familientzat bereziki diseinatua. Inbertsio automatikoak AEBetako errenta aldakorrean {minInvestment}/hilabetetik hasita."
+  },
+  "navbar": {
+    "why_invest": "Zergatik Inbertitu",
+    "how_it_works": "Nola Funtzionatzen Du",
+    "pricing": "Prezioak",
+    "join_waitlist": "Batu Zerrendara"
+  },
+  "hero": {
+    "badge": "Laster Europan",
+    "headline": "Eraiki <accent>Belaunaldien Aberastasuna</accent> Zure Familiarentzat",
+    "subheadline": "Europako lehen DCA inbertsio-plataforma familientzat bereziki diseinatua. Inbertitu AEBetako errenta aldakorrean automatikoki, {minInvestment}/hilabetetik hasita.",
+    "cta_primary": "Batu Itxaron-Zerrendara",
+    "cta_secondary": "Ikusi Nola Funtzionatzen Duen",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Gutx. inbertsioa",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EB kontsumitzaileak",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Komisiorik"
+    },
+    "cards": {
+      "monthly_dca": "Hileko DCA",
+      "portfolio_growth": "Zorroaren Hazkundea",
+      "next_investment": "Hurrengo Inbertsioa",
+      "days": "{count} egun"
+    }
+  },
+  "problem": {
+    "section_label": "Arazoa",
+    "headline": "Europa Atzean Geratzen Ari Da.<br />Zure Aurrezkiek Ez Lukete Geratu Behar.",
+    "stats": {
+      "productivity": {
+        "value": "%0,9",
+        "title": "EBko Produktibitate Hazkundea",
+        "description": "EBko lan-produktibitatea %0,9 bakarrik hazi da 2019tik, AEBetan %6,7 hazi den bitartean.",
+        "source": "EBZko Boletin Ekonomikoa 2024"
+      },
+      "income_gap": {
+        "value": "%30",
+        "title": "Errenta-Arrakala",
+        "description": "EBko per capita errenta orain AEBetako mailatik %30 beherago dago eta aldea zabaltzen ari da.",
+        "source": "NMF \"Europaren Aukera\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AA Aberastasun-Arrakala",
+        "description": "AA adopzioak etengabe handitzen du aberastasun-desberdintasuna. Kapitalaren jabeek neurriz kanpoko onura ateratzen dute.",
+        "source": "NMF Lan-Dokumentua 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Irtenbidea",
+    "headline": "Inbertitu AEBetako Hazkundean.<br />Europar Familientzat Eraikia.",
+    "description": "Konfiguratu behin, inbertitu automatikoki. Growfoliok errazten du zure familiaren etorkizunerako aberastasuna eraikitzea, AEBetako enpresa nagusietan aldian aldiko inbertsioaren bidez.",
+    "features": {
+      "min_investment": {
+        "title": "Hasi {amount}/hilabetetik",
+        "description": "Gutxieneko saldorik gabe. Akzio-zatikiek edozein akzioren zati bat edukitzea ahalbidetzen dizute."
+      },
+      "goal_based": {
+        "title": "Helburuetan Oinarritutako Inbertsioa",
+        "description": "Izendatu zure helburuak: \"Sofiaren Unibertsitatea 2040\" edo \"Familia Etxearen Funtsa\". Jarraitu aurrerapena bisualki."
+      },
+      "family_accounts": {
+        "title": "Familia Kontuak",
+        "description": "Guraso eta seme-alaben azpikontuak. Inplikatu zure seme-alabak hazi ahala."
+      },
+      "ai_education": {
+        "title": "AAren Bidezko Hezkuntza",
+        "description": "Ulertu zer duzun. AAk enpresak, emaitzak eta oinarrizko datuak modu errazean azaltzen ditu."
+      }
+    },
+    "simulation": {
+      "title": "DCA Simulazioa",
+      "subtitle": "Konfiguratu Zure Inbertsioa",
+      "monthly_label": "Hileko",
+      "period_label": "Aldia",
+      "stocks_label": "Akzioak",
+      "start_button": "Hasi Simulazioa",
+      "uses_real_data": "Datu historiko errealak erabiltzen ditu",
+      "results_title": "10 Urte DCAreakin",
+      "gain": "+%{percent} irabazia",
+      "shares": "{count} akzio",
+      "run_again": "Berriro Exekutatu",
+      "based_on_real_data": "Merkatuko datu errealetan oinarritua",
+      "data_source": "Datu historiko errealak hemendik"
+    },
+    "phone": {
+      "goal_title": "Sofiaren Unibertsitate Funtsa",
+      "goal_target": "Helburua: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Posizioak"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Nola Funtzionatzen Du",
+    "headline": "Hiru Urrats Aberastasuna Eraikitzen Hasteko",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Ezarri Zure Helburuak",
+        "description": "Izendatu zure inbertsio-helburuak eta ezarri helburu-kopuruak. Unibertsitate-funtsa? Lehen etxea? Erretirorako? Zuk erabakitzen duzu."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Aukeratu Zure Akzioak",
+        "description": "Hautatu sinesten dituzun AEBetako enpresak. Apple, Google, NVIDIA — inbertitu munduko enpresa berritzaileenetan."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizatu eta Lasaitu",
+        "description": "Konfiguratu inbertsio automatikoak. Guk zure ordez inbertituko dugu astero, bi asterik behin edo hilero. Zu bizitzara bideratu."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Aukera",
+    "headline": "Ustiatu Gabeko Merkatu Erraldoia",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europar Kontsumitzaileak"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Familia DCA Plataformak"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EB Herriak"
+      },
+      "growth": {
+        "value": "%15+",
+        "label": "S&P Hazkunde Aurreikusia"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Familientzat Bereziki Eraikia",
+        "description": "Helburuetan oinarritutako inbertsioa familia-kontuekin, ez epe luzerako inbertsio gisa mozorrotutako beste trading-aplikazio bat."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Benetako Automatizazioa",
+        "description": "Konfiguratu behin eta ahaztu. Astero, bi asterik behin edo hilero inbertsioak aukeratutako akzioetan."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Sartu AEBetako Hazkundean",
+        "description": "Inbertitu munduko enpresa berritzaileenetan. Apple, Google, NVIDIA — Europako edozein lekutatik."
+      }
+    },
+    "tagline": "<strong>Europar familiek hobea merezi dute.</strong> Gure seme-alabentzat egon nahiko genukeen plataforma eraikitzen ari gara."
+  },
+  "pricing": {
+    "section_label": "Prezio Sinpleak",
+    "headline": "Zure Familiarekin Hazten Diren Planak",
+    "per_month": "/hilabete",
+    "get_started": "Hasi",
+    "most_popular": "Ezagunena",
+    "tiers": {
+      "basic": {
+        "name": "Oinarrizkoa",
+        "price": "€3",
+        "features": [
+          "Inbertsio-helburu 1",
+          "5 akzio",
+          "DCA automatizatua",
+          "Oinarrizko informazioa"
+        ]
+      },
+      "family": {
+        "name": "Familia",
+        "price": "€7",
+        "features": [
+          "Helburu mugagabeak",
+          "Akzio mugagabeak",
+          "Familia kontuak",
+          "AA bidezko orientazioa"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Familia planaren guztia",
+          "Analisi aurreratua",
+          "Lehentasunezko laguntza",
+          "AA funtzio premiumak"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Izan Lehena Zure<br />Familiaren Etorkizuna Eraikitzen",
+    "description": "Batu itxaron-zerrendara sarbide goiztiarra lortzeko. Laster abiaraziko dugu Espainian, Alemanian, Frantzian eta Herbehereetan.",
+    "email_placeholder": "Sartu zure helbide elektronikoa",
+    "button": "Batu Zerrendara",
+    "button_loading": "Batzen...",
+    "button_success": "Zerrendan zaude!",
+    "privacy_note": "Spamik ez. Abiarazteari buruzko eguneraketak soilik."
+  },
+  "footer": {
+    "about": "Guri Buruz",
+    "privacy": "Pribatutasuna",
+    "terms": "Baldintzak",
+    "contact": "Kontaktua",
+    "disclaimer": "Growfolio ez dago oraindik baimenduta eta ez du inbertsio-aholkurik ematen. Web orri hau informazio-helburuetarako bakarrik da. Inbertitzeak arriskua dakar; zure kapitala arriskuan egon daiteke.",
+    "copyright": "© {year} Growfolio. Eskubide guztiak erreserbatuta."
+  },
+  "language_switcher": {
+    "label": "Hizkuntza",
+    "search_placeholder": "Bilatu hizkuntzak...",
+    "official_languages": "EBko Hizkuntza Ofizialak",
+    "regional_languages": "Eskualdeko Hizkuntzak"
+  }
+}

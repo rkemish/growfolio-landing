@@ -1,14 +1,33 @@
 ---
+// Layout component with i18n support
+import { getTranslations, createT } from '../i18n/utils';
+import { LANGUAGES, SUPPORTED_LOCALES, type SupportedLocale } from '../i18n/config';
+
 interface Props {
-  title: string;
+  title?: string;
   description?: string;
 }
 
-const { title, description = "Europe's first DCA investing platform purpose-built for families. Automated US equity investments starting from €25/month." } = Astro.props;
+// Get current language from middleware
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+
+// Load translations
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+// Get title and description from props or translations
+const {
+  title = t('meta.title'),
+  description = t('meta.description', { minInvestment: '€25' })
+} = Astro.props;
+
+// Generate hreflang URLs for all supported languages
+const currentPath = Astro.url.pathname.replace(new RegExp(`^/${lang}`), '') || '/';
+const baseUrl = Astro.site?.origin || Astro.url.origin;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,10 +38,21 @@ const { title, description = "Europe's first DCA investing platform purpose-buil
     <title>{title}</title>
     <meta name="description" content={description} />
 
+    <!-- hreflang tags for all supported languages -->
+    {SUPPORTED_LOCALES.map((locale) => (
+      <link
+        rel="alternate"
+        hreflang={locale}
+        href={`${baseUrl}/${locale}${currentPath}`}
+      />
+    ))}
+    <link rel="alternate" hreflang="x-default" href={`${baseUrl}/en${currentPath}`} />
+
     <!-- Open Graph -->
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
+    <meta property="og:locale" content={lang} />
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Rakenna sukupolvien vaurautta perheellesi",
+    "description": "Euroopan ensimmäinen perheille suunniteltu DCA-sijoitusalusta. Automatisoidut yhdysvaltalaiset osakesijoitukset alkaen {minInvestment}/kuukausi."
+  },
+  "navbar": {
+    "why_invest": "Miksi sijoittaa",
+    "how_it_works": "Näin se toimii",
+    "pricing": "Hinnoittelu",
+    "join_waitlist": "Liity jonotuslistalle"
+  },
+  "hero": {
+    "badge": "Tulossa pian Eurooppaan",
+    "headline": "Rakenna <accent>sukupolvien vaurautta</accent> perheellesi",
+    "subheadline": "Euroopan ensimmäinen perheille suunniteltu DCA-sijoitusalusta. Sijoita yhdysvaltalaisiin osakkeisiin automaattisesti, alkaen vain {minInvestment}/kuukausi.",
+    "cta_primary": "Liity jonotuslistalle",
+    "cta_secondary": "Katso miten se toimii",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. sijoitus",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU-kuluttajat",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Kaupankäyntikulut"
+    },
+    "cards": {
+      "monthly_dca": "Kuukausittainen DCA",
+      "portfolio_growth": "Salkun kasvu",
+      "next_investment": "Seuraava sijoitus",
+      "days": "{count} päivää"
+    }
+  },
+  "problem": {
+    "section_label": "Ongelma",
+    "headline": "Eurooppa jää jälkeen.<br />Säästöjesi ei pitäisi.",
+    "stats": {
+      "productivity": {
+        "value": "0,9 %",
+        "title": "EU:n tuottavuuskasvu",
+        "description": "EU:n työn tuottavuus kasvoi vain 0,9 % vuodesta 2019, kun taas USA:ssa kasvu oli 6,7 %.",
+        "source": "ECB Economic Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30 %",
+        "title": "Tulokuilu",
+        "description": "EU:n tulot henkeä kohti ovat nyt 30 % alle USA:n tason, ja ero kasvaa.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Tekoälyn varallisuuskuilu",
+        "description": "Tekoälyn käyttöönotto kasvattaa johdonmukaisesti varallisuuseroja. Pääoman omistajat hyötyvät suhteettomasti.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Ratkaisu",
+    "headline": "Sijoita yhdysvaltalaiseen kasvuun.<br />Rakennettu eurooppalaisille perheille.",
+    "description": "Määritä kerran, sijoita automaattisesti. Growfolio tekee vaurauden rakentamisesta perheesi tulevaisuudelle vaivatonta tasaisella sijoittamisella huippuyrityksiin.",
+    "features": {
+      "min_investment": {
+        "title": "Aloita {amount}/kuukausi",
+        "description": "Ei vähimmäissaldoa. Murto-osakkeet tarkoittavat, että voit omistaa osia mistä tahansa osakkeesta."
+      },
+      "goal_based": {
+        "title": "Tavoitepohjainen sijoittaminen",
+        "description": "Nimeä tavoitteesi: \"Sofian yliopisto 2040\" tai \"Perheen kotirahasto\". Seuraa edistymistä visuaalisesti."
+      },
+      "family_accounts": {
+        "title": "Perhetilit",
+        "description": "Vanhempien ja lasten alitilit. Ota lapset mukaan heidän kasvaessaan."
+      },
+      "ai_education": {
+        "title": "Tekoälypohjainen koulutus",
+        "description": "Ymmärrä mitä omistat. Tekoäly selittää yritykset, tulokset ja perusteet yksinkertaisesti."
+      }
+    },
+    "simulation": {
+      "title": "DCA-simulaatio",
+      "subtitle": "Määritä sijoituksesi",
+      "monthly_label": "Kuukausittain",
+      "period_label": "Ajanjakso",
+      "stocks_label": "Osakkeet",
+      "start_button": "Aloita simulaatio",
+      "uses_real_data": "Käyttää todellista historiallista dataa",
+      "results_title": "10 vuotta DCA:ta",
+      "gain": "+{percent} % tuotto",
+      "shares": "{count} osaketta",
+      "run_again": "Suorita uudelleen",
+      "based_on_real_data": "Perustuu todelliseen markkinadataan",
+      "data_source": "Todellinen historiallinen data lähteestä"
+    },
+    "phone": {
+      "goal_title": "Sofian yliopistorahasto",
+      "goal_target": "Tavoite: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Omistukset"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Näin se toimii",
+    "headline": "Kolme askelta vaurauden rakentamiseen",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Aseta tavoitteesi",
+        "description": "Nimeä sijoitustavoitteesi ja aseta tavoitesummat. Yliopistorahasto? Ensimmäinen asunto? Eläke? Sinä päätät."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Valitse osakkeesi",
+        "description": "Valitse yhdysvaltalaiset yritykset, joihin uskot. Apple, Google, NVIDIA — sijoita maailman innovatiivisimpiin yrityksiin."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatisoi ja rentoudu",
+        "description": "Määritä automaattiset sijoitukset. Sijoitamme puolestasi viikoittain, kahden viikon välein tai kuukausittain. Sinä keskityt elämään."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Mahdollisuus",
+    "headline": "Valtava hyödyntämätön markkina",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Eurooppalaista kuluttajaa"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Perhe-DCA-alustoja"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU-maata"
+      },
+      "growth": {
+        "value": "15 %+",
+        "label": "Odotettu S&P-kasvu"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Rakennettu perheille",
+        "description": "Tavoitepohjainen sijoittaminen perhetileillä, ei jälleen yksi kaupankäyntisovellus pitkäaikaissijoittamiseksi naamioituna."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Aito automaatio",
+        "description": "Määritä kerran ja unohda. Viikoittaiset, kahden viikon välein tai kuukausittaiset sijoitukset valitsemiisi osakkeisiin."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Pääsy yhdysvaltalaiseen kasvuun",
+        "description": "Sijoita maailman innovatiivisimpiin yrityksiin. Apple, Google, NVIDIA — mistä tahansa Euroopasta."
+      }
+    },
+    "tagline": "<strong>Eurooppalaiset perheet ansaitsevat parempaa.</strong> Rakennamme alustaa, jonka toivoimme olevan olemassa omille lapsillemme."
+  },
+  "pricing": {
+    "section_label": "Selkeä hinnoittelu",
+    "headline": "Suunnitelmat, jotka kasvavat perheesi mukana",
+    "per_month": "/kuukausi",
+    "get_started": "Aloita",
+    "most_popular": "Suosituin",
+    "tiers": {
+      "basic": {
+        "name": "Perus",
+        "price": "€3",
+        "features": [
+          "1 sijoitustavoite",
+          "5 osaketta",
+          "Automatisoitu DCA",
+          "Perusanalyysit"
+        ]
+      },
+      "family": {
+        "name": "Perhe",
+        "price": "€7",
+        "features": [
+          "Rajattomat tavoitteet",
+          "Rajattomat osakkeet",
+          "Perhetilit",
+          "Tekoälyohjaus"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Kaikki Perhe-tasolta",
+          "Edistyneet analyysit",
+          "Ensisijainen tuki",
+          "Premium-tekoälyominaisuudet"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Ole ensimmäinen rakentamassa<br />perheesi tulevaisuutta",
+    "description": "Liity jonotuslistalle saadaksesi aikaisen pääsyn. Lanseeraamme pian Espanjassa, Saksassa, Ranskassa ja Alankomaissa.",
+    "email_placeholder": "Syötä sähköpostisi",
+    "button": "Liity jonotuslistalle",
+    "button_loading": "Liitytään...",
+    "button_success": "Olet listalla!",
+    "privacy_note": "Ei roskapostia. Vain päivityksiä lanseerauksestamme."
+  },
+  "footer": {
+    "about": "Tietoa meistä",
+    "privacy": "Tietosuoja",
+    "terms": "Ehdot",
+    "contact": "Yhteystiedot",
+    "disclaimer": "Growfoliolla ei ole vielä toimilupaa eikä se tarjoa sijoitusneuvontaa. Tämä sivu on vain tiedoksi. Sijoittamiseen liittyy riskejä; pääomasi voi olla vaarassa.",
+    "copyright": "© {year} Growfolio. Kaikki oikeudet pidätetään."
+  },
+  "language_switcher": {
+    "label": "Kieli",
+    "search_placeholder": "Hae kieliä...",
+    "official_languages": "EU:n viralliset kielet",
+    "regional_languages": "Aluekielet"
+  }
+}

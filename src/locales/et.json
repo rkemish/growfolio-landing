@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Looge põlvkondadevaheline jõukus oma perele",
+    "description": "Euroopa esimene peredele loodud DCA investeerimisplatvorm. Automatiseeritud USA aktsiatesse investeerimine alates {minInvestment}/kuus."
+  },
+  "navbar": {
+    "why_invest": "Miks investeerida",
+    "how_it_works": "Kuidas see toimib",
+    "pricing": "Hinnad",
+    "join_waitlist": "Liitu ootenimekirjaga"
+  },
+  "hero": {
+    "badge": "Varsti Euroopas",
+    "headline": "Looge <accent>põlvkondadevaheline jõukus</accent> oma perele",
+    "subheadline": "Euroopa esimene peredele loodud DCA investeerimisplatvorm. Investeerige USA aktsiatesse automaatselt, alates vaid {minInvestment}/kuus.",
+    "cta_primary": "Liitu ootenimekirjaga",
+    "cta_secondary": "Vaata, kuidas see toimib",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investeering",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EL-i tarbijat",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Kauplemistasud"
+    },
+    "cards": {
+      "monthly_dca": "Igakuine DCA",
+      "portfolio_growth": "Portfelli kasv",
+      "next_investment": "Järgmine investeering",
+      "days": "{count} päeva"
+    }
+  },
+  "problem": {
+    "section_label": "Probleem",
+    "headline": "Euroopa jääb maha.<br />Teie säästud ei peaks.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "EL-i tootlikkuse kasv",
+        "description": "EL-i tööjõu tootlikkus kasvas alates 2019. aastast vaid 0,9%, samas kui USA-s kasvas see 6,7%.",
+        "source": "EKP majandusbülletään 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Sissetulekute lõhe",
+        "description": "EL-i sissetulek inimese kohta on nüüd 30% madalam kui USA-s ja lõhe suureneb.",
+        "source": "IMF \"Euroopa valik\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Tehisintellekti jõukuse lõhe",
+        "description": "Tehisintellekti kasutuselevõtt suurendab järjekindlalt jõukuse ebavõrdsust. Kapitali omanikud saavad ebaproportsionaalselt kasu.",
+        "source": "IMF töödokument 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Lahendus",
+    "headline": "Investeerige USA kasvu.<br />Loodud Euroopa peredele.",
+    "description": "Seadistage üks kord, investeerige automaatselt. Growfolio muudab teie pere tuleviku jaoks jõukuse loomise lihtsaks, kasutades keskmistamist USA tipptaseme ettevõtetesse.",
+    "features": {
+      "min_investment": {
+        "title": "Alusta alates {amount}/kuus",
+        "description": "Minimaalset saldot pole vaja. Murdosaaktsiad tähendavad, et saate omada osasid mis tahes aktsiatest."
+      },
+      "goal_based": {
+        "title": "Eesmärgipõhine investeerimine",
+        "description": "Pange oma eesmärkidele nimed: \"Sofia ülikool 2040\" või \"Perekodu fond\". Jälgige edusamme visuaalselt."
+      },
+      "family_accounts": {
+        "title": "Perekontod",
+        "description": "Vanema- ja lapsekontod. Kaasake oma lapsi nende kasvades."
+      },
+      "ai_education": {
+        "title": "Tehisintellektil põhinev haridus",
+        "description": "Mõistke, mida omate. Tehisintellekt selgitab ettevõtteid, kasumeid ja põhialuseid lihtsalt."
+      }
+    },
+    "simulation": {
+      "title": "DCA simulatsioon",
+      "subtitle": "Seadistage oma investeering",
+      "monthly_label": "Igakuine",
+      "period_label": "Periood",
+      "stocks_label": "Aktsiad",
+      "start_button": "Alusta simulatsiooni",
+      "uses_real_data": "Kasutab tegelikke ajaloolisi andmeid",
+      "results_title": "10 aastat DCA-d",
+      "gain": "+{percent}% kasum",
+      "shares": "{count} aktsiat",
+      "run_again": "Käivita uuesti",
+      "based_on_real_data": "Põhineb tegelikel turuandmetel",
+      "data_source": "Tegelikud ajaloolised andmed allikast"
+    },
+    "phone": {
+      "goal_title": "Sofia ülikoolifond",
+      "goal_target": "Eesmärk: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Osalused"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Kuidas see toimib",
+    "headline": "Kolm sammu jõukuse loomiseks",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Seadke oma eesmärgid",
+        "description": "Pange oma investeerimiseesmärkidele nimed ja määrake sihtsummad. Ülikoolifond? Esimene kodu? Pension? Teie otsustate."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Valige oma aktsiad",
+        "description": "Valige USA ettevõtted, millesse usute. Apple, Google, NVIDIA — investeerige maailma kõige uuenduslikumatesse ettevõtetesse."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatiseerige ja lõdvestuge",
+        "description": "Seadistage automaatsed investeeringud. Me investeerime teie eest igal nädalal, iga kahe nädala tagant või igakuiselt. Teie keskenduge elule."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Võimalus",
+    "headline": "Tohutu kasutamata turg",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Euroopa tarbijat"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Pere-DCA platvorme"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EL-i riiki"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Oodatav S&P kasv"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Loodud peredele",
+        "description": "Eesmärgipõhine investeerimine perekontodega, mitte järjekordne kauplemisrakendus, mis on maskeeritud pikaajaliseks investeerimiseks."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Tõeline automatiseerimine",
+        "description": "Seadistage üks kord ja unustage. Iganädalased, kahenädalased või igakuised investeeringud teie valitud aktsiatesse."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Juurdepääs USA kasvule",
+        "description": "Investeerige maailma kõige uuenduslikumatesse ettevõtetesse. Apple, Google, NVIDIA — kõikjalt Euroopast."
+      }
+    },
+    "tagline": "<strong>Euroopa pered väärivad paremat.</strong> Me ehitame platvormi, mida soovisime oma lastele."
+  },
+  "pricing": {
+    "section_label": "Lihtne hinnakiri",
+    "headline": "Plaanid, mis kasvavad koos teie perega",
+    "per_month": "/kuus",
+    "get_started": "Alusta",
+    "most_popular": "Kõige populaarsem",
+    "tiers": {
+      "basic": {
+        "name": "Põhipakett",
+        "price": "€3",
+        "features": [
+          "1 investeerimiseesmärk",
+          "5 aktsiat",
+          "Automatiseeritud DCA",
+          "Põhilised ülevaated"
+        ]
+      },
+      "family": {
+        "name": "Perepakett",
+        "price": "€7",
+        "features": [
+          "Piiramatud eesmärgid",
+          "Piiramatud aktsiad",
+          "Perekontod",
+          "Tehisintellekti juhendamine"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Kõik Perepaketist",
+          "Täpsem analüütika",
+          "Prioriteetne tugi",
+          "Premium tehisintellekti funktsioonid"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Olge esimene, kes ehitab<br />oma pere tuleviku",
+    "description": "Liituge ootenimekirjaga varajase juurdepääsu saamiseks. Käivitame peagi Hispaanias, Saksamaal, Prantsusmaal ja Hollandis.",
+    "email_placeholder": "Sisestage oma e-posti aadress",
+    "button": "Liitu ootenimekirjaga",
+    "button_loading": "Liitumine...",
+    "button_success": "Olete nimekirjas!",
+    "privacy_note": "Rämpsposti pole. Ainult uudised käivitamise kohta."
+  },
+  "footer": {
+    "about": "Meist",
+    "privacy": "Privaatsus",
+    "terms": "Tingimused",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio ei ole veel litsentseeritud ega paku investeerimisnõustamist. See lehekülg on ainult informatiivsel eesmärgil. Investeerimine hõlmab riski; teie kapital võib olla ohus.",
+    "copyright": "© {year} Growfolio. Kõik õigused kaitstud."
+  },
+  "language_switcher": {
+    "label": "Keel",
+    "search_placeholder": "Otsi keeli...",
+    "official_languages": "EL-i ametlikud keeled",
+    "regional_languages": "Piirkondlikud keeled"
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Ibni Ġid tal-Ġenerazzjonijiet għall-Familja Tiegħek",
+    "description": "L-ewwel pjattaforma ta' investiment DCA fl-Ewropa maħluqa apposta għall-familji. Investimenti awtomatiċi f'ekwitajiet tal-Istati Uniti li jibdew minn {minInvestment}/xahar."
+  },
+  "navbar": {
+    "why_invest": "Għaliex Tinvesti",
+    "how_it_works": "Kif Taħdem",
+    "pricing": "Prezzijiet",
+    "join_waitlist": "Ingħaqad mal-Lista ta' Stennija"
+  },
+  "hero": {
+    "badge": "Dalwaqt fl-Ewropa",
+    "headline": "Ibni <accent>Ġid tal-Ġenerazzjonijiet</accent> għall-Familja Tiegħek",
+    "subheadline": "L-ewwel pjattaforma ta' investiment DCA fl-Ewropa maħluqa apposta għall-familji. Investi f'ekwitajiet tal-Istati Uniti awtomatikament, tibda minn biss {minInvestment}/xahar.",
+    "cta_primary": "Ingħaqad mal-Lista ta' Stennija",
+    "cta_secondary": "Ara Kif Taħdem",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Investiment min.",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Konsumaturi tal-UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Tariffi tan-negozjar"
+    },
+    "cards": {
+      "monthly_dca": "DCA Ta' Kull Xahar",
+      "portfolio_growth": "Tkabbir tal-Portafoll",
+      "next_investment": "L-Investiment li Jmiss",
+      "days": "{count} jiem"
+    }
+  },
+  "problem": {
+    "section_label": "Il-Problema",
+    "headline": "L-Ewropa Qed Tibqa' Lura.<br />Il-Flus Iffrankat Tiegħek M'għandux.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "Tkabbir tal-Produttività tal-UE",
+        "description": "Il-produttività tax-xogħol tal-UE kibret biss 0.9% mill-2019, filwaqt li l-Istati Uniti kibru 6.7%.",
+        "source": "Bullettin Ekonomiku tal-BĊE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Lakuna fid-Dħul",
+        "description": "Id-dħul għal kull ras tal-UE issa huwa 30% taħt il-livelli tal-Istati Uniti u l-lakuna qed titwessa'.",
+        "source": "FMI \"L-Għażla tal-Ewropa\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Lakuna fil-Ġid tal-IA",
+        "description": "L-adozzjoni tal-IA konsistentement iżżid l-inugwaljanza fil-ġid. Is-sidien tal-kapital jibbenefikaw b'mod sproporzjonat.",
+        "source": "Dokument ta' Ħidma tal-FMI 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Is-Soluzzjoni",
+    "headline": "Investi fit-Tkabbir tal-Istati Uniti.<br />Maħluq għall-Familji Ewropej.",
+    "description": "Waqqaf darba, investi awtomatikament. Growfolio jagħmilha faċli li tibni ġid għall-futur tal-familja tiegħek permezz tal-medja tal-ispiża tad-dollaru f'kumpaniji ewlenin tal-Istati Uniti.",
+    "features": {
+      "min_investment": {
+        "title": "Ibda minn {amount}/xahar",
+        "description": "L-ebda bilanċ minimu. Ishma frazzjonali jfissru li tista' tkun sid ta' biċċiet ta' kwalunkwe azzjon."
+      },
+      "goal_based": {
+        "title": "Investiment Ibbażat fuq Għanijiet",
+        "description": "Semmi l-għanijiet tiegħek: \"Università ta' Sofia 2040\" jew \"Fond tad-Dar tal-Familja\". Segwi l-progress viżwalment."
+      },
+      "family_accounts": {
+        "title": "Kontijiet tal-Familja",
+        "description": "Sottokontijiet tal-ġenituri u tat-tfal. Involvi lit-tfal tiegħek hekk kif jikbru."
+      },
+      "ai_education": {
+        "title": "Edukazzjoni b'Saħħa tal-IA",
+        "description": "Ifhem x'għandek. L-IA tispjega kumpaniji, qligħ, u fundamentali b'mod sempliċi."
+      }
+    },
+    "simulation": {
+      "title": "Simulazzjoni DCA",
+      "subtitle": "Ikkonfigura l-Investiment Tiegħek",
+      "monthly_label": "Ta' Kull Xahar",
+      "period_label": "Perjodu",
+      "stocks_label": "Azzjonijiet",
+      "start_button": "Ibda s-Simulazzjoni",
+      "uses_real_data": "Tuża data storika reali",
+      "results_title": "10 Snin ta' DCA",
+      "gain": "+{percent}% gwadann",
+      "shares": "{count} ishma",
+      "run_again": "Erġa' Mexxi",
+      "based_on_real_data": "Ibbażat fuq data reali tas-suq",
+      "data_source": "Data storika reali minn"
+    },
+    "phone": {
+      "goal_title": "Fond għall-Università ta' Sofia",
+      "goal_target": "Mira: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Holdings"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Kif Taħdem",
+    "headline": "Tliet Passi biex Tibda Tibni l-Ġid",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Issettja l-Għanijiet Tiegħek",
+        "description": "Semmi l-għanijiet ta' investiment tiegħek u ssettja ammonti mirati. Fond għall-università? L-ewwel dar? Irtirar? Inti tiddeċiedi."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Agħżel l-Azzjonijiet Tiegħek",
+        "description": "Agħżel il-kumpaniji tal-Istati Uniti li temmen fihom. Apple, Google, NVIDIA — investi fl-aktar ditti innovattivi fid-dinja."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Awtomatizza u Strieħ",
+        "description": "Waqqaf investimenti awtomatiċi. Ninvestu għalik kull ġimgħa, kull ħmistax-il ġurnata, jew kull xahar. Inti ffoka fuq il-ħajja."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "L-Opportunità",
+    "headline": "Suq Enormi Mhux Sfruttat",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Konsumaturi Ewropej"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Pjattaformi DCA tal-Familja"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Pajjiżi tal-UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Tkabbir Mistenni tal-S&P"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Maħluq Apposta għall-Familji",
+        "description": "Investiment ibbażat fuq għanijiet b'kontijiet tal-familja, mhux app oħra tan-negozjar moħbija bħala investiment fit-tul."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Awtomazzjoni Vera",
+        "description": "Waqqaf darba u insa. Investimenti ta' kull ġimgħa, kull ħmistax-il ġurnata, jew kull xahar fl-azzjonijiet magħżula tiegħek."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Aċċess għat-Tkabbir tal-Istati Uniti",
+        "description": "Investi fl-aktar kumpaniji innovattivi fid-dinja. Apple, Google, NVIDIA — minn kullimkien fl-Ewropa."
+      }
+    },
+    "tagline": "<strong>Il-familji Ewropej jistħoqqilhom aħjar.</strong> Qed nibnu l-pjattaforma li xtaqna li kellna għat-tfal tagħna stess."
+  },
+  "pricing": {
+    "section_label": "Prezzijiet Sempliċi",
+    "headline": "Pjanijiet li Jikbru mal-Familja Tiegħek",
+    "per_month": "/xahar",
+    "get_started": "Ibda",
+    "most_popular": "L-Aktar Popolari",
+    "tiers": {
+      "basic": {
+        "name": "Bażiku",
+        "price": "€3",
+        "features": [
+          "Għan ta' investiment 1",
+          "5 azzjonijiet",
+          "DCA awtomatizzat",
+          "Insights bażiċi"
+        ]
+      },
+      "family": {
+        "name": "Familja",
+        "price": "€7",
+        "features": [
+          "Għanijiet bla limitu",
+          "Azzjonijiet bla limitu",
+          "Kontijiet tal-familja",
+          "Gwida tal-IA"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Kollox fil-Familja",
+          "Analitika avvanzata",
+          "Appoġġ prioritarju",
+          "Karatteristiċi premium tal-IA"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Kun l-Ewwel li Tibni<br />l-Futur tal-Familja Tiegħek",
+    "description": "Ingħaqad mal-lista ta' stennija għal aċċess bikri. Se nniedu dalwaqt fi Spanja, il-Ġermanja, Franza, u l-Olanda.",
+    "email_placeholder": "Daħħal l-email tiegħek",
+    "button": "Ingħaqad mal-Lista ta' Stennija",
+    "button_loading": "Qed tingħaqad...",
+    "button_success": "Int fuq il-lista!",
+    "privacy_note": "L-ebda spam. Biss aġġornamenti dwar it-tnedija tagħna."
+  },
+  "footer": {
+    "about": "Dwarna",
+    "privacy": "Privatezza",
+    "terms": "Termini",
+    "contact": "Kuntatt",
+    "disclaimer": "Growfolio għadha mhix liċenzjata u mhix qed tipprovdi parir ta' investiment. Din il-paġna hija għal skopijiet informattivi biss. L-investiment jinvolvi riskju; il-kapital tiegħek jista' jkun f'riskju.",
+    "copyright": "© {year} Growfolio. Id-drittijiet kollha riżervati."
+  },
+  "language_switcher": {
+    "label": "Lingwa",
+    "search_placeholder": "Fittex lingwi...",
+    "official_languages": "Lingwi Uffiċjali tal-UE",
+    "regional_languages": "Lingwi Reġjonali"
+  }
+}

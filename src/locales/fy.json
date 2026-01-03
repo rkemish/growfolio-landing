@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Bou Generaasjewykens foar Jo Famylje",
+    "description": "It earste DCA-ynvestearringsplatfoarm fan Europa dat spesjaal boud is foar famyljes. Automatisearre Amerikaanske oandielynvestearringen fanôf {minInvestment}/moanne."
+  },
+  "navbar": {
+    "why_invest": "Wêrom Ynvestearje",
+    "how_it_works": "Hoe't It Wurket",
+    "pricing": "Prizen",
+    "join_waitlist": "Doch Mei oan de Wachtlist"
+  },
+  "hero": {
+    "badge": "Komt Gau nei Europa",
+    "headline": "Bou <accent>Generaasjewykens</accent> foar Jo Famylje",
+    "subheadline": "It earste DCA-ynvestearringsplatfoarm fan Europa dat spesjaal boud is foar famyljes. Ynvestearje automatysk yn Amerikaanske oandielen, fanôf mar {minInvestment}/moanne.",
+    "cta_primary": "Doch Mei oan de Wachtlist",
+    "cta_secondary": "Sjoch Hoe't It Wurket",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. ynvestearring",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU-konsuminten",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Hannelskosten"
+    },
+    "cards": {
+      "monthly_dca": "Moanliks DCA",
+      "portfolio_growth": "Portefúlje Groei",
+      "next_investment": "Folgjende Ynvestearring",
+      "days": "{count} dagen"
+    }
+  },
+  "problem": {
+    "section_label": "It Probleem",
+    "headline": "Europa Bliuwt Efter.<br />Jo Sparjen Moat Dat Net.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "EU Produktiviteitsgroei",
+        "description": "De arbeidsprodukiviteit fan de EU groeide mar 0,9% sûnt 2019, wylst de FS 6,7% groeide.",
+        "source": "ECB Ekonomysk Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Ynkommenskloof",
+        "description": "It EU-ynkommen per persoan is no 30% leger as Amerikaanske nivo's en de kloof wurdt grutter.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI Wykenskloof",
+        "description": "AI-oanpassing fergruttet konsekwint wykensûngelikheid. Kapitaaleigners profitearje bûtenproporsjeel.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "De Oplossing",
+    "headline": "Ynvestearje yn Amerikaanske Groei.<br />Boud foar Europeeske Famyljes.",
+    "description": "Stel ien kear yn, ynvestearje automatysk. Growfolio makket it maklik om wykens te bouwen foar de takomst fan jo famylje troch dollar-cost averaging yn top Amerikaanske bedriuwen.",
+    "features": {
+      "min_investment": {
+        "title": "Begjin fanôf {amount}/moanne",
+        "description": "Gjin minimum saldo. Fraksjonele oandielen betsjutte dat jo stikken fan elk oandiel besitte kinne."
+      },
+      "goal_based": {
+        "title": "Doelbasearre Ynvestearjen",
+        "description": "Neam jo doelen: \"Sofia's Universiteit 2040\" of \"Famylje Hûsfûns\". Folgje foarútgong fisueel."
+      },
+      "family_accounts": {
+        "title": "Famyljerekken",
+        "description": "Sub-rekken foar âlden en bern. Belûk jo bern as se grutter wurde."
+      },
+      "ai_education": {
+        "title": "AI-Powered Edukaasje",
+        "description": "Begryp wat jo besitte. AI leit bedriuwen, fertsjinsten en fûneminten ienfâldich út."
+      }
+    },
+    "simulation": {
+      "title": "DCA Simulaasje",
+      "subtitle": "Konfigurearje Jo Ynvestearring",
+      "monthly_label": "Moanliks",
+      "period_label": "Perioade",
+      "stocks_label": "Oandielen",
+      "start_button": "Start Simulaasje",
+      "uses_real_data": "Brûkt echte histoaryske data",
+      "results_title": "10 Jier DCA",
+      "gain": "+{percent}% winst",
+      "shares": "{count} oandielen",
+      "run_again": "Opnij Útfiere",
+      "based_on_real_data": "Basearre op echte merkdata",
+      "data_source": "Echte histoaryske data fan"
+    },
+    "phone": {
+      "goal_title": "Sofia's Universiteitsfûns",
+      "goal_target": "Doel: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Posysjes"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Hoe't It Wurket",
+    "headline": "Trije Stappen om te Begjinnen mei Wykens Bouwen",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Stel Jo Doelen",
+        "description": "Neam jo ynvestearringsdoelen en stel doelbedragen yn. Universiteitsfûns? Earste hûs? Pensjoen? Jo beslisse."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Kies Jo Oandielen",
+        "description": "Kies de Amerikaanske bedriuwen dêr't jo yn leauwe. Apple, Google, NVIDIA — ynvestearje yn de meast ynnovative bedriuwen fan de wrâld."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatisearje & Untspanne",
+        "description": "Stel automatyske ynvestearringen yn. Wy sille foar jo ynvestearje elke wike, om de fjirtjin dagen, of moanliks. Jo fokusje op it libben."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "De Kâns",
+    "headline": "In Massive Net-Brûkte Merk",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europeeske Konsuminten"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Famylje DCA Platfoarmen"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU Lannen"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Ferwachte S&P Groei"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Spesjaal Boud foar Famyljes",
+        "description": "Doelbasearre ynvestearjen mei famyljerekken, net noch in hannel-app ferklaaid as lange-termyn ynvestearjen."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Echte Automatisearring",
+        "description": "Stel it ien kear yn en ferjit it. Wyklikse, twa-wyklikse, of moanliks ynvestearringen yn jo keazen oandielen."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Tagong ta Amerikaanske Groei",
+        "description": "Ynvestearje yn de meast ynnovative bedriuwen fan de wrâld. Apple, Google, NVIDIA — fan oeral yn Europa."
+      }
+    },
+    "tagline": "<strong>Europeeske famyljes fertsjinje better.</strong> Wy bouwe it platfoarm dat wy winsken dat bestie foar ús eigen bern."
+  },
+  "pricing": {
+    "section_label": "Ienfâldige Prizen",
+    "headline": "Plannen dy't Groeie mei Jo Famylje",
+    "per_month": "/moanne",
+    "get_started": "Begjin No",
+    "most_popular": "Meast Populêr",
+    "tiers": {
+      "basic": {
+        "name": "Basis",
+        "price": "€3",
+        "features": [
+          "1 ynvestearringsdoel",
+          "5 oandielen",
+          "Automatisearre DCA",
+          "Basis ynsjoch"
+        ]
+      },
+      "family": {
+        "name": "Famylje",
+        "price": "€7",
+        "features": [
+          "Unbeheinde doelen",
+          "Unbeheinde oandielen",
+          "Famyljerekken",
+          "AI-begelieding"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Alles yn Famylje",
+          "Avansearre analytyk",
+          "Prioriteit stipe",
+          "Premium AI-funksjes"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Wês de Earste om<br />de Takomst fan Jo Famylje te Bouwen",
+    "description": "Doch mei oan de wachtlist foar iere tagong. Wy lansearje gau yn Spanje, Dútslân, Frankryk, en Nederlân.",
+    "email_placeholder": "Fier jo e-mail yn",
+    "button": "Doch Mei oan de Wachtlist",
+    "button_loading": "Meidwaan...",
+    "button_success": "Jo stean op de list!",
+    "privacy_note": "Gjin spam. Allinnich updates oer ús lansearring."
+  },
+  "footer": {
+    "about": "Oer Ús",
+    "privacy": "Privacy",
+    "terms": "Betingsten",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio is noch net lisinsearre en jout gjin ynvestearringsadvys. Dizze lâningsside is allinnich foar ynformative doelen. Ynvestearje bringt risiko mei; jo kapitaal kin yn gefaar wêze.",
+    "copyright": "© {year} Growfolio. Alle rjochten foarholden."
+  },
+  "language_switcher": {
+    "label": "Taal",
+    "search_placeholder": "Sykje talen...",
+    "official_languages": "EU Offisjele Talen",
+    "regional_languages": "Regionale Talen"
+  }
+}

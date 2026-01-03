@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Sukurkite kartų turtą savo šeimai",
+    "description": "Pirmoji Europos DCA investavimo platforma, sukurta šeimoms. Automatizuotas investavimas į JAV akcijas nuo {minInvestment}/mėn."
+  },
+  "navbar": {
+    "why_invest": "Kodėl investuoti",
+    "how_it_works": "Kaip tai veikia",
+    "pricing": "Kainos",
+    "join_waitlist": "Prisijunkite prie laukimo sąrašo"
+  },
+  "hero": {
+    "badge": "Netrukus Europoje",
+    "headline": "Sukurkite <accent>kartų turtą</accent> savo šeimai",
+    "subheadline": "Pirmoji Europos DCA investavimo platforma, sukurta šeimoms. Automatiškai investuokite į JAV akcijas, pradedant nuo vos {minInvestment}/mėn.",
+    "cta_primary": "Prisijunkite prie laukimo sąrašo",
+    "cta_secondary": "Žiūrėti, kaip tai veikia",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investicija",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "ES vartotojų",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Prekybos mokesčiai"
+    },
+    "cards": {
+      "monthly_dca": "Mėnesinis DCA",
+      "portfolio_growth": "Portfelio augimas",
+      "next_investment": "Kita investicija",
+      "days": "{count} dienos"
+    }
+  },
+  "problem": {
+    "section_label": "Problema",
+    "headline": "Europa atsilieka.<br />Jūsų santaupos neturėtų.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "ES produktyvumo augimas",
+        "description": "ES darbo našumas nuo 2019 m. padidėjo tik 0,9%, kai JAV padidėjo 6,7%.",
+        "source": "ECB Ekonomikos biuletenis 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Pajamų atotrūkis",
+        "description": "ES pajamos vienam gyventojui dabar yra 30% mažesnės nei JAV, ir atotrūkis didėja.",
+        "source": "TVF \"Europos pasirinkimas\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "DI turto atotrūkis",
+        "description": "Dirbtinio intelekto diegimas nuosekliai didina turto nelygybę. Kapitalo savininkai gauna neproporcingai didelę naudą.",
+        "source": "TVF Darbinis dokumentas 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Sprendimas",
+    "headline": "Investuokite į JAV augimą.<br />Sukurta Europos šeimoms.",
+    "description": "Nustatykite vieną kartą, investuokite automatiškai. Growfolio leidžia lengvai kurti turtą jūsų šeimos ateičiai, naudojant išlaidų vidurkio metodą pirmaujančiose JAV įmonėse.",
+    "features": {
+      "min_investment": {
+        "title": "Pradėkite nuo {amount}/mėn.",
+        "description": "Jokio minimalaus likučio. Dalinės akcijos reiškia, kad galite turėti bet kurios akcijos dalį."
+      },
+      "goal_based": {
+        "title": "Tikslais pagrįstas investavimas",
+        "description": "Pavadinkite savo tikslus: \"Sofijos universitetas 2040\" arba \"Šeimos namų fondas\". Vizualiai stebėkite pažangą."
+      },
+      "family_accounts": {
+        "title": "Šeimos paskyros",
+        "description": "Tėvų ir vaikų subpaskyros. Įtraukite vaikus jiems augant."
+      },
+      "ai_education": {
+        "title": "DI mokymas",
+        "description": "Supraskite, ką turite. DI paprastai paaiškina įmones, pajamas ir pagrindus."
+      }
+    },
+    "simulation": {
+      "title": "DCA simuliacija",
+      "subtitle": "Sukonfigūruokite savo investiciją",
+      "monthly_label": "Mėnesinis",
+      "period_label": "Laikotarpis",
+      "stocks_label": "Akcijos",
+      "start_button": "Pradėti simuliaciją",
+      "uses_real_data": "Naudoja tikrus istorinius duomenis",
+      "results_title": "10 metų DCA",
+      "gain": "+{percent}% pelnas",
+      "shares": "{count} akcijų",
+      "run_again": "Paleisti iš naujo",
+      "based_on_real_data": "Pagrįsta tikrais rinkos duomenimis",
+      "data_source": "Tikri istoriniai duomenys iš"
+    },
+    "phone": {
+      "goal_title": "Sofijos universiteto fondas",
+      "goal_target": "Tikslas: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Turimi aktyvai"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Kaip tai veikia",
+    "headline": "Trys žingsniai iki turto kūrimo",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Nustatykite savo tikslus",
+        "description": "Pavadinkite savo investicinius tikslus ir nustatykite tikslines sumas. Universiteto fondas? Pirmasis būstas? Pensija? Jūs nusprendžiate."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Pasirinkite savo akcijas",
+        "description": "Pasirinkite JAV įmones, kuriomis tikite. Apple, Google, NVIDIA — investuokite į pačias novatoriškiausias pasaulio įmones."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizuokite ir atsipalaiduokite",
+        "description": "Nustatykite automatinius investavimus. Mes investuosime už jus kiekvieną savaitę, kas dvi savaites arba kas mėnesį. Jūs susitelkite į gyvenimą."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Galimybė",
+    "headline": "Didžiulė neišnaudota rinka",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europos vartotojų"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Šeimų DCA platformų"
+      },
+      "countries": {
+        "value": "27",
+        "label": "ES šalių"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Tikėtinas S&P augimas"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Sukurta šeimoms",
+        "description": "Tikslais pagrįstas investavimas su šeimos paskyromis, o ne dar viena prekybos programa, apsimetanti ilgalaikiu investavimu."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Tikra automatizacija",
+        "description": "Nustatykite vieną kartą ir pamirškite. Kassavaitiniai, kas dvi savaites arba mėnesiniai investavimai į jūsų pasirinktas akcijas."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Prieiga prie JAV augimo",
+        "description": "Investuokite į pačias novatoriškiausias pasaulio įmones. Apple, Google, NVIDIA — iš bet kurios Europos vietos."
+      }
+    },
+    "tagline": "<strong>Europos šeimos nusipelno geresnio.</strong> Mes kuriame platformą, kurios norėjome savo vaikams."
+  },
+  "pricing": {
+    "section_label": "Paprastos kainos",
+    "headline": "Planai, kurie auga kartu su jūsų šeima",
+    "per_month": "/mėn.",
+    "get_started": "Pradėti",
+    "most_popular": "Populiariausias",
+    "tiers": {
+      "basic": {
+        "name": "Bazinis",
+        "price": "€3",
+        "features": [
+          "1 investicinis tikslas",
+          "5 akcijos",
+          "Automatizuotas DCA",
+          "Bazinės įžvalgos"
+        ]
+      },
+      "family": {
+        "name": "Šeimos",
+        "price": "€7",
+        "features": [
+          "Neriboti tikslai",
+          "Neribotos akcijos",
+          "Šeimos paskyros",
+          "DI konsultacijos"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Viskas iš Šeimos plano",
+          "Išplėstinė analitika",
+          "Prioritetinis palaikymas",
+          "Premium DI funkcijos"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Būkite pirmas, kuris kuria<br />savo šeimos ateitį",
+    "description": "Prisijunkite prie laukimo sąrašo ankstyvai prieigai. Netrukus startuojame Ispanijoje, Vokietijoje, Prancūzijoje ir Nyderlanduose.",
+    "email_placeholder": "Įveskite savo el. pašto adresą",
+    "button": "Prisijunkite prie laukimo sąrašo",
+    "button_loading": "Prisijungiama...",
+    "button_success": "Jūs sąraše!",
+    "privacy_note": "Jokio brukalų. Tik naujienos apie paleidimą."
+  },
+  "footer": {
+    "about": "Apie mus",
+    "privacy": "Privatumas",
+    "terms": "Sąlygos",
+    "contact": "Kontaktai",
+    "disclaimer": "Growfolio dar nėra licencijuotas ir neteikia investicinių patarimų. Šis puslapis skirtas tik informaciniams tikslams. Investavimas susijęs su rizika; jūsų kapitalas gali būti pavojuje.",
+    "copyright": "© {year} Growfolio. Visos teisės saugomos."
+  },
+  "language_switcher": {
+    "label": "Kalba",
+    "search_placeholder": "Ieškoti kalbų...",
+    "official_languages": "Oficialios ES kalbos",
+    "regional_languages": "Regioninės kalbos"
+  }
+}

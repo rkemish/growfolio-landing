@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Hukse Buolvvaidlasa Riggodaga Iežat Bearrašii",
+    "description": "Eurohpa vuosttaš DCA investeren platforbma mii lea ráhkaduvvon bearrašiidda. Automáhtalaš USA oamadatoasit investeremat álggos {minInvestment}/mánus."
+  },
+  "navbar": {
+    "why_invest": "Manne Investeret",
+    "how_it_works": "Mo Dat Doaibmá",
+    "pricing": "Haddjiid",
+    "join_waitlist": "Searvva Vuorddelistui"
+  },
+  "hero": {
+    "badge": "Boahtá Fargga Eurohpii",
+    "headline": "Hukse <accent>Buolvvaidlasa Riggodaga</accent> Iežat Bearrašii",
+    "subheadline": "Eurohpa vuosttaš DCA investeren platforbma mii lea ráhkaduvvon bearrašiidda. Investere automáhtalaččat USA oamadatoasiide, álggos dušše {minInvestment}/mánus.",
+    "cta_primary": "Searvva Vuorddelistui",
+    "cta_secondary": "Geahča Mo Dat Doaibmá",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Unnimuš investeren",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU geavaheaddjit",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Gávppašandivvagat"
+    },
+    "cards": {
+      "monthly_dca": "Mánnosaš DCA",
+      "portfolio_growth": "Portfolio Lassáneapmi",
+      "next_investment": "Čuovvovaš Investeren",
+      "days": "{count} beaivvi"
+    }
+  },
+  "problem": {
+    "section_label": "Váttisvuohta",
+    "headline": "Eurohpa Báhcá Maŋos.<br />Du Spárehus Ii Galggaše.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "EU Buvttadanvejolašvuohta",
+        "description": "EU bargoveaga buvttadanvejolašvuohta lassánii dušše 0.9% 2019 rájes, muhto USA lassánii 6.7%.",
+        "source": "ECB Ekonomalaš Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Dienasgaskkut",
+        "description": "EU ovdaoluš dienas lea dál 30% vuollelis go USA dásit ja gaskkut viiddis.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI Riggodatgaskkut",
+        "description": "AI válddaheapmi lassida joatkkalas riggodaterohusvuođa. Kapitálaeaiggádat ávkkástallet earenomážit.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Čoavddus",
+    "headline": "Investere USA Lassánemii.<br />Ráhkaduvvon Eurohpalaš Bearrašiidda.",
+    "description": "Heivet oktii, investere automáhtalaččat. Growfolio dahká álkit hukset riggodaga du bearraša boahtteáigái dollar-cost averaging bokte buoremus USA fitnodagaide.",
+    "features": {
+      "min_investment": {
+        "title": "Álggos {amount}/mánus",
+        "description": "Ii unnimuš balanssa. Oasseaksiot dárkkuhit ahte sáhtát oamaštit oasi makkárge aksios."
+      },
+      "goal_based": {
+        "title": "Ulbmilvuđot Investeren",
+        "description": "Nammot iežat ulbmiliid: \"Sofia Universitehta 2040\" dahje \"Bearraša Viesofuvdna\". Čuovo ovdáneami čalmmiiguin."
+      },
+      "family_accounts": {
+        "title": "Bearraškonttut",
+        "description": "Váhnemiid ja mánáid vuollekontut. Searvvat iežat mánáid go sii stuorrut."
+      },
+      "ai_education": {
+        "title": "AI-Vuođđuduvvon Oahpahus",
+        "description": "Ádde maid oamaštit. AI čilge fitnodagaid, dienasiid ja vuođđoášiid álkitláhkai."
+      }
+    },
+    "simulation": {
+      "title": "DCA Simulašuvdna",
+      "subtitle": "Heivet Iežat Investerema",
+      "monthly_label": "Mánnosaččat",
+      "period_label": "Áigodat",
+      "stocks_label": "Aksiot",
+      "start_button": "Álggat Simulašuvnna",
+      "uses_real_data": "Geavaha duohta historjjálaš dieđuid",
+      "results_title": "10 Jagi DCA",
+      "gain": "+{percent}% vuoitu",
+      "shares": "{count} aksiot",
+      "run_again": "Jođáhat Ođđasit",
+      "based_on_real_data": "Vuođđuduvvon duohta márkandieđuide",
+      "data_source": "Duohta historjjálaš dieđut"
+    },
+    "phone": {
+      "goal_title": "Sofia Universitehta Fuvdna",
+      "goal_target": "Ulbmil: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Oamastupmi"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Mo Dat Doaibmá",
+    "headline": "Golbma Lávkki Álggahit Riggodaga Hukset",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Bija Iežat Ulbmiliid",
+        "description": "Nammot iežat investeren ulbmiliid ja mearrit ulbmilsummiid. Universitehta fuvdna? Vuosttaš viessu? Ealáhat? Don mearridat."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Vállje Iežat Aksioid",
+        "description": "Vállje USA fitnodagaid maidda oskkut. Apple, Google, NVIDIA — investere máilmmi innovatiivvamus fitnodagaide."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatisere & Vuoiŋŋat",
+        "description": "Heivet automáhtalaš investeremiid. Mii investerit du ovddas juohke vahku, juohke nuppi vahku, dahje mánnosaččat. Don fokuseret eallimii."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Vejolašvuohta",
+    "headline": "Stuorra Ii-Geavahuvvon Márkkan",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Eurohpalaš Geavaheaddjit"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Bearraša DCA Platforpmat"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU Riikkat"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Vurdon S&P Lassáneapmi"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Ráhkaduvvon Bearrašiidda",
+        "description": "Ulbmilvuđot investeren bearraškontuiguin, ii fas gávppašanáppa mii lea njiŋŋolas guhkesáiggi investeremiin."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Duohta Automatiseren",
+        "description": "Heivet oktii ja vajáldahte. Vahkkosaš, juohke nuppi vahku, dahje mánnosaš investeremat du válljen aksioidda."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Beassat USA Lassánemii",
+        "description": "Investere máilmmi innovatiivvamus fitnodagaide. Apple, Google, NVIDIA — gos ihkinassii Eurohpas."
+      }
+    },
+    "tagline": "<strong>Eurohpalaš bearrašat ánssášit buorebut.</strong> Mii huksejit platforbma maid sávaimet gávdnot iežamet mánáide."
+  },
+  "pricing": {
+    "section_label": "Álki Haddjit",
+    "headline": "Plánat Mat Lassánit Du Bearrašiin",
+    "per_month": "/mánus",
+    "get_started": "Álggat Dál",
+    "most_popular": "Eanemus Bivnnuhis",
+    "tiers": {
+      "basic": {
+        "name": "Vuođđo",
+        "price": "€3",
+        "features": [
+          "1 investeren ulbmil",
+          "5 aksioid",
+          "Automáhtalaš DCA",
+          "Vuođđo áddejupmi"
+        ]
+      },
+      "family": {
+        "name": "Bearaš",
+        "price": "€7",
+        "features": [
+          "Rádjeheamit ulbmilat",
+          "Rádjeheamit aksiot",
+          "Bearraškontut",
+          "AI bagadallan"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Buot Bearrašis",
+          "Ovdánan analytihkka",
+          "Vuosttamušvuohta doarjja",
+          "Premium AI-iešvuođat"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Leage Vuosttaš Huksemin<br />Du Bearraša Boahtteáiggi",
+    "description": "Searvva vuorddelistui árra beassamii. Mii álggahit fargga Spánias, Duiskkas, Frankriikkas, ja Vuolleeatnamiidda.",
+    "email_placeholder": "Čále e-boastaaddresse",
+    "button": "Searvva Vuorddelistui",
+    "button_loading": "Searvamin...",
+    "button_success": "Don leat listui!",
+    "privacy_note": "Ii spam. Dušše dieđut min álggaheami birra."
+  },
+  "footer": {
+    "about": "Min Birra",
+    "privacy": "Priváhtta",
+    "terms": "Eavttut",
+    "contact": "Oktavuohta",
+    "disclaimer": "Growfolio ii leat vel lisenserejuvvon ja ii atte investeren ráđđiid. Dát siidu lea dušše diehtojuohkima várás. Investeren sisttisdoallá riskka; du kapitála sáhttá leat vára vuolde.",
+    "copyright": "© {year} Growfolio. Buot riekti vurrejuvvon."
+  },
+  "language_switcher": {
+    "label": "Giella",
+    "search_placeholder": "Oza gielaid...",
+    "official_languages": "EU Almmolaš Gielat",
+    "regional_languages": "Guovllu Gielat"
+  }
+}

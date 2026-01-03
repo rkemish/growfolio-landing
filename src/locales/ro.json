@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Construieste avere generationala pentru familia ta",
+    "description": "Prima platforma de investitii DCA din Europa conceputa special pentru familii. Investitii automate in actiuni americane incepand de la {minInvestment}/luna."
+  },
+  "navbar": {
+    "why_invest": "De ce sa investesti",
+    "how_it_works": "Cum functioneaza",
+    "pricing": "Preturi",
+    "join_waitlist": "Inscrie-te pe lista"
+  },
+  "hero": {
+    "badge": "In curand in Europa",
+    "headline": "Construieste <accent>avere generationala</accent> pentru familia ta",
+    "subheadline": "Prima platforma de investitii DCA din Europa conceputa special pentru familii. Investeste automat in actiuni americane, incepand de la doar {minInvestment}/luna.",
+    "cta_primary": "Inscrie-te pe lista de asteptare",
+    "cta_secondary": "Vezi cum functioneaza",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Investitie min.",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Consumatori UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Comisioane de tranzactionare"
+    },
+    "cards": {
+      "monthly_dca": "DCA lunar",
+      "portfolio_growth": "Cresterea portofoliului",
+      "next_investment": "Urmatoarea investitie",
+      "days": "{count} zile"
+    }
+  },
+  "problem": {
+    "section_label": "Problema",
+    "headline": "Europa ramane in urma.<br />Economiile tale nu ar trebui sa ramana.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "Cresterea productivitatii UE",
+        "description": "Productivitatea muncii in UE a crescut cu doar 0,9% din 2019, in timp ce in SUA a crescut cu 6,7%.",
+        "source": "Buletinul Economic BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Decalajul de venituri",
+        "description": "Venitul pe cap de locuitor in UE este acum cu 30% sub nivelul SUA, iar decalajul se adanceste.",
+        "source": "FMI «Alegerea Europei» 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Decalajul de avere IA",
+        "description": "Adoptarea IA creste constant inegalitatea averii. Detinatorii de capital beneficiaza disproportionat.",
+        "source": "Document de lucru FMI 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Solutia",
+    "headline": "Investeste in cresterea SUA.<br />Conceput pentru familiile europene.",
+    "description": "Configureaza o data, investeste automat. Growfolio iti face usor sa construiesti avere pentru viitorul familiei tale prin investitii sistematice in companiile americane de top.",
+    "features": {
+      "min_investment": {
+        "title": "Incepe de la {amount}/luna",
+        "description": "Fara sold minim. Actiunile fractionare inseamna ca poti detine parti din orice actiune."
+      },
+      "goal_based": {
+        "title": "Investitii bazate pe obiective",
+        "description": "Denumeste-ti obiectivele: «Universitatea Sofiei 2040» sau «Fondul pentru casa familiala». Urmareste progresul vizual."
+      },
+      "family_accounts": {
+        "title": "Conturi de familie",
+        "description": "Sub-conturi pentru parinti si copii. Implica-ti copiii pe masura ce cresc."
+      },
+      "ai_education": {
+        "title": "Educatie bazata pe IA",
+        "description": "Intelege ce detii. IA explica simplu companiile, castigurile si fundamentele."
+      }
+    },
+    "simulation": {
+      "title": "Simulare DCA",
+      "subtitle": "Configureaza-ti investitia",
+      "monthly_label": "Lunar",
+      "period_label": "Perioada",
+      "stocks_label": "Actiuni",
+      "start_button": "Porneste simularea",
+      "uses_real_data": "Foloseste date istorice reale",
+      "results_title": "10 ani de DCA",
+      "gain": "+{percent}% castig",
+      "shares": "{count} actiuni",
+      "run_again": "Ruleaza din nou",
+      "based_on_real_data": "Bazat pe date reale de piata",
+      "data_source": "Date istorice reale de la"
+    },
+    "phone": {
+      "goal_title": "Fondul universitar al Sofiei",
+      "goal_target": "Tinta: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Detineri"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Cum functioneaza",
+    "headline": "Trei pasi pentru a incepe sa construiesti avere",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Stabileste-ti obiectivele",
+        "description": "Denumeste-ti obiectivele de investitii si stabileste sumele tinta. Fond universitar? Prima casa? Pensie? Tu decizi."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Alege-ti actiunile",
+        "description": "Alege companiile americane in care crezi. Apple, Google, NVIDIA — investeste in cele mai inovatoare firme din lume."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizeaza si relaxeaza-te",
+        "description": "Configureaza investitii automate. Vom investi pentru tine in fiecare saptamana, la doua saptamani sau lunar. Tu te concentrezi pe viata."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Oportunitatea",
+    "headline": "O piata masiva neexploatata",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Consumatori europeni"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Platforme DCA pentru familii"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Tari UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Crestere S&P asteptata"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Conceput special pentru familii",
+        "description": "Investitii bazate pe obiective cu conturi de familie, nu o alta aplicatie de tranzactionare deghizata in investitii pe termen lung."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Automatizare reala",
+        "description": "Configureaza o data si uita. Investitii saptamanale, bisaptamanale sau lunare in actiunile alese de tine."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Acces la cresterea SUA",
+        "description": "Investeste in cele mai inovatoare companii din lume. Apple, Google, NVIDIA — de oriunde din Europa."
+      }
+    },
+    "tagline": "<strong>Familiile europene merita mai mult.</strong> Construim platforma pe care ne-am fi dorit-o pentru proprii nostri copii."
+  },
+  "pricing": {
+    "section_label": "Preturi simple",
+    "headline": "Planuri care cresc odata cu familia ta",
+    "per_month": "/luna",
+    "get_started": "Incepe acum",
+    "most_popular": "Cel mai popular",
+    "tiers": {
+      "basic": {
+        "name": "Basic",
+        "price": "€3",
+        "features": [
+          "1 obiectiv de investitii",
+          "5 actiuni",
+          "DCA automatizat",
+          "Analize de baza"
+        ]
+      },
+      "family": {
+        "name": "Familie",
+        "price": "€7",
+        "features": [
+          "Obiective nelimitate",
+          "Actiuni nelimitate",
+          "Conturi de familie",
+          "Ghidare IA"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Tot din planul Familie",
+          "Analize avansate",
+          "Suport prioritar",
+          "Functii IA premium"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Fii primul care construieste<br />viitorul familiei tale",
+    "description": "Inscrie-te pe lista de asteptare pentru acces anticipat. Lansam in curand in Spania, Germania, Franta si Olanda.",
+    "email_placeholder": "Introdu adresa de email",
+    "button": "Inscrie-te pe lista",
+    "button_loading": "Se proceseaza...",
+    "button_success": "Esti pe lista!",
+    "privacy_note": "Fara spam. Doar actualizari despre lansare."
+  },
+  "footer": {
+    "about": "Despre noi",
+    "privacy": "Confidentialitate",
+    "terms": "Termeni",
+    "contact": "Contact",
+    "disclaimer": "Growfolio nu este inca licentiat si nu ofera consiliere de investitii. Aceasta pagina este doar in scop informativ. Investitiile implica riscuri; capitalul tau poate fi in pericol.",
+    "copyright": "© {year} Growfolio. Toate drepturile rezervate."
+  },
+  "language_switcher": {
+    "label": "Limba",
+    "search_placeholder": "Cauta limbi...",
+    "official_languages": "Limbi oficiale UE",
+    "regional_languages": "Limbi regionale"
+  }
+}

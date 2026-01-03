@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Construeix Riquesa Generacional per a la Teva Família",
+    "description": "La primera plataforma d'inversió DCA d'Europa dissenyada específicament per a famílies. Inversions automàtiques en renda variable nord-americana des de {minInvestment}/mes."
+  },
+  "navbar": {
+    "why_invest": "Per Què Invertir",
+    "how_it_works": "Com Funciona",
+    "pricing": "Preus",
+    "join_waitlist": "Uneix-te a la Llista"
+  },
+  "hero": {
+    "badge": "Properament a Europa",
+    "headline": "Construeix <accent>Riquesa Generacional</accent> per a la Teva Família",
+    "subheadline": "La primera plataforma d'inversió DCA d'Europa dissenyada específicament per a famílies. Inverteix en renda variable nord-americana automàticament, des de només {minInvestment}/mes.",
+    "cta_primary": "Uneix-te a la Llista d'Espera",
+    "cta_secondary": "Mira Com Funciona",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Inversió mín.",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Consumidors UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Comissions"
+    },
+    "cards": {
+      "monthly_dca": "DCA Mensual",
+      "portfolio_growth": "Creixement de la Cartera",
+      "next_investment": "Propera Inversió",
+      "days": "{count} dies"
+    }
+  },
+  "problem": {
+    "section_label": "El Problema",
+    "headline": "Europa S'Està Quedant Enrere.<br />Els Teus Estalvis No Haurien.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "Creixement Productivitat UE",
+        "description": "La productivitat laboral de la UE ha crescut només un 0,9% des de 2019, mentre que la dels EUA ha crescut un 6,7%.",
+        "source": "Butlletí Econòmic BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Bretxa de Renda",
+        "description": "La renda per càpita de la UE és ara un 30% inferior a la dels EUA i la diferència s'eixampla.",
+        "source": "FMI \"L'Elecció d'Europa\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Bretxa de Riquesa IA",
+        "description": "L'adopció de la IA augmenta constantment la desigualtat de riquesa. Els propietaris de capital es beneficien desproporcionadament.",
+        "source": "Document de Treball FMI 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "La Solució",
+    "headline": "Inverteix en el Creixement dels EUA.<br />Dissenyat per a Famílies Europees.",
+    "description": "Configura-ho una vegada, inverteix automàticament. Growfolio fa que sigui fàcil construir riquesa per al futur de la teva família mitjançant la inversió periòdica en empreses capdavanteres dels EUA.",
+    "features": {
+      "min_investment": {
+        "title": "Comença des de {amount}/mes",
+        "description": "Sense saldo mínim. Les fraccions d'accions et permeten posseir parts de qualsevol acció."
+      },
+      "goal_based": {
+        "title": "Inversió per Objectius",
+        "description": "Posa nom als teus objectius: \"Universitat de la Sofia 2040\" o \"Fons per a la Casa Familiar\". Segueix el progrés visualment."
+      },
+      "family_accounts": {
+        "title": "Comptes Familiars",
+        "description": "Subcomptes per a pares i fills. Involucra els teus fills a mesura que creixen."
+      },
+      "ai_education": {
+        "title": "Educació amb IA",
+        "description": "Entén el que posseeixes. La IA explica les empreses, els resultats i els fonamentals de manera senzilla."
+      }
+    },
+    "simulation": {
+      "title": "Simulació DCA",
+      "subtitle": "Configura la Teva Inversió",
+      "monthly_label": "Mensual",
+      "period_label": "Període",
+      "stocks_label": "Accions",
+      "start_button": "Iniciar Simulació",
+      "uses_real_data": "Utilitza dades històriques reals",
+      "results_title": "10 Anys de DCA",
+      "gain": "+{percent}% de guany",
+      "shares": "{count} accions",
+      "run_again": "Executar de Nou",
+      "based_on_real_data": "Basat en dades reals del mercat",
+      "data_source": "Dades històriques reals de"
+    },
+    "phone": {
+      "goal_title": "Fons Universitari de la Sofia",
+      "goal_target": "Objectiu: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Posicions"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Com Funciona",
+    "headline": "Tres Passos per Començar a Construir Riquesa",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Defineix els Teus Objectius",
+        "description": "Posa nom als teus objectius d'inversió i estableix els imports objectiu. Fons universitari? Primera llar? Jubilació? Tu decideixes."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Tria les Teves Accions",
+        "description": "Selecciona les empreses nord-americanes en les quals creus. Apple, Google, NVIDIA — inverteix en les empreses més innovadores del món."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatitza i Relaxa't",
+        "description": "Configura inversions automàtiques. Invertirem per tu cada setmana, quinzenalment o mensualment. Tu centra't en la vida."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "L'Oportunitat",
+    "headline": "Un Mercat Massiu Sense Explotar",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Consumidors Europeus"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Plataformes DCA Familiars"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Països UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Creixement S&P Esperat"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Dissenyat per a Famílies",
+        "description": "Inversió basada en objectius amb comptes familiars, no una altra app de trading disfressada d'inversió a llarg termini."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Automatització Real",
+        "description": "Configura-ho una vegada i oblida-te'n. Inversions setmanals, quinzenals o mensuals en les accions que triïs."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Accedeix al Creixement dels EUA",
+        "description": "Inverteix en les empreses més innovadores del món. Apple, Google, NVIDIA — des de qualsevol lloc d'Europa."
+      }
+    },
+    "tagline": "<strong>Les famílies europees es mereixen alguna cosa millor.</strong> Estem construint la plataforma que hauríem volgut tenir per als nostres propis fills."
+  },
+  "pricing": {
+    "section_label": "Preus Simples",
+    "headline": "Plans Que Creixen amb la Teva Família",
+    "per_month": "/mes",
+    "get_started": "Començar",
+    "most_popular": "Més Popular",
+    "tiers": {
+      "basic": {
+        "name": "Bàsic",
+        "price": "€3",
+        "features": [
+          "1 objectiu d'inversió",
+          "5 accions",
+          "DCA automatitzat",
+          "Informació bàsica"
+        ]
+      },
+      "family": {
+        "name": "Familiar",
+        "price": "€7",
+        "features": [
+          "Objectius il·limitats",
+          "Accions il·limitades",
+          "Comptes familiars",
+          "Orientació amb IA"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Tot del pla Familiar",
+          "Anàlisi avançada",
+          "Suport prioritari",
+          "Funcions IA premium"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Sigues el Primer a Construir<br />el Futur de la Teva Família",
+    "description": "Uneix-te a la llista d'espera per accedir-hi aviat. Llancem properament a Espanya, Alemanya, França i els Països Baixos.",
+    "email_placeholder": "Introdueix el teu correu electrònic",
+    "button": "Unir-me a la Llista",
+    "button_loading": "Unint-te...",
+    "button_success": "Ets a la llista!",
+    "privacy_note": "Sense correu brossa. Només actualitzacions sobre el llançament."
+  },
+  "footer": {
+    "about": "Sobre Nosaltres",
+    "privacy": "Privacitat",
+    "terms": "Termes",
+    "contact": "Contacte",
+    "disclaimer": "Growfolio encara no està autoritzat i no proporciona assessorament d'inversió. Aquesta pàgina és només per a finalitats informatives. Invertir comporta riscos; el teu capital pot estar en risc.",
+    "copyright": "© {year} Growfolio. Tots els drets reservats."
+  },
+  "language_switcher": {
+    "label": "Idioma",
+    "search_placeholder": "Cercar idiomes...",
+    "official_languages": "Idiomes Oficials UE",
+    "regional_languages": "Idiomes Regionals"
+  }
+}

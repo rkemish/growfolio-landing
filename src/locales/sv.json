@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Bygg Generationsrikedom for Din Familj",
+    "description": "Europas forsta DCA-investeringsplattform byggd for familjer. Automatiserade amerikanska aktieinvesteringar fran {minInvestment}/manad."
+  },
+  "navbar": {
+    "why_invest": "Varfor Investera",
+    "how_it_works": "Hur Det Fungerar",
+    "pricing": "Priser",
+    "join_waitlist": "Ga Med i Vantlistan"
+  },
+  "hero": {
+    "badge": "Snart i Europa",
+    "headline": "Bygg <accent>Generationsrikedom</accent> for Din Familj",
+    "subheadline": "Europas forsta DCA-investeringsplattform byggd for familjer. Investera automatiskt i amerikanska aktier, fran bara {minInvestment}/manad.",
+    "cta_primary": "Ga Med i Vantlistan",
+    "cta_secondary": "Se Hur Det Fungerar",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. investering",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU-konsumenter",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Handelsavgifter"
+    },
+    "cards": {
+      "monthly_dca": "Manatlig DCA",
+      "portfolio_growth": "Portfoljtillvaxt",
+      "next_investment": "Nasta Investering",
+      "days": "{count} dagar"
+    }
+  },
+  "problem": {
+    "section_label": "Problemet",
+    "headline": "Europa Halkar Efter.<br />Ditt Sparande Behover Inte.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "EU:s Produktivitetstillvaxt",
+        "description": "EU:s arbetsproduktivitet vaxte bara 0,9% sedan 2019, medan USA vaxte 6,7%.",
+        "source": "ECB Ekonomisk Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Inkomstklyfta",
+        "description": "EU:s inkomst per capita ar nu 30% under USA:s nivaer och klyftan vidgas.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI-formogenhetsklyfta",
+        "description": "AI-adoption okar konsekvent formogenhetsojalikteten. Kapitalagare gynnas oproportionerligt.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Losningen",
+    "headline": "Investera i Amerikansk Tillvaxt.<br />Byggt for Europeiska Familjer.",
+    "description": "Stall in en gang, investera automatiskt. Growfolio gor det enkelt att bygga formogenhet for din familjs framtid genom dollar-cost averaging i ledande amerikanska foretag.",
+    "features": {
+      "min_investment": {
+        "title": "Borja fran {amount}/manad",
+        "description": "Inget minimisaldo. Brakdelsaktier betyder att du kan aga delar av vilken aktie som helst."
+      },
+      "goal_based": {
+        "title": "Malbaserat Investerande",
+        "description": "Namnge dina mal: \"Sofias Universitet 2040\" eller \"Familjens Husfond\". Folj utvecklingen visuellt."
+      },
+      "family_accounts": {
+        "title": "Familjekonton",
+        "description": "Foralder- och barnunderkonton. Involvera dina barn nar de vaxer upp."
+      },
+      "ai_education": {
+        "title": "AI-driven Utbildning",
+        "description": "Forsta vad du ager. AI forklarar foretag, vinster och fundamenta pa ett enkelt satt."
+      }
+    },
+    "simulation": {
+      "title": "DCA-simulering",
+      "subtitle": "Konfigurera Din Investering",
+      "monthly_label": "Manatlig",
+      "period_label": "Period",
+      "stocks_label": "Aktier",
+      "start_button": "Starta Simulering",
+      "uses_real_data": "Anvander verklig historisk data",
+      "results_title": "10 Ar av DCA",
+      "gain": "+{percent}% vinst",
+      "shares": "{count} aktier",
+      "run_again": "Kor Igen",
+      "based_on_real_data": "Baserat pa verklig marknadsdata",
+      "data_source": "Verklig historisk data fran"
+    },
+    "phone": {
+      "goal_title": "Sofias Universitetsfond",
+      "goal_target": "Mal: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Innehav"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Hur Det Fungerar",
+    "headline": "Tre Steg for att Borja Bygga Formogenhet",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Satt Dina Mal",
+        "description": "Namnge dina investeringsmal och satt malbelopp. Universitetsfond? Forsta bostad? Pension? Du bestammer."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Valj Dina Aktier",
+        "description": "Valj de amerikanska foretag du tror pa. Apple, Google, NVIDIA — investera i varldens mest innovativa foretag."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatisera och Slappna Av",
+        "description": "Stall in automatiska investeringar. Vi investerar at dig varje vecka, varannan vecka eller manatligen. Du fokuserar pa livet."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Mojligheten",
+    "headline": "En Massiv Outnyttjad Marknad",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europeiska Konsumenter"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Familje-DCA-plattformar"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU-lander"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Forvantad S&P-tillvaxt"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Byggt for Familjer",
+        "description": "Malbaserat investerande med familjekonton, inte annu en tradingapp forkladd som langsiktigt investerande."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Sann Automatisering",
+        "description": "Stall in en gang och glom. Veckovisa, varannan vecka eller manatliga investeringar i dina valda aktier."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Tillgang till Amerikansk Tillvaxt",
+        "description": "Investera i varldens mest innovativa foretag. Apple, Google, NVIDIA — fran var som helst i Europa."
+      }
+    },
+    "tagline": "<strong>Europeiska familjer fortjanar battre.</strong> Vi bygger plattformen vi onskade fanns for vara egna barn."
+  },
+  "pricing": {
+    "section_label": "Enkla Priser",
+    "headline": "Planer Som Vaxer Med Din Familj",
+    "per_month": "/manad",
+    "get_started": "Kom Igang",
+    "most_popular": "Mest Popular",
+    "tiers": {
+      "basic": {
+        "name": "Bas",
+        "price": "€3",
+        "features": [
+          "1 investeringsmal",
+          "5 aktier",
+          "Automatiserad DCA",
+          "Grundlaggande insikter"
+        ]
+      },
+      "family": {
+        "name": "Familj",
+        "price": "€7",
+        "features": [
+          "Obegransade mal",
+          "Obegransade aktier",
+          "Familjekonton",
+          "AI-vagledning"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Allt i Familj",
+          "Avancerad analys",
+          "Prioriterad support",
+          "Premium AI-funktioner"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Var Forst Med att Bygga<br />Din Familjs Framtid",
+    "description": "Ga med i vantlistan for tidig tillgang. Vi lanserar snart i Spanien, Tyskland, Frankrike och Nederlanderna.",
+    "email_placeholder": "Ange din e-postadress",
+    "button": "Ga Med i Vantlistan",
+    "button_loading": "Gar med...",
+    "button_success": "Du ar pa listan!",
+    "privacy_note": "Ingen spam. Bara uppdateringar om var lansering."
+  },
+  "footer": {
+    "about": "Om Oss",
+    "privacy": "Integritet",
+    "terms": "Villkor",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio ar annu inte licensierat och ger inte investeringsradgivning. Denna landningssida ar endast i informationssyfte. Investeringar innebar risk; ditt kapital kan vara i fara.",
+    "copyright": "© {year} Growfolio. Alla rattigheter forbehallna."
+  },
+  "language_switcher": {
+    "label": "Sprak",
+    "search_placeholder": "Sok sprak...",
+    "official_languages": "Officiella EU-sprak",
+    "regional_languages": "Regionala Sprak"
+  }
+}

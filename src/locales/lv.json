@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Veidojiet paaudžu bagātību savai ģimenei",
+    "description": "Eiropas pirmā DCA investīciju platforma, kas veidota ģimenēm. Automatizēti ieguldījumi ASV akcijās, sākot no {minInvestment}/mēnesī."
+  },
+  "navbar": {
+    "why_invest": "Kāpēc investēt",
+    "how_it_works": "Kā tas darbojas",
+    "pricing": "Cenas",
+    "join_waitlist": "Pievienojieties gaidīšanas sarakstam"
+  },
+  "hero": {
+    "badge": "Drīzumā Eiropā",
+    "headline": "Veidojiet <accent>paaudžu bagātību</accent> savai ģimenei",
+    "subheadline": "Eiropas pirmā DCA investīciju platforma, kas veidota ģimenēm. Automātiski ieguldiet ASV akcijās, sākot no tikai {minInvestment}/mēnesī.",
+    "cta_primary": "Pievienojieties gaidīšanas sarakstam",
+    "cta_secondary": "Skatīt, kā tas darbojas",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. ieguldījums",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "ES patērētāju",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Tirdzniecības komisijas"
+    },
+    "cards": {
+      "monthly_dca": "Ikmēneša DCA",
+      "portfolio_growth": "Portfeļa pieaugums",
+      "next_investment": "Nākamais ieguldījums",
+      "days": "{count} dienas"
+    }
+  },
+  "problem": {
+    "section_label": "Problēma",
+    "headline": "Eiropa atpaliek.<br />Jūsu uzkrājumiem nevajadzētu.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "ES produktivitātes pieaugums",
+        "description": "ES darba ražīgums kopš 2019. gada pieauga tikai par 0,9%, kamēr ASV tas pieauga par 6,7%.",
+        "source": "ECB Ekonomikas biļetens 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Ienākumu plaisa",
+        "description": "ES ienākumi uz vienu iedzīvotāju tagad ir par 30% zemāki nekā ASV, un plaisa paplašinās.",
+        "source": "SVF \"Eiropas izvēle\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "MI bagātības plaisa",
+        "description": "Mākslīgā intelekta ieviešana konsekventi palielina bagātības nevienlīdzību. Kapitāla īpašnieki gūst nesamērīgus labumus.",
+        "source": "SVF Darba dokuments 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Risinājums",
+    "headline": "Ieguldiet ASV izaugsmē.<br />Veidots Eiropas ģimenēm.",
+    "description": "Iestatiet vienreiz, ieguldiet automātiski. Growfolio padara vieglu bagātības veidošanu jūsu ģimenes nākotnei, izmantojot dolāra izmaksu vidējo noteikšanu vadošajos ASV uzņēmumos.",
+    "features": {
+      "min_investment": {
+        "title": "Sāciet no {amount}/mēnesī",
+        "description": "Nav minimālā atlikuma. Daļējās akcijas nozīmē, ka varat piederēt jebkuras akcijas daļas."
+      },
+      "goal_based": {
+        "title": "Uz mērķiem balstīta investēšana",
+        "description": "Nosauciet savus mērķus: \"Sofijas universitāte 2040\" vai \"Ģimenes mājas fonds\". Vizuāli izsekojiet progresam."
+      },
+      "family_accounts": {
+        "title": "Ģimenes konti",
+        "description": "Vecāku un bērnu apakškonti. Iesaistiet savus bērnus, kad viņi izaug."
+      },
+      "ai_education": {
+        "title": "MI izglītība",
+        "description": "Saprotiet, ko jums pieder. MI vienkārši izskaidro uzņēmumus, ieņēmumus un pamatus."
+      }
+    },
+    "simulation": {
+      "title": "DCA simulācija",
+      "subtitle": "Konfigurējiet savu ieguldījumu",
+      "monthly_label": "Ikmēneša",
+      "period_label": "Periods",
+      "stocks_label": "Akcijas",
+      "start_button": "Sākt simulāciju",
+      "uses_real_data": "Izmanto reālus vēsturiskos datus",
+      "results_title": "10 gadi DCA",
+      "gain": "+{percent}% peļņa",
+      "shares": "{count} akcijas",
+      "run_again": "Palaist vēlreiz",
+      "based_on_real_data": "Balstīts uz reāliem tirgus datiem",
+      "data_source": "Reāli vēsturiskie dati no"
+    },
+    "phone": {
+      "goal_title": "Sofijas universitātes fonds",
+      "goal_target": "Mērķis: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Turējumi"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Kā tas darbojas",
+    "headline": "Trīs soļi līdz bagātības veidošanai",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Uzstādiet savus mērķus",
+        "description": "Nosauciet savus ieguldījumu mērķus un uzstādiet mērķa summas. Universitātes fonds? Pirmā māja? Pensija? Jūs izlemjat."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Izvēlieties savas akcijas",
+        "description": "Izvēlieties ASV uzņēmumus, kuriem ticat. Apple, Google, NVIDIA — ieguldiet pasaules inovatīvākajos uzņēmumos."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizējiet un atpūtieties",
+        "description": "Iestatiet automātiskos ieguldījumus. Mēs ieguldīsim jūsu vietā katru nedēļu, katras divas nedēļas vai katru mēnesi. Jūs koncentrējieties uz dzīvi."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Iespēja",
+    "headline": "Milzīgs neizmantots tirgus",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Eiropas patērētāju"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Ģimenes DCA platformu"
+      },
+      "countries": {
+        "value": "27",
+        "label": "ES valstis"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Gaidāmā S&P izaugsme"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Veidots ģimenēm",
+        "description": "Uz mērķiem balstīta investēšana ar ģimenes kontiem, nevis vēl viena tirdzniecības lietotne, kas maskēta kā ilgtermiņa ieguldījums."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Īsta automatizācija",
+        "description": "Iestatiet vienreiz un aizmirstiet. Iknedēļas, katras divas nedēļas vai ikmēneša ieguldījumi jūsu izvēlētajās akcijās."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Piekļuve ASV izaugsmei",
+        "description": "Ieguldiet pasaules inovatīvākajos uzņēmumos. Apple, Google, NVIDIA — no jebkuras vietas Eiropā."
+      }
+    },
+    "tagline": "<strong>Eiropas ģimenes ir pelnījušas labāk.</strong> Mēs veidojam platformu, kuru vēlējāmies saviem bērniem."
+  },
+  "pricing": {
+    "section_label": "Vienkārša cenu politika",
+    "headline": "Plāni, kas aug kopā ar jūsu ģimeni",
+    "per_month": "/mēnesī",
+    "get_started": "Sākt",
+    "most_popular": "Populārākais",
+    "tiers": {
+      "basic": {
+        "name": "Pamata",
+        "price": "€3",
+        "features": [
+          "1 ieguldījumu mērķis",
+          "5 akcijas",
+          "Automatizēts DCA",
+          "Pamata ieskati"
+        ]
+      },
+      "family": {
+        "name": "Ģimenes",
+        "price": "€7",
+        "features": [
+          "Neierobežoti mērķi",
+          "Neierobežotas akcijas",
+          "Ģimenes konti",
+          "MI vadība"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Viss no Ģimenes plāna",
+          "Uzlabota analītika",
+          "Prioritāra atbalsts",
+          "Premium MI funkcijas"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Esiet pirmais, kas veido<br />savas ģimenes nākotni",
+    "description": "Pievienojieties gaidīšanas sarakstam agrīnai piekļuvei. Drīzumā palaižam Spānijā, Vācijā, Francijā un Nīderlandē.",
+    "email_placeholder": "Ievadiet savu e-pasta adresi",
+    "button": "Pievienojieties gaidīšanas sarakstam",
+    "button_loading": "Pievienošanās...",
+    "button_success": "Jūs esat sarakstā!",
+    "privacy_note": "Nav surogātpasta. Tikai jaunumi par palaišanu."
+  },
+  "footer": {
+    "about": "Par mums",
+    "privacy": "Privātums",
+    "terms": "Noteikumi",
+    "contact": "Kontakti",
+    "disclaimer": "Growfolio vēl nav licencēts un nesniedz ieguldījumu konsultācijas. Šī lapa ir paredzēta tikai informatīviem nolūkiem. Ieguldīšana ietver risku; jūsu kapitāls var būt apdraudēts.",
+    "copyright": "© {year} Growfolio. Visas tiesības aizsargātas."
+  },
+  "language_switcher": {
+    "label": "Valoda",
+    "search_placeholder": "Meklēt valodas...",
+    "official_languages": "ES oficiālās valodas",
+    "regional_languages": "Reģionālās valodas"
+  }
+}

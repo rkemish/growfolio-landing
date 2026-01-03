@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Bouw Generatievermogen op voor Uw Gezin",
+    "description": "Europa's eerste DCA-beleggingsplatform speciaal gebouwd voor gezinnen. Geautomatiseerde Amerikaanse aandelenbeleggingen vanaf {minInvestment}/maand."
+  },
+  "navbar": {
+    "why_invest": "Waarom Beleggen",
+    "how_it_works": "Hoe Het Werkt",
+    "pricing": "Tarieven",
+    "join_waitlist": "Schrijf Je In"
+  },
+  "hero": {
+    "badge": "Binnenkort Beschikbaar in Europa",
+    "headline": "Bouw <accent>Generatievermogen</accent> op voor Uw Gezin",
+    "subheadline": "Europa's eerste DCA-beleggingsplatform speciaal gebouwd voor gezinnen. Beleg automatisch in Amerikaanse aandelen, vanaf slechts {minInvestment}/maand.",
+    "cta_primary": "Schrijf Je In op de Wachtlijst",
+    "cta_secondary": "Bekijk Hoe Het Werkt",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. belegging",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU-consumenten",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Transactiekosten"
+    },
+    "cards": {
+      "monthly_dca": "Maandelijkse DCA",
+      "portfolio_growth": "Portefeuillegroei",
+      "next_investment": "Volgende Belegging",
+      "days": "{count} dagen"
+    }
+  },
+  "problem": {
+    "section_label": "Het Probleem",
+    "headline": "Europa Raakt Achterop.<br />Uw Spaargeld Hoeft Dat Niet.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "EU Productiviteitsgroei",
+        "description": "De arbeidsproductiviteit in de EU groeide sinds 2019 met slechts 0,9%, terwijl de VS met 6,7% groeide.",
+        "source": "ECB Economisch Bulletin 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Inkomenskloof",
+        "description": "Het inkomen per hoofd van de bevolking in de EU ligt nu 30% onder het Amerikaanse niveau en de kloof wordt groter.",
+        "source": "IMF \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI Vermogenskloof",
+        "description": "AI-adoptie vergroot consequent de vermogensongelijkheid. Kapitaalbezitters profiteren onevenredig.",
+        "source": "IMF Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "De Oplossing",
+    "headline": "Beleg in Amerikaanse Groei.<br />Gebouwd voor Europese Gezinnen.",
+    "description": "Eenmalig instellen, automatisch beleggen. Growfolio maakt het moeiteloos om vermogen op te bouwen voor de toekomst van uw gezin door dollar-cost averaging in topbedrijven uit de VS.",
+    "features": {
+      "min_investment": {
+        "title": "Start vanaf {amount}/maand",
+        "description": "Geen minimaal saldo. Fractionele aandelen betekenen dat u stukken van elk aandeel kunt bezitten."
+      },
+      "goal_based": {
+        "title": "Doelgericht Beleggen",
+        "description": "Geef uw doelen een naam: \"Sofia's Universiteit 2040\" of \"Gezinswoning Fonds\". Volg de voortgang visueel."
+      },
+      "family_accounts": {
+        "title": "Gezinsrekeningen",
+        "description": "Ouder- en kind-subrekeningen. Betrek uw kinderen naarmate ze opgroeien."
+      },
+      "ai_education": {
+        "title": "AI-Gestuurde Educatie",
+        "description": "Begrijp wat u bezit. AI legt bedrijven, winsten en fundamentals eenvoudig uit."
+      }
+    },
+    "simulation": {
+      "title": "DCA Simulatie",
+      "subtitle": "Configureer Uw Belegging",
+      "monthly_label": "Maandelijks",
+      "period_label": "Periode",
+      "stocks_label": "Aandelen",
+      "start_button": "Start Simulatie",
+      "uses_real_data": "Gebruikt echte historische gegevens",
+      "results_title": "10 Jaar DCA",
+      "gain": "+{percent}% winst",
+      "shares": "{count} aandelen",
+      "run_again": "Opnieuw Uitvoeren",
+      "based_on_real_data": "Gebaseerd op echte marktgegevens",
+      "data_source": "Echte historische gegevens van"
+    },
+    "phone": {
+      "goal_title": "Sofia's Universiteitsfonds",
+      "goal_target": "Doel: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Bezittingen"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Hoe Het Werkt",
+    "headline": "Drie Stappen om Vermogen op te Bouwen",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Stel Uw Doelen",
+        "description": "Geef uw beleggingsdoelen een naam en stel streefbedragen in. Studiefonds? Eerste woning? Pensioen? U beslist."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Kies Uw Aandelen",
+        "description": "Kies de Amerikaanse bedrijven waarin u gelooft. Apple, Google, NVIDIA — beleg in 's werelds meest innovatieve bedrijven."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatiseer & Ontspan",
+        "description": "Stel automatische beleggingen in. Wij beleggen elke week, tweewekelijks of maandelijks voor u. U concentreert zich op het leven."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "De Kans",
+    "headline": "Een Enorme Onaangeboorde Markt",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europese Consumenten"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Gezins-DCA Platforms"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU-landen"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Verwachte S&P Groei"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Speciaal Gebouwd voor Gezinnen",
+        "description": "Doelgericht beleggen met gezinsrekeningen, geen zoveelste trading-app vermomd als langetermijnbeleggen."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Echte Automatisering",
+        "description": "Eenmalig instellen en vergeten. Wekelijkse, tweewekelijkse of maandelijkse beleggingen in uw gekozen aandelen."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Toegang tot Amerikaanse Groei",
+        "description": "Beleg in 's werelds meest innovatieve bedrijven. Apple, Google, NVIDIA — vanuit heel Europa."
+      }
+    },
+    "tagline": "<strong>Europese gezinnen verdienen beter.</strong> We bouwen het platform dat we wensten te hebben voor onze eigen kinderen."
+  },
+  "pricing": {
+    "section_label": "Eenvoudige Tarieven",
+    "headline": "Abonnementen die Meegroeien met Uw Gezin",
+    "per_month": "/maand",
+    "get_started": "Aan de Slag",
+    "most_popular": "Meest Populair",
+    "tiers": {
+      "basic": {
+        "name": "Basis",
+        "price": "€3",
+        "features": [
+          "1 beleggingsdoel",
+          "5 aandelen",
+          "Geautomatiseerde DCA",
+          "Basis inzichten"
+        ]
+      },
+      "family": {
+        "name": "Gezin",
+        "price": "€7",
+        "features": [
+          "Onbeperkte doelen",
+          "Onbeperkte aandelen",
+          "Gezinsrekeningen",
+          "AI-begeleiding"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Alles in Gezin",
+          "Geavanceerde analyses",
+          "Prioritaire ondersteuning",
+          "Premium AI-functies"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Wees de Eerste om de Toekomst<br />van Uw Gezin op te Bouwen",
+    "description": "Schrijf u in op de wachtlijst voor vroege toegang. We lanceren binnenkort in Spanje, Duitsland, Frankrijk en Nederland.",
+    "email_placeholder": "Voer uw e-mailadres in",
+    "button": "Schrijf Je In",
+    "button_loading": "Bezig met inschrijven...",
+    "button_success": "U staat op de lijst!",
+    "privacy_note": "Geen spam. Alleen updates over onze lancering."
+  },
+  "footer": {
+    "about": "Over Ons",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "contact": "Contact",
+    "disclaimer": "Growfolio is nog niet gelicentieerd en geeft geen beleggingsadvies. Deze landingspagina is uitsluitend bedoeld voor informatieve doeleinden. Beleggen brengt risico's met zich mee; uw kapitaal kan in gevaar zijn.",
+    "copyright": "© {year} Growfolio. Alle rechten voorbehouden."
+  },
+  "language_switcher": {
+    "label": "Taal",
+    "search_placeholder": "Zoek talen...",
+    "official_languages": "Officiële EU-talen",
+    "regional_languages": "Regionale Talen"
+  }
+}

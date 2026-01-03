@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Costruisci un patrimonio generazionale per la tua famiglia",
+    "description": "La prima piattaforma di investimento DCA in Europa progettata appositamente per le famiglie. Investimenti automatizzati in azioni statunitensi a partire da {minInvestment}/mese."
+  },
+  "navbar": {
+    "why_invest": "Perché investire",
+    "how_it_works": "Come funziona",
+    "pricing": "Prezzi",
+    "join_waitlist": "Iscriviti alla lista d'attesa"
+  },
+  "hero": {
+    "badge": "Presto disponibile in Europa",
+    "headline": "Costruisci un <accent>patrimonio generazionale</accent> per la tua famiglia",
+    "subheadline": "La prima piattaforma di investimento DCA in Europa progettata appositamente per le famiglie. Investi automaticamente in azioni statunitensi, a partire da soli {minInvestment}/mese.",
+    "cta_primary": "Iscriviti alla lista d'attesa",
+    "cta_secondary": "Scopri come funziona",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Investimento min.",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Consumatori UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Commissioni di trading"
+    },
+    "cards": {
+      "monthly_dca": "DCA mensile",
+      "portfolio_growth": "Crescita del portafoglio",
+      "next_investment": "Prossimo investimento",
+      "days": "{count} giorni"
+    }
+  },
+  "problem": {
+    "section_label": "Il problema",
+    "headline": "L'Europa sta restando indietro.<br />I tuoi risparmi non dovrebbero.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "Crescita della produttività UE",
+        "description": "La produttività del lavoro nell'UE è cresciuta solo dello 0,9% dal 2019, mentre gli USA sono cresciuti del 6,7%.",
+        "source": "Bollettino Economico BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Divario di reddito",
+        "description": "Il reddito pro capite dell'UE è ora del 30% inferiore ai livelli USA e il divario si sta allargando.",
+        "source": "FMI «Europe's Choice» 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Divario di ricchezza da IA",
+        "description": "L'adozione dell'IA aumenta costantemente la disuguaglianza di ricchezza. I detentori di capitale ne beneficiano in modo sproporzionato.",
+        "source": "Documento di lavoro FMI 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "La soluzione",
+    "headline": "Investi nella crescita USA.<br />Progettato per le famiglie europee.",
+    "description": "Configura una volta, investi automaticamente. Growfolio rende semplice costruire ricchezza per il futuro della tua famiglia attraverso l'investimento graduale nelle migliori aziende statunitensi.",
+    "features": {
+      "min_investment": {
+        "title": "Parti da {amount}/mese",
+        "description": "Nessun saldo minimo. Le azioni frazionate ti permettono di possedere quote di qualsiasi azione."
+      },
+      "goal_based": {
+        "title": "Investimento per obiettivi",
+        "description": "Dai un nome ai tuoi obiettivi: «Università di Sofia 2040» o «Fondo per la casa di famiglia». Monitora i progressi visivamente."
+      },
+      "family_accounts": {
+        "title": "Conti familiari",
+        "description": "Sottoconti per genitori e figli. Coinvolgi i tuoi figli man mano che crescono."
+      },
+      "ai_education": {
+        "title": "Formazione con IA",
+        "description": "Comprendi cosa possiedi. L'IA spiega aziende, utili e fondamentali in modo semplice."
+      }
+    },
+    "simulation": {
+      "title": "Simulazione DCA",
+      "subtitle": "Configura il tuo investimento",
+      "monthly_label": "Mensile",
+      "period_label": "Periodo",
+      "stocks_label": "Azioni",
+      "start_button": "Avvia simulazione",
+      "uses_real_data": "Utilizza dati storici reali",
+      "results_title": "10 anni di DCA",
+      "gain": "+{percent}% di guadagno",
+      "shares": "{count} azioni",
+      "run_again": "Esegui di nuovo",
+      "based_on_real_data": "Basato su dati di mercato reali",
+      "data_source": "Dati storici reali da"
+    },
+    "phone": {
+      "goal_title": "Fondo universitario di Sofia",
+      "goal_target": "Obiettivo: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Posizioni"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Come funziona",
+    "headline": "Tre passi per iniziare a costruire ricchezza",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Definisci i tuoi obiettivi",
+        "description": "Dai un nome ai tuoi obiettivi di investimento e stabilisci importi target. Fondo universitario? Prima casa? Pensione? Decidi tu."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Scegli le tue azioni",
+        "description": "Seleziona le aziende statunitensi in cui credi. Apple, Google, NVIDIA — investi nelle aziende più innovative del mondo."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizza e rilassati",
+        "description": "Imposta investimenti automatici. Investiamo per te ogni settimana, ogni due settimane o mensilmente. Tu ti concentri sulla vita."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "L'opportunità",
+    "headline": "Un mercato enorme inesplorato",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Consumatori europei"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Piattaforme DCA familiari"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Paesi UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Crescita S&P attesa"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Progettato appositamente per le famiglie",
+        "description": "Investimento per obiettivi con conti familiari, non l'ennesima app di trading mascherata da investimento a lungo termine."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Vera automazione",
+        "description": "Configura una volta e dimentica. Investimenti settimanali, bisettimanali o mensili nelle azioni che hai scelto."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Accedi alla crescita USA",
+        "description": "Investi nelle aziende più innovative del mondo. Apple, Google, NVIDIA — da qualsiasi parte d'Europa."
+      }
+    },
+    "tagline": "<strong>Le famiglie europee meritano di meglio.</strong> Stiamo costruendo la piattaforma che avremmo voluto per i nostri figli."
+  },
+  "pricing": {
+    "section_label": "Prezzi semplici",
+    "headline": "Piani che crescono con la tua famiglia",
+    "per_month": "/mese",
+    "get_started": "Inizia",
+    "most_popular": "Più popolare",
+    "tiers": {
+      "basic": {
+        "name": "Base",
+        "price": "€3",
+        "features": [
+          "1 obiettivo di investimento",
+          "5 azioni",
+          "DCA automatizzato",
+          "Analisi di base"
+        ]
+      },
+      "family": {
+        "name": "Famiglia",
+        "price": "€7",
+        "features": [
+          "Obiettivi illimitati",
+          "Azioni illimitate",
+          "Conti familiari",
+          "Consulenza IA"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Tutto ciò che è in Famiglia",
+          "Analisi avanzate",
+          "Supporto prioritario",
+          "Funzionalità IA premium"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Sii il primo a costruire<br />il futuro della tua famiglia",
+    "description": "Iscriviti alla lista d'attesa per l'accesso anticipato. Lanciamo presto in Spagna, Germania, Francia e Paesi Bassi.",
+    "email_placeholder": "Inserisci la tua email",
+    "button": "Iscriviti alla lista d'attesa",
+    "button_loading": "Iscrizione in corso...",
+    "button_success": "Sei nella lista!",
+    "privacy_note": "Niente spam. Solo aggiornamenti sul nostro lancio."
+  },
+  "footer": {
+    "about": "Chi siamo",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "contact": "Contatti",
+    "disclaimer": "Growfolio non è ancora autorizzato e non fornisce consulenza sugli investimenti. Questa pagina è solo a scopo informativo. Investire comporta rischi; il tuo capitale potrebbe essere a rischio.",
+    "copyright": "© {year} Growfolio. Tutti i diritti riservati."
+  },
+  "language_switcher": {
+    "label": "Lingua",
+    "search_placeholder": "Cerca lingue...",
+    "official_languages": "Lingue ufficiali UE",
+    "regional_languages": "Lingue regionali"
+  }
+}

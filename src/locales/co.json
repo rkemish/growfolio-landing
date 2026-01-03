@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Custruisce a Ricchezza Generaziunale per a Vostra Famiglia",
+    "description": "A prima piattaforma d'investimentu DCA d'Europa custruita apposta per e famiglie. Investimenti automatizati in azzioni americane da {minInvestment}/mese."
+  },
+  "navbar": {
+    "why_invest": "Perchè Investisce",
+    "how_it_works": "Cumu Funziona",
+    "pricing": "Prezzi",
+    "join_waitlist": "Aderisce à a Lista d'Attesa"
+  },
+  "hero": {
+    "badge": "Vene Prestu in Europa",
+    "headline": "Custruisce a <accent>Ricchezza Generaziunale</accent> per a Vostra Famiglia",
+    "subheadline": "A prima piattaforma d'investimentu DCA d'Europa custruita apposta per e famiglie. Investisce automaticamente in azzioni americane, da solu {minInvestment}/mese.",
+    "cta_primary": "Aderisce à a Lista d'Attesa",
+    "cta_secondary": "Vede Cumu Funziona",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Investimentu min.",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Cunsumatori UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Spese di cummerciu"
+    },
+    "cards": {
+      "monthly_dca": "DCA Mensile",
+      "portfolio_growth": "Crescita di u Portafogliu",
+      "next_investment": "Prossimu Investimentu",
+      "days": "{count} ghjorni"
+    }
+  },
+  "problem": {
+    "section_label": "U Prublema",
+    "headline": "L'Europa Resta Ind'arrera.<br />I Vostri Risparmi Ùn Devenu Micca.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "Crescita di Pruduttività UE",
+        "description": "A pruduttività di u lavoru di l'UE hè cresciuta solu di u 0,9% da u 2019, mentre chì i Stati Uniti sò cresciuti di u 6,7%.",
+        "source": "Bullettinu Ecunomicu BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Divisu di Rendita",
+        "description": "A rendita per capita di l'UE hè oghje 30% sottu à i livelli americani è u divisu s'allargisce.",
+        "source": "FMI \"Europe's Choice\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Divisu di Ricchezza IA",
+        "description": "L'aduzzione di l'IA aumenta sistematicamente l'inuguaglianza di ricchezza. I prupietari di capitale beneficianu in modu sproporzionatu.",
+        "source": "FMI Working Paper 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "A Suluzione",
+    "headline": "Investisce in a Crescita Americana.<br />Custruitu per e Famiglie Europee.",
+    "description": "Cunfigurate una volta, investisce automaticamente. Growfolio rende faciule custruisce ricchezza per u futuru di a vostra famiglia attraversu u dollar-cost averaging in e migliore imprese americane.",
+    "features": {
+      "min_investment": {
+        "title": "Principiate da {amount}/mese",
+        "description": "Nisunu saldo minimu. L'azzioni fraziunarie significanu chì pudete pussede pezzi di qualsiasi azzione."
+      },
+      "goal_based": {
+        "title": "Investimentu Basatu nantu à l'Ubbiettivu",
+        "description": "Numinate i vostri ubbietivi: \"Università di Sofia 2040\" o \"Fondu Casa Famiglia\". Seguitate u prugressu visualmente."
+      },
+      "family_accounts": {
+        "title": "Conti Familiari",
+        "description": "Sottu-conti per genitori è figlioli. Implicate i vostri figlioli quandu crescenu."
+      },
+      "ai_education": {
+        "title": "Educazione Alimentata da l'IA",
+        "description": "Capisce ciò chì pussedete. L'IA spiega l'imprese, i guadagni è i fundamenti in modu semplice."
+      }
+    },
+    "simulation": {
+      "title": "Simulazione DCA",
+      "subtitle": "Cunfigurate u Vostru Investimentu",
+      "monthly_label": "Mensile",
+      "period_label": "Periodu",
+      "stocks_label": "Azzioni",
+      "start_button": "Cuminciate a Simulazione",
+      "uses_real_data": "Usa dati storichi veri",
+      "results_title": "10 Anni di DCA",
+      "gain": "+{percent}% guadagnu",
+      "shares": "{count} azzioni",
+      "run_again": "Eseguite di Novu",
+      "based_on_real_data": "Basatu nantu à dati di mercatu reali",
+      "data_source": "Dati storichi reali da"
+    },
+    "phone": {
+      "goal_title": "Fondu Universitariu di Sofia",
+      "goal_target": "Ubbiettivu: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Possessi"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Cumu Funziona",
+    "headline": "Trè Passi per Cumincià à Custruisce Ricchezza",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Definisce i Vostri Ubbietivi",
+        "description": "Numinate i vostri ubbietivi d'investimentu è stabilite i muntanti mira. Fondu universitariu? Prima casa? Pensione? Voi decidete."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Scegliete e Vostre Azzioni",
+        "description": "Scegliete l'imprese americane in cui credete. Apple, Google, NVIDIA — investisce in l'imprese più innovative di u mondu."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizate è Rilassatevi",
+        "description": "Impostate investimenti automatichi. Investiremu per voi ogni settimana, ogni duie settimane, o mensualmente. Voi vi cuncentrate nantu à a vita."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "L'Opportunità",
+    "headline": "Un Mercatu Massivu Micca Sfrutatu",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Cunsumatori Europei"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Piattaforme DCA Familiari"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Paesi UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Crescita S&P Prevista"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Custruitu Apposta per e Famiglie",
+        "description": "Investimentu basatu nantu à l'ubbiettivu cù conti familiari, micca un'altra app di cummerciu disguisata cum'è investimentu à longu termine."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Vera Automatizazione",
+        "description": "Impostate una volta è scurdate. Investimenti settimanali, bisettimanali, o mensili in l'azzioni scelte."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Accede à a Crescita Americana",
+        "description": "Investisce in l'imprese più innovative di u mondu. Apple, Google, NVIDIA — da qualsiasi locu in Europa."
+      }
+    },
+    "tagline": "<strong>E famiglie europee meritanu megliu.</strong> Stemu custruendu a piattaforma chì vulissumu esistia per i nostri stessi figlioli."
+  },
+  "pricing": {
+    "section_label": "Prezzi Simplici",
+    "headline": "Piani chì Crescenu cù a Vostra Famiglia",
+    "per_month": "/mese",
+    "get_started": "Cuminciate",
+    "most_popular": "Più Pupulare",
+    "tiers": {
+      "basic": {
+        "name": "Base",
+        "price": "€3",
+        "features": [
+          "1 ubbiettivu d'investimentu",
+          "5 azzioni",
+          "DCA Automatizatu",
+          "Analisi di base"
+        ]
+      },
+      "family": {
+        "name": "Famiglia",
+        "price": "€7",
+        "features": [
+          "Ubbietivi illimitati",
+          "Azzioni illimitate",
+          "Conti familiari",
+          "Guida IA"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Tuttu in Famiglia",
+          "Analitica avanzata",
+          "Supportu prioritariu",
+          "Funziunalità IA premium"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Siate i Primi à Custruisce<br />u Futuru di a Vostra Famiglia",
+    "description": "Aderite à a lista d'attesa per l'accessu anticipatu. Lanceremu prestu in Spagna, Germania, Francia, è Paesi Bassi.",
+    "email_placeholder": "Inserite a vostra email",
+    "button": "Aderisce à a Lista d'Attesa",
+    "button_loading": "Aderimentu...",
+    "button_success": "Site nantu à a lista!",
+    "privacy_note": "Nisunu spam. Solu aggiornamenti nantu à u nostru lanciu."
+  },
+  "footer": {
+    "about": "Nantu à Noi",
+    "privacy": "Privacy",
+    "terms": "Termini",
+    "contact": "Cuntattu",
+    "disclaimer": "Growfolio ùn hè micca ancu licenziatu è ùn furnisce micca cunsigliu d'investimentu. Sta pagina d'atterraggiu hè solu à scopu informativu. L'investimentu cumporta risichi; u vostru capitale puderia esse à risicu.",
+    "copyright": "© {year} Growfolio. Tutti i diritti riservati."
+  },
+  "language_switcher": {
+    "label": "Lingua",
+    "search_placeholder": "Cercate lingue...",
+    "official_languages": "Lingue Ufficiali UE",
+    "regional_languages": "Lingue Regiunali"
+  }
+}

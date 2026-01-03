@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Izgradite generacijsko bogatstvo za svoju obitelj",
+    "description": "Prva europska DCA investicijska platforma izgrađena za obitelji. Automatizirano ulaganje u američke dionice od {minInvestment}/mjesečno."
+  },
+  "navbar": {
+    "why_invest": "Zašto ulagati",
+    "how_it_works": "Kako funkcionira",
+    "pricing": "Cijene",
+    "join_waitlist": "Pridružite se listi čekanja"
+  },
+  "hero": {
+    "badge": "Uskoro u Europi",
+    "headline": "Izgradite <accent>generacijsko bogatstvo</accent> za svoju obitelj",
+    "subheadline": "Prva europska DCA investicijska platforma izgrađena za obitelji. Automatski ulažite u američke dionice, počevši od samo {minInvestment}/mjesečno.",
+    "cta_primary": "Pridružite se listi čekanja",
+    "cta_secondary": "Pogledajte kako funkcionira",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. ulaganje",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU potrošača",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Naknade za trgovanje"
+    },
+    "cards": {
+      "monthly_dca": "Mjesečni DCA",
+      "portfolio_growth": "Rast portfelja",
+      "next_investment": "Sljedeće ulaganje",
+      "days": "{count} dana"
+    }
+  },
+  "problem": {
+    "section_label": "Problem",
+    "headline": "Europa zaostaje.<br />Vaša štednja ne bi trebala.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "Rast produktivnosti EU",
+        "description": "Produktivnost rada u EU porasla je samo 0,9% od 2019., dok je u SAD-u porasla 6,7%.",
+        "source": "ECB Ekonomski bilten 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Jaz u primanjima",
+        "description": "Prihod po stanovniku u EU sada je 30% niži od razina u SAD-u, a jaz se povećava.",
+        "source": "IMF \"Izbor Europe\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "AI jaz u bogatstvu",
+        "description": "Usvajanje AI-ja dosljedno povećava nejednakost bogatstva. Vlasnici kapitala nesrazmjerno profitiraju.",
+        "source": "IMF Radni dokument 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Rješenje",
+    "headline": "Ulažite u američki rast.<br />Izgrađeno za europske obitelji.",
+    "description": "Postavite jednom, ulažite automatski. Growfolio omogućuje jednostavnu izgradnju bogatstva za budućnost vaše obitelji kroz prosječenje troškova ulaganja u vodeće američke tvrtke.",
+    "features": {
+      "min_investment": {
+        "title": "Počnite od {amount}/mjesečno",
+        "description": "Bez minimalnog salda. Djelomične dionice znače da možete posjedovati dijelove bilo koje dionice."
+      },
+      "goal_based": {
+        "title": "Ulaganje temeljeno na ciljevima",
+        "description": "Imenujte svoje ciljeve: \"Sofijin fakultet 2040\" ili \"Fond za obiteljski dom\". Vizualno pratite napredak."
+      },
+      "family_accounts": {
+        "title": "Obiteljski računi",
+        "description": "Podračuni za roditelje i djecu. Uključite svoju djecu dok odrastaju."
+      },
+      "ai_education": {
+        "title": "AI obrazovanje",
+        "description": "Razumijte što posjedujete. AI jednostavno objašnjava tvrtke, zarade i temelje."
+      }
+    },
+    "simulation": {
+      "title": "DCA simulacija",
+      "subtitle": "Konfigurirajte svoje ulaganje",
+      "monthly_label": "Mjesečno",
+      "period_label": "Razdoblje",
+      "stocks_label": "Dionice",
+      "start_button": "Pokreni simulaciju",
+      "uses_real_data": "Koristi stvarne povijesne podatke",
+      "results_title": "10 godina DCA-a",
+      "gain": "+{percent}% dobit",
+      "shares": "{count} dionica",
+      "run_again": "Pokreni ponovno",
+      "based_on_real_data": "Temeljeno na stvarnim tržišnim podacima",
+      "data_source": "Stvarni povijesni podaci iz"
+    },
+    "phone": {
+      "goal_title": "Sofijin fakultetski fond",
+      "goal_target": "Cilj: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Imovina"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Kako funkcionira",
+    "headline": "Tri koraka do izgradnje bogatstva",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Postavite svoje ciljeve",
+        "description": "Imenujte svoje investicijske ciljeve i postavite ciljane iznose. Fakultetski fond? Prvi dom? Mirovina? Vi odlučujete."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Odaberite svoje dionice",
+        "description": "Odaberite američke tvrtke u koje vjerujete. Apple, Google, NVIDIA — ulažite u najinovativnije tvrtke svijeta."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizirajte i opustite se",
+        "description": "Postavite automatska ulaganja. Ulagat ćemo za vas svaki tjedan, svaka dva tjedna ili mjesečno. Vi se usredotočite na život."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Prilika",
+    "headline": "Ogromno neiskorišteno tržište",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Europskih potrošača"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Obiteljskih DCA platformi"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU zemalja"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Očekivani rast S&P"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Izgrađeno za obitelji",
+        "description": "Ulaganje temeljeno na ciljevima s obiteljskim računima, nije još jedna aplikacija za trgovanje prerušena u dugoročno ulaganje."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Prava automatizacija",
+        "description": "Postavite jednom i zaboravite. Tjedna, dvotjedna ili mjesečna ulaganja u odabrane dionice."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Pristup američkom rastu",
+        "description": "Ulažite u najinovativnije tvrtke svijeta. Apple, Google, NVIDIA — iz bilo kojeg dijela Europe."
+      }
+    },
+    "tagline": "<strong>Europske obitelji zaslužuju bolje.</strong> Gradimo platformu koju smo željeli imati za vlastitu djecu."
+  },
+  "pricing": {
+    "section_label": "Jednostavne cijene",
+    "headline": "Planovi koji rastu s vašom obitelji",
+    "per_month": "/mjesečno",
+    "get_started": "Započnite",
+    "most_popular": "Najpopularniji",
+    "tiers": {
+      "basic": {
+        "name": "Osnovni",
+        "price": "€3",
+        "features": [
+          "1 investicijski cilj",
+          "5 dionica",
+          "Automatizirani DCA",
+          "Osnovni uvidi"
+        ]
+      },
+      "family": {
+        "name": "Obiteljski",
+        "price": "€7",
+        "features": [
+          "Neograničeni ciljevi",
+          "Neograničene dionice",
+          "Obiteljski računi",
+          "AI vodstvo"
+        ]
+      },
+      "premium": {
+        "name": "Premium",
+        "price": "€12",
+        "features": [
+          "Sve iz Obiteljskog",
+          "Napredna analitika",
+          "Prioritetna podrška",
+          "Premium AI značajke"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Budite prvi koji će izgraditi<br />budućnost svoje obitelji",
+    "description": "Pridružite se listi čekanja za rani pristup. Uskoro pokrećemo u Španjolskoj, Njemačkoj, Francuskoj i Nizozemskoj.",
+    "email_placeholder": "Unesite svoju e-poštu",
+    "button": "Pridružite se listi čekanja",
+    "button_loading": "Pridruživanje...",
+    "button_success": "Na listi ste!",
+    "privacy_note": "Bez neželjene pošte. Samo obavijesti o pokretanju."
+  },
+  "footer": {
+    "about": "O nama",
+    "privacy": "Privatnost",
+    "terms": "Uvjeti",
+    "contact": "Kontakt",
+    "disclaimer": "Growfolio još nije licenciran i ne pruža investicijske savjete. Ova stranica služi samo u informativne svrhe. Ulaganje uključuje rizik; vaš kapital može biti u opasnosti.",
+    "copyright": "© {year} Growfolio. Sva prava pridržana."
+  },
+  "language_switcher": {
+    "label": "Jezik",
+    "search_placeholder": "Pretraži jezike...",
+    "official_languages": "Službeni jezici EU",
+    "regional_languages": "Regionalni jezici"
+  }
+}

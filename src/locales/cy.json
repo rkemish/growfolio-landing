@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Adeiladu Cyfoeth Cenedlaethau ar gyfer Eich Teulu",
+    "description": "Platfform buddsoddi DCA cyntaf Ewrop a adeiladwyd yn bwrpasol ar gyfer teuluoedd. Buddsoddiadau ecwiti UDA awtomataidd yn dechrau o {minInvestment}/mis."
+  },
+  "navbar": {
+    "why_invest": "Pam Buddsoddi",
+    "how_it_works": "Sut Mae'n Gweithio",
+    "pricing": "Prisio",
+    "join_waitlist": "Ymuno â'r Rhestr Aros"
+  },
+  "hero": {
+    "badge": "Yn Dod yn Fuan i Ewrop",
+    "headline": "Adeiladwch <accent>Gyfoeth Cenedlaethau</accent> ar gyfer Eich Teulu",
+    "subheadline": "Platfform buddsoddi DCA cyntaf Ewrop a adeiladwyd yn bwrpasol ar gyfer teuluoedd. Buddsoddwch mewn ecwitïau UDA yn awtomatig, gan ddechrau o dim ond {minInvestment}/mis.",
+    "cta_primary": "Ymuno â'r Rhestr Aros",
+    "cta_secondary": "Gweld Sut Mae'n Gweithio",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Isafswm buddsoddiad",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "Defnyddwyr yr UE",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Ffioedd masnachu"
+    },
+    "cards": {
+      "monthly_dca": "DCA Misol",
+      "portfolio_growth": "Twf Portffolio",
+      "next_investment": "Buddsoddiad Nesaf",
+      "days": "{count} diwrnod"
+    }
+  },
+  "problem": {
+    "section_label": "Y Broblem",
+    "headline": "Mae Ewrop yn Disgyn ar Ôl.<br />Ni Ddylai Eich Cynilion.",
+    "stats": {
+      "productivity": {
+        "value": "0.9%",
+        "title": "Twf Cynhyrchiant yr UE",
+        "description": "Tyfodd cynhyrchiant llafur yr UE dim ond 0.9% ers 2019, tra tyfodd yr UDA 6.7%.",
+        "source": "Bwletin Economaidd y BCE 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Bwlch Incwm",
+        "description": "Mae incwm y pen yr UE bellach 30% yn is na lefelau'r UDA ac mae'r bwlch yn ehangu.",
+        "source": "IMF \"Dewis Ewrop\" 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "Bwlch Cyfoeth AI",
+        "description": "Mae mabwysiadu AI yn gyson yn cynyddu anghydraddoldeb cyfoeth. Mae perchnogion cyfalaf yn elwa'n anghymesur.",
+        "source": "Papur Gwaith IMF 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "Yr Ateb",
+    "headline": "Buddsoddwch mewn Twf UDA.<br />Wedi'i Adeiladu ar gyfer Teuluoedd Ewropeaidd.",
+    "description": "Gosodwch unwaith, buddsoddwch yn awtomatig. Mae Growfolio yn ei gwneud yn ddiymdrech i adeiladu cyfoeth ar gyfer dyfodol eich teulu trwy gyfartaledd cost-doler i gwmnïau UDA gorau.",
+    "features": {
+      "min_investment": {
+        "title": "Dechrau o {amount}/mis",
+        "description": "Dim isafswm balans. Mae cyfranddaliadau ffracsiynol yn golygu y gallwch fod yn berchen ar ddarnau o unrhyw stoc."
+      },
+      "goal_based": {
+        "title": "Buddsoddi ar Sail Nod",
+        "description": "Enwch eich nodau: \"Prifysgol Sofia 2040\" neu \"Cronfa Cartref Teulu\". Olrheiniwch gynnydd yn weledol."
+      },
+      "family_accounts": {
+        "title": "Cyfrifon Teulu",
+        "description": "Is-gyfrifon rhieni a phlant. Cynnwys eich plant wrth iddynt dyfu."
+      },
+      "ai_education": {
+        "title": "Addysg wedi'i Bweru gan AI",
+        "description": "Deallwch beth rydych yn ei berchen. Mae AI yn egluro cwmnïau, enillion, a sylfaenolion yn syml."
+      }
+    },
+    "simulation": {
+      "title": "Efelychiad DCA",
+      "subtitle": "Ffurfweddwch Eich Buddsoddiad",
+      "monthly_label": "Misol",
+      "period_label": "Cyfnod",
+      "stocks_label": "Stociau",
+      "start_button": "Dechrau Efelychiad",
+      "uses_real_data": "Yn defnyddio data hanesyddol go iawn",
+      "results_title": "10 Mlynedd o DCA",
+      "gain": "+{percent}% elw",
+      "shares": "{count} cyfranddaliad",
+      "run_again": "Rhedeg Eto",
+      "based_on_real_data": "Yn seiliedig ar ddata marchnad go iawn",
+      "data_source": "Data hanesyddol go iawn o"
+    },
+    "phone": {
+      "goal_title": "Cronfa Prifysgol Sofia",
+      "goal_target": "Targed: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Daliadau"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Sut Mae'n Gweithio",
+    "headline": "Tri Cham i Ddechrau Adeiladu Cyfoeth",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Gosodwch Eich Nodau",
+        "description": "Enwch eich nodau buddsoddi a gosodwch symiau targed. Cronfa prifysgol? Cartref cyntaf? Ymddeoliad? Chi sy'n penderfynu."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Dewiswch Eich Stociau",
+        "description": "Dewiswch y cwmnïau UDA rydych yn credu ynddynt. Apple, Google, NVIDIA — buddsoddwch yn y cwmnïau mwyaf arloesol yn y byd."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Awtomeiddio ac Ymlacio",
+        "description": "Gosodwch fuddsoddiadau awtomatig. Byddwn yn buddsoddi ar eich rhan bob wythnos, bob pythefnos, neu'n fisol. Chi sy'n canolbwyntio ar fywyd."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "Y Cyfle",
+    "headline": "Marchnad Enfawr Heb ei Defnyddio",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Defnyddwyr Ewropeaidd"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Platfformau DCA Teulu"
+      },
+      "countries": {
+        "value": "27",
+        "label": "Gwledydd yr UE"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Twf S&P Disgwyliedig"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Wedi'i Adeiladu'n Bwrpasol ar gyfer Teuluoedd",
+        "description": "Buddsoddi ar sail nodau gyda chyfrifon teulu, nid ap masnachu arall wedi'i guddio fel buddsoddi hirdymor."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Awtomeiddio Gwirioneddol",
+        "description": "Gosodwch unwaith ac anghofiwch. Buddsoddiadau wythnosol, bob pythefnos, neu fisol yn eich stociau dewisol."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Mynediad i Dwf UDA",
+        "description": "Buddsoddwch yn y cwmnïau mwyaf arloesol yn y byd. Apple, Google, NVIDIA — o unrhyw le yn Ewrop."
+      }
+    },
+    "tagline": "<strong>Mae teuluoedd Ewropeaidd yn haeddu gwell.</strong> Rydym yn adeiladu'r platfform y dymunwn ei fodoli ar gyfer ein plant ein hunain."
+  },
+  "pricing": {
+    "section_label": "Prisio Syml",
+    "headline": "Cynlluniau sy'n Tyfu gyda'ch Teulu",
+    "per_month": "/mis",
+    "get_started": "Dechrau",
+    "most_popular": "Mwyaf Poblogaidd",
+    "tiers": {
+      "basic": {
+        "name": "Sylfaenol",
+        "price": "€3",
+        "features": [
+          "1 nod buddsoddi",
+          "5 stoc",
+          "DCA Awtomataidd",
+          "Mewnwelediadau sylfaenol"
+        ]
+      },
+      "family": {
+        "name": "Teulu",
+        "price": "€7",
+        "features": [
+          "Nodau diderfyn",
+          "Stociau diderfyn",
+          "Cyfrifon teulu",
+          "Arweiniad AI"
+        ]
+      },
+      "premium": {
+        "name": "Premiwm",
+        "price": "€12",
+        "features": [
+          "Popeth yn Teulu",
+          "Dadansoddi uwch",
+          "Cefnogaeth blaenoriaeth",
+          "Nodweddion AI premiwm"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Byddwch y Cyntaf i Adeiladu<br />Dyfodol Eich Teulu",
+    "description": "Ymunwch â'r rhestr aros am fynediad cynnar. Rydym yn lansio'n fuan yn Sbaen, yr Almaen, Ffrainc, a'r Iseldiroedd.",
+    "email_placeholder": "Rhowch eich e-bost",
+    "button": "Ymuno â'r Rhestr Aros",
+    "button_loading": "Yn ymuno...",
+    "button_success": "Rydych ar y rhestr!",
+    "privacy_note": "Dim sbam. Dim ond diweddariadau ar ein lansiad."
+  },
+  "footer": {
+    "about": "Amdanom",
+    "privacy": "Preifatrwydd",
+    "terms": "Telerau",
+    "contact": "Cysylltu",
+    "disclaimer": "Nid yw Growfolio wedi'i drwyddedu eto ac nid yw'n darparu cyngor buddsoddi. Mae'r dudalen lanio hon at ddibenion gwybodaeth yn unig. Mae buddsoddi'n cynnwys risg; gallai eich cyfalaf fod mewn perygl.",
+    "copyright": "© {year} Growfolio. Cedwir pob hawl."
+  },
+  "language_switcher": {
+    "label": "Iaith",
+    "search_placeholder": "Chwilio ieithoedd...",
+    "official_languages": "Ieithoedd Swyddogol yr UE",
+    "regional_languages": "Ieithoedd Rhanbarthol"
+  }
+}

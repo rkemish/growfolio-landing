@@ -1,0 +1,224 @@
+{
+  "meta": {
+    "title": "Growfolio - Építsen generációs vagyont családja számára",
+    "description": "Európa első DCA befektetési platformja, amelyet kifejezetten családok számára terveztek. Automatizált amerikai részvénybefektetések havi {minInvestment}-tól."
+  },
+  "navbar": {
+    "why_invest": "Miért fektessen be",
+    "how_it_works": "Hogyan működik",
+    "pricing": "Árazás",
+    "join_waitlist": "Várólistára feliratkozás"
+  },
+  "hero": {
+    "badge": "Hamarosan Európában",
+    "headline": "Építsen <accent>generációs vagyont</accent> családja számára",
+    "subheadline": "Európa első DCA befektetési platformja, amelyet kifejezetten családok számára terveztek. Fektessen be automatikusan amerikai részvényekbe, már havi {minInvestment}-tól.",
+    "cta_primary": "Feliratkozás a várólistára",
+    "cta_secondary": "Hogyan működik",
+    "stats": {
+      "min_investment_value": "{amount}",
+      "min_investment_label": "Min. befektetés",
+      "eu_consumers_value": "450M",
+      "eu_consumers_label": "EU fogyasztó",
+      "trading_fees_value": "{amount}",
+      "trading_fees_label": "Kereskedési díjak"
+    },
+    "cards": {
+      "monthly_dca": "Havi DCA",
+      "portfolio_growth": "Portfólió növekedés",
+      "next_investment": "Következő befektetés",
+      "days": "{count} nap"
+    }
+  },
+  "problem": {
+    "section_label": "A probléma",
+    "headline": "Európa lemarad.<br />A megtakarításai ne maradjanak le.",
+    "stats": {
+      "productivity": {
+        "value": "0,9%",
+        "title": "EU termelékenységnövekedés",
+        "description": "Az EU munkatermelékenysége 2019 óta mindössze 0,9%-kal nőtt, míg az USA-é 6,7%-kal.",
+        "source": "EKB Gazdasági Közlöny 2024"
+      },
+      "income_gap": {
+        "value": "30%",
+        "title": "Jövedelmi szakadék",
+        "description": "Az EU egy főre jutó jövedelme jelenleg 30%-kal alacsonyabb az USA szintjénél, és a szakadék tovább nő.",
+        "source": "IMF «Európa választása» 2024"
+      },
+      "ai_wealth": {
+        "value": "∞",
+        "title": "MI vagyoni szakadék",
+        "description": "A mesterséges intelligencia elterjedése következetesen növeli a vagyoni egyenlőtlenséget. A tőketulajdonosok aránytalanul profitálnak.",
+        "source": "IMF Munkadokumentum 2025"
+      }
+    }
+  },
+  "solution": {
+    "section_label": "A megoldás",
+    "headline": "Fektessen be az USA növekedésébe.<br />Európai családok számára tervezve.",
+    "description": "Állítsa be egyszer, fektessen be automatikusan. A Growfolio segítségével könnyedén építhet vagyont családja jövője számára a legjobb amerikai vállalatokba történő átlagköltség-alapú befektetéssel.",
+    "features": {
+      "min_investment": {
+        "title": "Kezdje havi {amount}-tól",
+        "description": "Nincs minimális egyenleg. A töredékrészvények lehetővé teszik, hogy bármely részvényből tulajdonoljon."
+      },
+      "goal_based": {
+        "title": "Célvezérelt befektetés",
+        "description": "Nevezze el céljait: «Zsófi egyeteme 2040» vagy «Családi otthon alap». Kövesse nyomon vizuálisan a haladást."
+      },
+      "family_accounts": {
+        "title": "Családi számlák",
+        "description": "Szülői és gyermek alszámlák. Vonja be gyermekeit, ahogy felnőnek."
+      },
+      "ai_education": {
+        "title": "MI-alapú oktatás",
+        "description": "Értse meg, mit birtokol. Az MI egyszerűen elmagyarázza a vállalatokat, eredményeket és fundamentumokat."
+      }
+    },
+    "simulation": {
+      "title": "DCA szimuláció",
+      "subtitle": "Állítsa be befektetését",
+      "monthly_label": "Havi",
+      "period_label": "Időszak",
+      "stocks_label": "Részvények",
+      "start_button": "Szimuláció indítása",
+      "uses_real_data": "Valós historikus adatokat használ",
+      "results_title": "10 év DCA",
+      "gain": "+{percent}% hozam",
+      "shares": "{count} részvény",
+      "run_again": "Újra futtatás",
+      "based_on_real_data": "Valós piaci adatokon alapul",
+      "data_source": "Valós historikus adatok forrása"
+    },
+    "phone": {
+      "goal_title": "Zsófi egyetemi alapja",
+      "goal_target": "Cél: 2040",
+      "goal_amount": "/ {amount}",
+      "holdings_title": "Befektetések"
+    }
+  },
+  "how_it_works": {
+    "section_label": "Hogyan működik",
+    "headline": "Három lépés a vagyonépítés megkezdéséhez",
+    "steps": {
+      "step1": {
+        "number": "1",
+        "title": "Állítsa be céljait",
+        "description": "Nevezze el befektetési céljait és állítson be célösszegeket. Egyetemi alap? Első otthon? Nyugdíj? Ön dönt."
+      },
+      "step2": {
+        "number": "2",
+        "title": "Válasszon részvényeket",
+        "description": "Válassza ki azokat az amerikai vállalatokat, amelyekben hisz. Apple, Google, NVIDIA — fektessen be a világ leginnovatívabb cégeibe."
+      },
+      "step3": {
+        "number": "3",
+        "title": "Automatizáljon és pihenjen",
+        "description": "Állítson be automatikus befektetéseket. Mi befektetünk Ön helyett hetente, kéthetente vagy havonta. Ön az életre koncentrálhat."
+      }
+    }
+  },
+  "social_proof": {
+    "section_label": "A lehetőség",
+    "headline": "Hatalmas kihasználatlan piac",
+    "stats": {
+      "consumers": {
+        "value": "450M",
+        "label": "Európai fogyasztó"
+      },
+      "platforms": {
+        "value": "{amount}",
+        "label": "Családi DCA platform"
+      },
+      "countries": {
+        "value": "27",
+        "label": "EU ország"
+      },
+      "growth": {
+        "value": "15%+",
+        "label": "Várt S&P növekedés"
+      }
+    },
+    "value_props": {
+      "families": {
+        "emoji": "🎯",
+        "title": "Családok számára tervezve",
+        "description": "Célvezérelt befektetés családi számlákkal, nem egy újabb kereskedési alkalmazás hosszú távú befektetésnek álcázva."
+      },
+      "automation": {
+        "emoji": "🔄",
+        "title": "Valódi automatizálás",
+        "description": "Állítsa be egyszer és felejtse el. Heti, kétheti vagy havi befektetések az Ön által választott részvényekbe."
+      },
+      "us_growth": {
+        "emoji": "🌍",
+        "title": "Hozzáférés az USA növekedéséhez",
+        "description": "Fektessen be a világ leginnovatívabb vállalataiba. Apple, Google, NVIDIA — Európa bármely pontjáról."
+      }
+    },
+    "tagline": "<strong>Az európai családok jobbat érdemelnek.</strong> Azt a platformot építjük, amelyet saját gyermekeinknek is kívántunk volna."
+  },
+  "pricing": {
+    "section_label": "Egyszerű árazás",
+    "headline": "Tervek, amelyek családjával együtt növekednek",
+    "per_month": "/hó",
+    "get_started": "Kezdés",
+    "most_popular": "Legnépszerűbb",
+    "tiers": {
+      "basic": {
+        "name": "Alap",
+        "price": "€3",
+        "features": [
+          "1 befektetési cél",
+          "5 részvény",
+          "Automatizált DCA",
+          "Alapvető elemzések"
+        ]
+      },
+      "family": {
+        "name": "Családi",
+        "price": "€7",
+        "features": [
+          "Korlátlan cél",
+          "Korlátlan részvény",
+          "Családi számlák",
+          "MI útmutatás"
+        ]
+      },
+      "premium": {
+        "name": "Prémium",
+        "price": "€12",
+        "features": [
+          "Minden a Családi csomagból",
+          "Fejlett analitika",
+          "Kiemelt támogatás",
+          "Prémium MI funkciók"
+        ]
+      }
+    }
+  },
+  "cta": {
+    "headline": "Legyen az első, aki építi<br />családja jövőjét",
+    "description": "Iratkozzon fel a várólistára a korai hozzáférésért. Hamarosan indulunk Spanyolországban, Németországban, Franciaországban és Hollandiában.",
+    "email_placeholder": "Adja meg email címét",
+    "button": "Feliratkozás a várólistára",
+    "button_loading": "Feliratkozás...",
+    "button_success": "Felkerült a listára!",
+    "privacy_note": "Nincs spam. Csak frissítések az indulásról."
+  },
+  "footer": {
+    "about": "Rólunk",
+    "privacy": "Adatvédelem",
+    "terms": "Feltételek",
+    "contact": "Kapcsolat",
+    "disclaimer": "A Growfolio még nem rendelkezik engedéllyel és nem nyújt befektetési tanácsadást. Ez a weboldal kizárólag tájékoztató jellegű. A befektetés kockázattal jár; tőkéje veszélyben lehet.",
+    "copyright": "© {year} Growfolio. Minden jog fenntartva."
+  },
+  "language_switcher": {
+    "label": "Nyelv",
+    "search_placeholder": "Nyelvek keresése...",
+    "official_languages": "EU hivatalos nyelvek",
+    "regional_languages": "Regionális nyelvek"
+  }
+}

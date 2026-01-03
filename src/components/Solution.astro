@@ -1,5 +1,11 @@
 ---
 // Solution section with features and phone mockup
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
 ---
 
 <section id="solution" class="py-16 sm:py-24 lg:py-32 px-4 sm:px-6 lg:px-10" style="background: var(--color-cream);">
@@ -11,14 +17,12 @@
           class="inline-block text-xs font-semibold uppercase tracking-widest mb-4"
           style="color: var(--color-gold);"
         >
-          The Solution
+          {t('solution.section_label')}
         </span>
-        <h2 class="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6" style="color: var(--color-forest);">
-          Invest in US Growth.<br />Built for European Families.
+        <h2 class="font-display text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-semibold mb-4 sm:mb-6" style="color: var(--color-forest);" set:html={t('solution.headline')}>
         </h2>
         <p class="text-base sm:text-lg text-gray-500 mb-8 sm:mb-10">
-          Set up once, invest automatically. Growfolio makes it effortless to build wealth for your
-          family's future through dollar-cost averaging into top US companies.
+          {t('solution.description')}
         </p>
 
         <div class="flex flex-col gap-4 sm:gap-6">
@@ -34,10 +38,10 @@
             </div>
             <div>
               <h3 class="text-base sm:text-lg font-semibold mb-1" style="color: var(--color-forest);">
-                Start from €25/month
+                {t('solution.features.min_investment.title', { amount: '€25' })}
               </h3>
               <p class="text-sm sm:text-base text-gray-500">
-                No minimum balance. Fractional shares mean you can own pieces of any stock.
+                {t('solution.features.min_investment.description')}
               </p>
             </div>
           </div>
@@ -54,10 +58,10 @@
             </div>
             <div>
               <h3 class="text-base sm:text-lg font-semibold mb-1" style="color: var(--color-forest);">
-                Goal-Based Investing
+                {t('solution.features.goal_based.title')}
               </h3>
               <p class="text-sm sm:text-base text-gray-500">
-                Name your goals: "Sofia's University 2040" or "Family Home Fund". Track progress visually.
+                {t('solution.features.goal_based.description')}
               </p>
             </div>
           </div>
@@ -74,10 +78,10 @@
             </div>
             <div>
               <h3 class="text-base sm:text-lg font-semibold mb-1" style="color: var(--color-forest);">
-                Family Accounts
+                {t('solution.features.family_accounts.title')}
               </h3>
               <p class="text-sm sm:text-base text-gray-500">
-                Parent and child sub-accounts. Involve your children as they grow up.
+                {t('solution.features.family_accounts.description')}
               </p>
             </div>
           </div>
@@ -94,10 +98,10 @@
             </div>
             <div>
               <h3 class="text-base sm:text-lg font-semibold mb-1" style="color: var(--color-forest);">
-                AI-Powered Education
+                {t('solution.features.ai_education.title')}
               </h3>
               <p class="text-sm sm:text-base text-gray-500">
-                Understand what you own. AI explains companies, earnings, and fundamentals simply.
+                {t('solution.features.ai_education.description')}
               </p>
             </div>
           </div>
@@ -111,40 +115,40 @@
             <div class="p-4 h-full flex flex-col">
               <!-- Setup Screen (shown initially) -->
               <div id="setup-overlay" class="absolute inset-3 rounded-[28px] flex flex-col items-center justify-center text-center p-4 transition-opacity duration-500 z-10" style="background: rgba(26, 58, 50, 0.97);">
-                <div class="text-xs uppercase tracking-widest mb-3" style="color: var(--color-gold);">DCA Simulation</div>
-                <div class="font-display text-lg font-semibold text-white mb-4">Configure Your Investment</div>
+                <div class="text-xs uppercase tracking-widest mb-3" style="color: var(--color-gold);">{t('solution.simulation.title')}</div>
+                <div class="font-display text-lg font-semibold text-white mb-4">{t('solution.simulation.subtitle')}</div>
 
                 <!-- Config display -->
                 <div class="w-full space-y-2 mb-4">
                   <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
-                    <span class="text-white/70 text-xs">Monthly</span>
+                    <span class="text-white/70 text-xs">{t('solution.simulation.monthly_label')}</span>
                     <span class="text-white text-sm font-semibold">€100</span>
                   </div>
                   <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
-                    <span class="text-white/70 text-xs">Period</span>
+                    <span class="text-white/70 text-xs">{t('solution.simulation.period_label')}</span>
                     <span class="text-white text-sm font-semibold">2016 → 2026</span>
                   </div>
                   <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
-                    <span class="text-white/70 text-xs">Stocks</span>
+                    <span class="text-white/70 text-xs">{t('solution.simulation.stocks_label')}</span>
                     <span class="text-white text-xs font-semibold">NVIDIA · Google · Tesla</span>
                   </div>
                 </div>
 
                 <button id="start-simulation-btn" class="w-full py-2.5 rounded-full text-sm font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]" style="background: var(--color-gold); color: var(--color-forest);">
-                  Start Simulation
+                  {t('solution.simulation.start_button')}
                 </button>
-                <div class="mt-3 text-xs text-white/40">Uses real historical data</div>
+                <div class="mt-3 text-xs text-white/40">{t('solution.simulation.uses_real_data')}</div>
               </div>
 
               <!-- Results Overlay (shown at end of animation) -->
               <div id="results-overlay" class="absolute inset-3 rounded-[28px] flex flex-col items-center justify-center text-center p-3 opacity-0 pointer-events-none transition-opacity duration-500 z-10" style="background: rgba(26, 58, 50, 0.97);">
-                <div class="text-xs uppercase tracking-widest mb-1" style="color: var(--color-gold);">10 Years of DCA</div>
+                <div class="text-xs uppercase tracking-widest mb-1" style="color: var(--color-gold);">{t('solution.simulation.results_title')}</div>
                 <div class="flex items-center gap-2 mb-2">
                   <span class="text-white/70 text-xs">€12,100</span>
                   <svg class="w-3 h-3 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
                   <span class="font-semibold text-base" style="color: var(--color-gold);">€197,023</span>
                 </div>
-                <div class="rounded-full px-2.5 py-0.5 text-xs font-semibold mb-3" style="background: var(--color-teal); color: white;">+1,528% gain</div>
+                <div class="rounded-full px-2.5 py-0.5 text-xs font-semibold mb-3" style="background: var(--color-teal); color: white;">{t('solution.simulation.gain', { percent: '1,528' })}</div>
 
                 <!-- Holdings breakdown -->
                 <div class="w-full space-y-1.5 mb-3">
@@ -163,9 +167,9 @@
                 </div>
 
                 <button id="restart-simulation-btn" class="w-full py-2 rounded-full text-sm font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]" style="background: var(--color-gold); color: var(--color-forest);">
-                  Run Again
+                  {t('solution.simulation.run_again')}
                 </button>
-                <div class="mt-1.5 text-xs text-white/40">Based on real market data</div>
+                <div class="mt-1.5 text-xs text-white/40">{t('solution.simulation.based_on_real_data')}</div>
               </div>
               <!-- Phone Header -->
               <div class="flex justify-between items-center mb-4">
@@ -190,10 +194,10 @@
               <div class="bg-white rounded-2xl p-4 mb-3 shadow-sm">
                 <div class="flex justify-between items-center mb-2">
                   <span class="text-2xl">🎓</span>
-                  <span class="text-xs text-gray-500">Target: 2040</span>
+                  <span class="text-xs text-gray-500">{t('solution.phone.goal_target')}</span>
                 </div>
                 <div class="font-semibold mb-2" style="color: var(--color-forest);">
-                  Sofia's University Fund
+                  {t('solution.phone.goal_title')}
                 </div>
                 <div class="h-2 rounded-full overflow-hidden mb-2" style="background: var(--color-cream-dark);">
                   <div data-sim="progress-bar" class="h-full rounded-full progress-gradient" style="width: 0%;"></div>
@@ -209,13 +213,13 @@
                 </style>
                 <div class="flex justify-between text-xs">
                   <span data-sim="goal-current" class="font-semibold transition-colors duration-300" style="color: var(--color-teal);">€0</span>
-                  <span class="text-gray-500">/ €200,000</span>
+                  <span class="text-gray-500">{t('solution.phone.goal_amount', { amount: '€200,000' })}</span>
                 </div>
               </div>
 
               <!-- Holdings -->
               <div class="bg-white rounded-2xl p-4 flex-grow">
-                <div class="text-xs font-semibold text-gray-500 mb-3">Holdings</div>
+                <div class="text-xs font-semibold text-gray-500 mb-3">{t('solution.phone.holdings_title')}</div>
 
                 <div data-stock="NVDA" class="flex justify-between items-center py-2 border-b" style="border-color: var(--color-cream-dark);">
                   <div class="flex items-center gap-2">
@@ -280,7 +284,7 @@
         <!-- Data source badge -->
         <div class="mt-4 flex items-center justify-center gap-2 text-xs text-gray-400">
           <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
-          <span>Real historical data from <a href="https://polygon.io" target="_blank" rel="noopener" class="underline hover:text-gray-600">Polygon.io</a></span>
+          <span>{t('solution.simulation.data_source')} <a href="https://polygon.io" target="_blank" rel="noopener" class="underline hover:text-gray-600">Polygon.io</a></span>
         </div>
       </div>
     </div>

@@ -1,5 +1,14 @@
 ---
 // CTA section with waitlist form
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+// Parse headline to handle <br /> tags
+const headline = t('cta.headline');
 ---
 
 <section id="waitlist" class="cta-gradient py-24 lg:py-32 px-6 lg:px-10 text-center">
@@ -7,12 +16,10 @@
     <h2
       class="reveal font-display text-3xl md:text-4xl lg:text-5xl font-semibold mb-6"
       style="color: var(--color-cream);"
-    >
-      Be the First to Build<br />Your Family's Future
-    </h2>
+      set:html={headline}
+    />
     <p class="reveal text-xl mb-10" style="color: rgba(255, 255, 255, 0.8);">
-      Join the waitlist for early access. We're launching soon in Spain, Germany, France, and the
-      Netherlands.
+      {t('cta.description')}
     </p>
 
     <!-- Hidden iframe for form submission -->
@@ -24,11 +31,13 @@
       action="https://script.google.com/macros/s/AKfycbyFXlrs7fdGbFJs2wMH1jGXNRoY-_F7zayBuHDGq-veJwLtqewlYKTGmHLouri6eHLE/exec"
       method="POST"
       target="hidden-iframe"
+      data-loading={t('cta.button_loading')}
+      data-success={t('cta.button_success')}
     >
       <input
         type="email"
         name="email"
-        placeholder="Enter your email"
+        placeholder={t('cta.email_placeholder')}
         required
         class="flex-1 px-6 py-4 rounded-full text-base font-medium border-none outline-none focus:ring-2"
         style="background: white; color: var(--color-forest);"
@@ -38,12 +47,12 @@
         class="btn px-8 py-4 shrink-0"
         style="background: var(--color-gold); color: var(--color-forest);"
       >
-        Join Waitlist
+        {t('cta.button')}
       </button>
     </form>
 
     <p class="reveal text-sm mt-4" style="color: rgba(255, 255, 255, 0.6);">
-      No spam. Just updates on our launch.
+      {t('cta.privacy_note')}
     </p>
   </div>
 </section>
@@ -51,16 +60,19 @@
 <script>
   const form = document.getElementById('waitlist-form') as HTMLFormElement;
   if (form) {
+    const loadingText = form.dataset.loading || 'Joining...';
+    const successText = form.dataset.success || "You're on the list!";
+
     form.addEventListener('submit', () => {
       const button = form.querySelector('button') as HTMLButtonElement;
       const originalText = button.textContent;
 
-      button.textContent = 'Joining...';
+      button.textContent = loadingText;
       button.disabled = true;
 
       // Show success after a short delay (form submits to iframe)
       setTimeout(() => {
-        button.textContent = "You're on the list!";
+        button.textContent = successText;
         button.style.background = 'var(--color-teal)';
         form.reset();
 

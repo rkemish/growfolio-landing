@@ -1,5 +1,13 @@
 ---
 // Footer component
+import { getTranslations, createT } from '../i18n/utils';
+import { type SupportedLocale } from '../i18n/config';
+
+const lang = ((Astro.locals as any).lang as SupportedLocale) || 'en';
+const translations = await getTranslations(lang);
+const t = createT(translations);
+
+const currentYear = new Date().getFullYear();
 ---
 
 <footer style="background: var(--color-cream-dark);" class="py-12 px-6 lg:px-10">
@@ -14,7 +22,7 @@
             href="#"
             class="text-gray-600 no-underline text-sm hover:text-[var(--color-forest)] transition-colors"
           >
-            About
+            {t('footer.about')}
           </a>
         </li>
         <li>
@@ -22,7 +30,7 @@
             href="#"
             class="text-gray-600 no-underline text-sm hover:text-[var(--color-forest)] transition-colors"
           >
-            Privacy
+            {t('footer.privacy')}
           </a>
         </li>
         <li>
@@ -30,7 +38,7 @@
             href="#"
             class="text-gray-600 no-underline text-sm hover:text-[var(--color-forest)] transition-colors"
           >
-            Terms
+            {t('footer.terms')}
           </a>
         </li>
         <li>
@@ -38,7 +46,7 @@
             href="#"
             class="text-gray-600 no-underline text-sm hover:text-[var(--color-forest)] transition-colors"
           >
-            Contact
+            {t('footer.contact')}
           </a>
         </li>
       </ul>
@@ -49,10 +57,9 @@
       style="border-top: 1px solid rgba(0, 0, 0, 0.1);"
     >
       <p>
-        Growfolio is not yet licensed and is not providing investment advice. This landing page is
-        for informational purposes only. Investing involves risk; your capital may be at risk.
+        {t('footer.disclaimer')}
       </p>
-      <p class="mt-2">© 2026 Growfolio. All rights reserved.</p>
+      <p class="mt-2">{t('footer.copyright', { year: currentYear.toString() })}</p>
     </div>
   </div>
 </footer>
