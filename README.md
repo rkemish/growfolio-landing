@@ -2,6 +2,12 @@
 
 Marketing landing page for Growfolio — a European family investment platform focused on dollar-cost averaging into US stocks.
 
+## Screenshots
+
+| Desktop | Mobile |
+|---------|--------|
+| ![Desktop](screenshot-desktop.png) | ![Mobile](screenshot-mobile.png) |
+
 ## Sitemap
 
 ```mermaid
