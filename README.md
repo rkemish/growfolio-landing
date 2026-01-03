@@ -1,43 +1,79 @@
-# Astro Starter Kit: Minimal
+# Growfolio Landing Page
 
-```sh
-npm create astro@latest -- --template minimal
+Marketing landing page for Growfolio — a European family investment platform focused on dollar-cost averaging into US stocks.
+
+## Sitemap
+
+```mermaid
+flowchart TB
+    subgraph Layout["Layout.astro"]
+        direction TB
+        Navbar["Navbar<br/>Fixed navigation"]
+        Hero["Hero<br/>Main CTA + animated chart"]
+        Problem["Problem<br/>Market opportunity stats"]
+        Solution["Solution<br/>Product features + phone mockup"]
+        HowItWorks["How It Works<br/>3-step process"]
+        SocialProof["Social Proof<br/>Market validation"]
+        Pricing["Pricing<br/>3-tier plans"]
+        CTA["CTA<br/>Waitlist signup form"]
+        Footer["Footer<br/>Links + disclaimer"]
+
+        Navbar --> Hero --> Problem --> Solution --> HowItWorks --> SocialProof --> Pricing --> CTA --> Footer
+    end
+
+    subgraph External["External Services"]
+        GoogleSheets["Google Sheets<br/>Waitlist backend"]
+    end
+
+    CTA -.->|"iframe POST"| GoogleSheets
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## Tech Stack
 
-## 🚀 Project Structure
+- **Framework**: [Astro](https://astro.build) (static site generation)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com)
+- **Deployment**: [Cloudflare Workers](https://workers.cloudflare.com)
+- **Typography**: Playfair Display + DM Sans (Google Fonts)
 
-Inside of your Astro project, you'll see the following folders and files:
+## Commands
 
-```text
-/
-├── public/
-├── src/
-│   └── pages/
-│       └── index.astro
-└── package.json
+| Command           | Action                                   |
+| :---------------- | :--------------------------------------- |
+| `npm install`     | Install dependencies                     |
+| `npm run dev`     | Start dev server at `localhost:4321`     |
+| `npm run build`   | Build production site to `./dist/`       |
+| `npm run preview` | Preview build locally before deploying   |
+
+## Project Structure
+
+```
+src/
+├── pages/
+│   └── index.astro          # Page entry point
+├── layouts/
+│   └── Layout.astro         # HTML wrapper + global scripts
+├── components/
+│   ├── Navbar.astro         # Fixed nav with scroll effect
+│   ├── Hero.astro           # Hero section with SVG chart
+│   ├── Problem.astro        # Dark stats section
+│   ├── Solution.astro       # Features grid + phone mockup
+│   ├── HowItWorks.astro     # 3-step numbered process
+│   ├── SocialProof.astro    # Market opportunity cards
+│   ├── Pricing.astro        # 3-tier pricing cards
+│   ├── CTA.astro            # Email waitlist form
+│   └── Footer.astro         # Links + legal disclaimer
+└── styles/
+    └── global.css           # Theme variables + animations
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## Design Tokens
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Colors are defined as CSS variables in `global.css`:
 
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Variable          | Value     | Usage              |
+| :---------------- | :-------- | :----------------- |
+| `--color-forest`  | `#1a3a32` | Primary dark green |
+| `--color-teal`    | `#3d8b7a` | Accent             |
+| `--color-gold`    | `#c9a962` | Highlights         |
+| `--color-coral`   | `#d4847c` | Stats/alerts       |
+| `--color-cream`   | `#faf8f5` | Light background   |
