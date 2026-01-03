@@ -105,14 +105,72 @@
       </div>
 
       <!-- Phone Mockup -->
-      <div class="reveal max-w-[280px] sm:max-w-xs mx-auto lg:max-w-sm order-first lg:order-last">
-        <div class="phone-frame">
+      <div id="phone-mockup" class="reveal max-w-[280px] sm:max-w-xs mx-auto lg:max-w-sm order-first lg:order-last">
+        <div class="phone-frame relative">
           <div class="phone-screen">
             <div class="p-4 h-full flex flex-col">
+              <!-- Setup Screen (shown initially) -->
+              <div id="setup-overlay" class="absolute inset-3 rounded-[28px] flex flex-col items-center justify-center text-center p-4 transition-opacity duration-500 z-10" style="background: rgba(26, 58, 50, 0.97);">
+                <div class="text-xs uppercase tracking-widest mb-3" style="color: var(--color-gold);">DCA Simulation</div>
+                <div class="font-display text-lg font-semibold text-white mb-4">Configure Your Investment</div>
+
+                <!-- Config display -->
+                <div class="w-full space-y-2 mb-4">
+                  <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70 text-xs">Monthly</span>
+                    <span class="text-white text-sm font-semibold">€100</span>
+                  </div>
+                  <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70 text-xs">Period</span>
+                    <span class="text-white text-sm font-semibold">2016 → 2026</span>
+                  </div>
+                  <div class="flex justify-between items-center px-3 py-2 rounded-lg" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70 text-xs">Stocks</span>
+                    <span class="text-white text-xs font-semibold">NVIDIA · Google · Tesla</span>
+                  </div>
+                </div>
+
+                <button id="start-simulation-btn" class="w-full py-2.5 rounded-full text-sm font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]" style="background: var(--color-gold); color: var(--color-forest);">
+                  Start Simulation
+                </button>
+                <div class="mt-3 text-xs text-white/40">Uses real historical data</div>
+              </div>
+
+              <!-- Results Overlay (shown at end of animation) -->
+              <div id="results-overlay" class="absolute inset-3 rounded-[28px] flex flex-col items-center justify-center text-center p-3 opacity-0 pointer-events-none transition-opacity duration-500 z-10" style="background: rgba(26, 58, 50, 0.97);">
+                <div class="text-xs uppercase tracking-widest mb-1" style="color: var(--color-gold);">10 Years of DCA</div>
+                <div class="flex items-center gap-2 mb-2">
+                  <span class="text-white/70 text-xs">€12,100</span>
+                  <svg class="w-3 h-3 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+                  <span class="font-semibold text-base" style="color: var(--color-gold);">€197,023</span>
+                </div>
+                <div class="rounded-full px-2.5 py-0.5 text-xs font-semibold mb-3" style="background: var(--color-teal); color: white;">+1,528% gain</div>
+
+                <!-- Holdings breakdown -->
+                <div class="w-full space-y-1.5 mb-3">
+                  <div class="flex justify-between items-center px-2 py-1.5 rounded-lg text-xs" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70">NVIDIA</span>
+                    <span class="text-white font-semibold">776 shares · €134,948</span>
+                  </div>
+                  <div class="flex justify-between items-center px-2 py-1.5 rounded-lg text-xs" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70">Google</span>
+                    <span class="text-white font-semibold">57 shares · €16,748</span>
+                  </div>
+                  <div class="flex justify-between items-center px-2 py-1.5 rounded-lg text-xs" style="background: rgba(255,255,255,0.1);">
+                    <span class="text-white/70">Tesla</span>
+                    <span class="text-white font-semibold">112 shares · €45,327</span>
+                  </div>
+                </div>
+
+                <button id="restart-simulation-btn" class="w-full py-2 rounded-full text-sm font-semibold transition-all hover:scale-[1.02] active:scale-[0.98]" style="background: var(--color-gold); color: var(--color-forest);">
+                  Run Again
+                </button>
+                <div class="mt-1.5 text-xs text-white/40">Based on real market data</div>
+              </div>
               <!-- Phone Header -->
               <div class="flex justify-between items-center mb-4">
                 <div>
-                  <div class="text-xs text-gray-500">Good morning,</div>
+                  <div class="text-xs text-gray-500" data-sim="date">Jan 2016</div>
                   <div class="font-display text-xl font-semibold" style="color: var(--color-forest);">
                     Maria
                   </div>
@@ -138,11 +196,20 @@
                   Sofia's University Fund
                 </div>
                 <div class="h-2 rounded-full overflow-hidden mb-2" style="background: var(--color-cream-dark);">
-                  <div class="h-full w-[35%] rounded-full progress-gradient"></div>
+                  <div data-sim="progress-bar" class="h-full rounded-full progress-gradient" style="width: 0%;"></div>
                 </div>
+                <style>
+                  @keyframes fillProgress {
+                    from { width: 0%; }
+                    to { width: 100%; }
+                  }
+                  [data-sim="progress-bar"].animating {
+                    animation: fillProgress var(--progress-duration, 5s) linear forwards;
+                  }
+                </style>
                 <div class="flex justify-between text-xs">
-                  <span class="font-semibold" style="color: var(--color-teal);">€8,420</span>
-                  <span class="text-gray-500">/ €25,000</span>
+                  <span data-sim="goal-current" class="font-semibold transition-colors duration-300" style="color: var(--color-teal);">€0</span>
+                  <span class="text-gray-500">/ €200,000</span>
                 </div>
               </div>
 
@@ -150,7 +217,7 @@
               <div class="bg-white rounded-2xl p-4 flex-grow">
                 <div class="text-xs font-semibold text-gray-500 mb-3">Holdings</div>
 
-                <div class="flex justify-between items-center py-2 border-b" style="border-color: var(--color-cream-dark);">
+                <div data-stock="NVDA" class="flex justify-between items-center py-2 border-b" style="border-color: var(--color-cream-dark);">
                   <div class="flex items-center gap-2">
                     <div
                       class="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold"
@@ -160,16 +227,16 @@
                     </div>
                     <div>
                       <div class="text-sm font-semibold" style="color: var(--color-forest);">NVIDIA</div>
-                      <div class="text-xs text-gray-500">2.34 shares</div>
+                      <div data-sim="shares" class="text-xs text-gray-500">0 shares</div>
                     </div>
                   </div>
                   <div class="text-right">
-                    <div class="text-sm font-semibold" style="color: var(--color-forest);">€3,240</div>
-                    <div class="text-xs" style="color: var(--color-teal);">+18.2%</div>
+                    <div data-sim="value" class="text-sm font-semibold" style="color: var(--color-forest);">€0</div>
+                    <div data-sim="gain" class="text-xs transition-colors duration-300" style="color: var(--color-teal);">+0%</div>
                   </div>
                 </div>
 
-                <div class="flex justify-between items-center py-2 border-b" style="border-color: var(--color-cream-dark);">
+                <div data-stock="GOOGL" class="flex justify-between items-center py-2 border-b" style="border-color: var(--color-cream-dark);">
                   <div class="flex items-center gap-2">
                     <div
                       class="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold"
@@ -179,38 +246,267 @@
                     </div>
                     <div>
                       <div class="text-sm font-semibold" style="color: var(--color-forest);">Google</div>
-                      <div class="text-xs text-gray-500">12.8 shares</div>
+                      <div data-sim="shares" class="text-xs text-gray-500">0 shares</div>
                     </div>
                   </div>
                   <div class="text-right">
-                    <div class="text-sm font-semibold" style="color: var(--color-forest);">€2,890</div>
-                    <div class="text-xs" style="color: var(--color-teal);">+12.4%</div>
+                    <div data-sim="value" class="text-sm font-semibold" style="color: var(--color-forest);">€0</div>
+                    <div data-sim="gain" class="text-xs transition-colors duration-300" style="color: var(--color-teal);">+0%</div>
                   </div>
                 </div>
 
-                <div class="flex justify-between items-center py-2">
+                <div data-stock="TSLA" class="flex justify-between items-center py-2">
                   <div class="flex items-center gap-2">
                     <div
                       class="w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold"
                       style="background: var(--color-cream-dark); color: var(--color-forest);"
                     >
-                      AV
+                      TS
                     </div>
                     <div>
-                      <div class="text-sm font-semibold" style="color: var(--color-forest);">Broadcom</div>
-                      <div class="text-xs text-gray-500">1.05 shares</div>
+                      <div class="text-sm font-semibold" style="color: var(--color-forest);">Tesla</div>
+                      <div data-sim="shares" class="text-xs text-gray-500">0 shares</div>
                     </div>
                   </div>
                   <div class="text-right">
-                    <div class="text-sm font-semibold" style="color: var(--color-forest);">€2,290</div>
-                    <div class="text-xs" style="color: var(--color-teal);">+24.1%</div>
+                    <div data-sim="value" class="text-sm font-semibold" style="color: var(--color-forest);">€0</div>
+                    <div data-sim="gain" class="text-xs transition-colors duration-300" style="color: var(--color-teal);">+0%</div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- Data source badge -->
+        <div class="mt-4 flex items-center justify-center gap-2 text-xs text-gray-400">
+          <svg class="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
+          <span>Real historical data from <a href="https://polygon.io" target="_blank" rel="noopener" class="underline hover:text-gray-600">Polygon.io</a></span>
+        </div>
       </div>
     </div>
   </div>
 </section>
+
+<script>
+  import dcaData from '../data/dca-simulation.json';
+
+  const simulation = {
+    snapshots: dcaData.snapshots,
+    currentIndex: 0,
+    isRunning: false,
+    intervalId: null,
+    config: {
+      intervalMs: 40, // Speed: 40ms per month (~5s for 121 months)
+      animationDuration: 30,
+    }
+  };
+
+  // DOM elements
+  const phoneMockup = document.getElementById('phone-mockup');
+  const dateEl = document.querySelector('[data-sim="date"]');
+  const goalCurrentEl = document.querySelector('[data-sim="goal-current"]');
+  const progressBarEl = document.querySelector('[data-sim="progress-bar"]');
+  const setupOverlay = document.getElementById('setup-overlay');
+  const resultsOverlay = document.getElementById('results-overlay');
+  const startBtn = document.getElementById('start-simulation-btn');
+  const restartBtn = document.getElementById('restart-simulation-btn');
+
+  // Format helpers
+  function formatCurrency(value) {
+    return '€' + Math.round(value).toLocaleString('de-DE');
+  }
+
+  function formatPercent(value) {
+    const sign = value >= 0 ? '+' : '';
+    return sign + value.toFixed(1) + '%';
+  }
+
+  function formatShares(value) {
+    return value.toFixed(2) + ' shares';
+  }
+
+  // Animate a number value
+  function animateValue(element, from, to, duration, formatter) {
+    const startTime = performance.now();
+
+    function update(currentTime) {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      const easeOut = 1 - Math.pow(1 - progress, 3);
+      const current = from + (to - from) * easeOut;
+
+      element.textContent = formatter(current);
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
+  // Update UI with a snapshot
+  function updateSnapshot(index) {
+    const snapshot = simulation.snapshots[index];
+    const prevSnapshot = index > 0 ? simulation.snapshots[index - 1] : null;
+
+    // Update date
+    if (dateEl) dateEl.textContent = snapshot.monthLabel;
+
+    // Update goal progress
+    if (goalCurrentEl) {
+      const fromValue = prevSnapshot ? prevSnapshot.totalValue : 0;
+      animateValue(goalCurrentEl, fromValue, snapshot.totalValue, simulation.config.animationDuration, formatCurrency);
+    }
+
+    // Progress bar is animated via CSS for smooth linear fill
+
+    // Update each holding
+    snapshot.holdings.forEach((holding, i) => {
+      const row = document.querySelector(`[data-stock="${holding.symbol}"]`);
+      if (!row) return;
+
+      const sharesEl = row.querySelector('[data-sim="shares"]');
+      const valueEl = row.querySelector('[data-sim="value"]');
+      const gainEl = row.querySelector('[data-sim="gain"]');
+
+      const prevHolding = prevSnapshot ? prevSnapshot.holdings[i] : { shares: 0, value: 0, gain: 0 };
+
+      if (sharesEl) {
+        animateValue(sharesEl, prevHolding.shares, holding.shares, simulation.config.animationDuration, formatShares);
+      }
+
+      if (valueEl) {
+        animateValue(valueEl, prevHolding.value, holding.value, simulation.config.animationDuration, formatCurrency);
+      }
+
+      if (gainEl) {
+        animateValue(gainEl, prevHolding.gain, holding.gain, simulation.config.animationDuration, formatPercent);
+        // Color based on gain
+        gainEl.style.color = holding.gain >= 0 ? 'var(--color-teal)' : 'var(--color-coral)';
+      }
+    });
+  }
+
+  // Show/hide overlays
+  function showSetup() {
+    if (setupOverlay) {
+      setupOverlay.classList.remove('opacity-0', 'pointer-events-none');
+      setupOverlay.classList.add('opacity-100');
+    }
+  }
+
+  function hideSetup() {
+    if (setupOverlay) {
+      setupOverlay.classList.remove('opacity-100');
+      setupOverlay.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  function showResults() {
+    if (resultsOverlay) {
+      resultsOverlay.classList.remove('opacity-0', 'pointer-events-none');
+      resultsOverlay.classList.add('opacity-100');
+    }
+  }
+
+  function hideResults() {
+    if (resultsOverlay) {
+      resultsOverlay.classList.remove('opacity-100');
+      resultsOverlay.classList.add('opacity-0', 'pointer-events-none');
+    }
+  }
+
+  // Main tick function
+  function tick() {
+    // Check if we've reached the end
+    if (simulation.currentIndex >= simulation.snapshots.length) {
+      // Show results overlay and stop (no auto-restart)
+      showResults();
+      clearInterval(simulation.intervalId);
+      simulation.intervalId = null;
+      simulation.isRunning = false;
+      return;
+    }
+
+    updateSnapshot(simulation.currentIndex);
+    simulation.currentIndex++;
+  }
+
+  // Start simulation (called by button)
+  function startSimulation() {
+    if (simulation.isRunning) return;
+    simulation.isRunning = true;
+    simulation.currentIndex = 0;
+    hideSetup();
+    hideResults();
+
+    // Start smooth progress bar animation
+    if (progressBarEl) {
+      const totalDuration = simulation.snapshots.length * simulation.config.intervalMs;
+      progressBarEl.style.setProperty('--progress-duration', `${totalDuration}ms`);
+      progressBarEl.classList.add('animating');
+    }
+
+    tick(); // Initial update
+    simulation.intervalId = setInterval(tick, simulation.config.intervalMs);
+  }
+
+  // Stop simulation
+  function stopSimulation() {
+    simulation.isRunning = false;
+    if (simulation.intervalId) {
+      clearInterval(simulation.intervalId);
+      simulation.intervalId = null;
+    }
+  }
+
+  // Reset to initial state
+  function resetSimulation() {
+    stopSimulation();
+    hideResults();
+    simulation.currentIndex = 0;
+    // Reset UI to initial values
+    if (dateEl) dateEl.textContent = 'Jan 2016';
+    if (goalCurrentEl) goalCurrentEl.textContent = '€0';
+    if (progressBarEl) {
+      progressBarEl.classList.remove('animating');
+      progressBarEl.style.width = '0%';
+    }
+    document.querySelectorAll('[data-stock]').forEach(row => {
+      const sharesEl = row.querySelector('[data-sim="shares"]');
+      const valueEl = row.querySelector('[data-sim="value"]');
+      const gainEl = row.querySelector('[data-sim="gain"]');
+      if (sharesEl) sharesEl.textContent = '0 shares';
+      if (valueEl) valueEl.textContent = '€0';
+      if (gainEl) { gainEl.textContent = '+0%'; gainEl.style.color = 'var(--color-teal)'; }
+    });
+    showSetup();
+  }
+
+  // Button event listeners
+  if (startBtn) {
+    startBtn.addEventListener('click', startSimulation);
+  }
+
+  if (restartBtn) {
+    restartBtn.addEventListener('click', resetSimulation);
+  }
+
+  // Observe visibility - only reset when scrolling away, don't auto-start
+  if (phoneMockup) {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting && simulation.isRunning) {
+            // If scrolled away while running, stop but keep current state
+            stopSimulation();
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    observer.observe(phoneMockup);
+  }
+</script>

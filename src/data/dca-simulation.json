@@ -1,0 +1,4129 @@
+{
+  "generatedAt": "2026-01-03T05:20:26.413Z",
+  "config": {
+    "tickers": [
+      "NVDA",
+      "GOOGL",
+      "TSLA"
+    ],
+    "startDate": "2016-01-01",
+    "monthlyInvestment": 100,
+    "goalTarget": 200000
+  },
+  "snapshots": [
+    {
+      "date": "2016-01",
+      "monthLabel": "Jan 2016",
+      "totalValue": 99,
+      "totalCost": 100,
+      "totalGain": -1,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 49.48,
+          "value": 33,
+          "gain": 0
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 0.95,
+          "value": 33,
+          "gain": 0
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 2.84,
+          "value": 33,
+          "gain": 0
+        }
+      ]
+    },
+    {
+      "date": "2016-02",
+      "monthLabel": "Feb 2016",
+      "totalValue": 201,
+      "totalCost": 200,
+      "totalGain": 0.5,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 95.69,
+          "value": 69,
+          "gain": 3.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 1.96,
+          "value": 65,
+          "gain": -2.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 5.67,
+          "value": 67,
+          "gain": 0.2
+        }
+      ]
+    },
+    {
+      "date": "2016-03",
+      "monthLabel": "Mar 2016",
+      "totalValue": 327,
+      "totalCost": 300,
+      "totalGain": 9,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 136.36,
+          "value": 112,
+          "gain": 11.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 2.91,
+          "value": 102,
+          "gain": 2.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 8.04,
+          "value": 113,
+          "gain": 13.3
+        }
+      ]
+    },
+    {
+      "date": "2016-04",
+      "monthLabel": "Apr 2016",
+      "totalValue": 425,
+      "totalCost": 400,
+      "totalGain": 6.3,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 177.15,
+          "value": 145,
+          "gain": 8.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 3.94,
+          "value": 128,
+          "gain": -3.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 10.3,
+          "value": 152,
+          "gain": 14
+        }
+      ]
+    },
+    {
+      "date": "2016-05",
+      "monthLabel": "May 2016",
+      "totalValue": 567,
+      "totalCost": 500,
+      "totalGain": 13.4,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 208.17,
+          "value": 224,
+          "gain": 34.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 4.9,
+          "value": 169,
+          "gain": 1.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 12.73,
+          "value": 174,
+          "gain": 4.6
+        }
+      ]
+    },
+    {
+      "date": "2016-06",
+      "monthLabel": "Jun 2016",
+      "totalValue": 649,
+      "totalCost": 600,
+      "totalGain": 8.2,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 239,
+          "value": 258,
+          "gain": 29.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 5.93,
+          "value": 192,
+          "gain": -4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 15.29,
+          "value": 199,
+          "gain": -0.5
+        }
+      ]
+    },
+    {
+      "date": "2016-07",
+      "monthLabel": "Jul 2016",
+      "totalValue": 850,
+      "totalCost": 700,
+      "totalGain": 21.4,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 264.38,
+          "value": 347,
+          "gain": 48.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 6.85,
+          "value": 249,
+          "gain": 6.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 17.61,
+          "value": 254,
+          "gain": 8.7
+        }
+      ]
+    },
+    {
+      "date": "2016-08",
+      "monthLabel": "Aug 2016",
+      "totalValue": 950,
+      "totalCost": 800,
+      "totalGain": 18.8,
+      "progressPercent": 0,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 288.01,
+          "value": 406,
+          "gain": 52.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 7.77,
+          "value": 282,
+          "gain": 5.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 20.17,
+          "value": 262,
+          "gain": -1.6
+        }
+      ]
+    },
+    {
+      "date": "2016-09",
+      "monthLabel": "Sep 2016",
+      "totalValue": 1094,
+      "totalCost": 900,
+      "totalGain": 21.6,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 309.16,
+          "value": 487,
+          "gain": 62.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 8.67,
+          "value": 321,
+          "gain": 6.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 22.83,
+          "value": 286,
+          "gain": -4.8
+        }
+      ]
+    },
+    {
+      "date": "2016-10",
+      "monthLabel": "Oct 2016",
+      "totalValue": 1205,
+      "totalCost": 1000,
+      "totalGain": 20.5,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 329.53,
+          "value": 539,
+          "gain": 61.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 9.56,
+          "value": 356,
+          "gain": 6.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 25.58,
+          "value": 310,
+          "gain": -6.9
+        }
+      ]
+    },
+    {
+      "date": "2016-11",
+      "monthLabel": "Nov 2016",
+      "totalValue": 1438,
+      "totalCost": 1100,
+      "totalGain": 30.7,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 345.25,
+          "value": 732,
+          "gain": 99.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 10.5,
+          "value": 375,
+          "gain": 2.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 28.45,
+          "value": 331,
+          "gain": -9.9
+        }
+      ]
+    },
+    {
+      "date": "2016-12",
+      "monthLabel": "Dec 2016",
+      "totalValue": 1703,
+      "totalCost": 1200,
+      "totalGain": 41.9,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 358.83,
+          "value": 881,
+          "gain": 120.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 11.41,
+          "value": 416,
+          "gain": 4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 30.99,
+          "value": 406,
+          "gain": 1.6
+        }
+      ]
+    },
+    {
+      "date": "2017-01",
+      "monthLabel": "Jan 2017",
+      "totalValue": 1910,
+      "totalCost": 1300,
+      "totalGain": 46.9,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 372.1,
+          "value": 934,
+          "gain": 115.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 12.29,
+          "value": 464,
+          "gain": 7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 33.15,
+          "value": 512,
+          "gain": 18.2
+        }
+      ]
+    },
+    {
+      "date": "2017-02",
+      "monthLabel": "Feb 2017",
+      "totalValue": 1955,
+      "totalCost": 1400,
+      "totalGain": 39.6,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 386.38,
+          "value": 902,
+          "gain": 93.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 13.15,
+          "value": 511,
+          "gain": 9.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 35.33,
+          "value": 542,
+          "gain": 16.1
+        }
+      ]
+    },
+    {
+      "date": "2017-03",
+      "monthLabel": "Mar 2017",
+      "totalValue": 2183,
+      "totalCost": 1500,
+      "totalGain": 45.5,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 399.69,
+          "value": 1001,
+          "gain": 100.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 14.01,
+          "value": 546,
+          "gain": 9.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 37.28,
+          "value": 636,
+          "gain": 27.3
+        }
+      ]
+    },
+    {
+      "date": "2017-04",
+      "monthLabel": "Apr 2017",
+      "totalValue": 2372,
+      "totalCost": 1600,
+      "totalGain": 48.3,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 413.58,
+          "value": 992,
+          "gain": 86
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 14.79,
+          "value": 629,
+          "gain": 17.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 39.01,
+          "value": 751,
+          "gain": 40.9
+        }
+      ]
+    },
+    {
+      "date": "2017-05",
+      "monthLabel": "May 2017",
+      "totalValue": 2960,
+      "totalCost": 1700,
+      "totalGain": 74.1,
+      "progressPercent": 1,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 423.62,
+          "value": 1406,
+          "gain": 148.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 15.52,
+          "value": 705,
+          "gain": 24.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 40.6,
+          "value": 849,
+          "gain": 49.9
+        }
+      ]
+    },
+    {
+      "date": "2017-06",
+      "monthLabel": "Jun 2017",
+      "totalValue": 3073,
+      "totalCost": 1800,
+      "totalGain": 70.7,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 433.65,
+          "value": 1442,
+          "gain": 140.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 16.3,
+          "value": 697,
+          "gain": 16.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 42.11,
+          "value": 934,
+          "gain": 55.6
+        }
+      ]
+    },
+    {
+      "date": "2017-07",
+      "monthLabel": "Jul 2017",
+      "totalValue": 3265,
+      "totalCost": 1900,
+      "totalGain": 71.8,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 442.56,
+          "value": 1654,
+          "gain": 161.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 17.07,
+          "value": 742,
+          "gain": 17.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 43.79,
+          "value": 869,
+          "gain": 37.2
+        }
+      ]
+    },
+    {
+      "date": "2017-08",
+      "monthLabel": "Aug 2017",
+      "totalValue": 3530,
+      "totalCost": 2000,
+      "totalGain": 76.5,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 451.12,
+          "value": 1758,
+          "gain": 163.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 17.83,
+          "value": 783,
+          "gain": 17.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 45.31,
+          "value": 989,
+          "gain": 48.4
+        }
+      ]
+    },
+    {
+      "date": "2017-09",
+      "monthLabel": "Sep 2017",
+      "totalValue": 3701,
+      "totalCost": 2100,
+      "totalGain": 76.2,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 459.22,
+          "value": 1888,
+          "gain": 169.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 18.57,
+          "value": 832,
+          "gain": 18.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 46.91,
+          "value": 981,
+          "gain": 40.2
+        }
+      ]
+    },
+    {
+      "date": "2017-10",
+      "monthLabel": "Oct 2017",
+      "totalValue": 4121,
+      "totalCost": 2200,
+      "totalGain": 87.3,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 466.23,
+          "value": 2218,
+          "gain": 202.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 19.27,
+          "value": 916,
+          "gain": 24.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 48.55,
+          "value": 987,
+          "gain": 34.6
+        }
+      ]
+    },
+    {
+      "date": "2017-11",
+      "monthLabel": "Nov 2017",
+      "totalValue": 4091,
+      "totalCost": 2300,
+      "totalGain": 77.9,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 473.45,
+          "value": 2186,
+          "gain": 185.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 19.97,
+          "value": 952,
+          "gain": 24.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 50.31,
+          "value": 953,
+          "gain": 24.3
+        }
+      ]
+    },
+    {
+      "date": "2017-12",
+      "monthLabel": "Dec 2017",
+      "totalValue": 4135,
+      "totalCost": 2400,
+      "totalGain": 72.3,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 480.94,
+          "value": 2140,
+          "gain": 167.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 20.66,
+          "value": 1001,
+          "gain": 25.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 52.05,
+          "value": 994,
+          "gain": 24.2
+        }
+      ]
+    },
+    {
+      "date": "2018-01",
+      "monthLabel": "Jan 2018",
+      "totalValue": 5073,
+      "totalCost": 2500,
+      "totalGain": 102.9,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 486.84,
+          "value": 2752,
+          "gain": 230.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 21.27,
+          "value": 1157,
+          "gain": 38.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 53.59,
+          "value": 1164,
+          "gain": 39.7
+        }
+      ]
+    },
+    {
+      "date": "2018-02",
+      "monthLabel": "Feb 2018",
+      "totalValue": 5018,
+      "totalCost": 2600,
+      "totalGain": 93,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 492.83,
+          "value": 2743,
+          "gain": 216.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 21.93,
+          "value": 1114,
+          "gain": 28.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 55.17,
+          "value": 1161,
+          "gain": 33.9
+        }
+      ]
+    },
+    {
+      "date": "2018-03",
+      "monthLabel": "Mar 2018",
+      "totalValue": 4672,
+      "totalCost": 2700,
+      "totalGain": 73,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 499.09,
+          "value": 2658,
+          "gain": 195.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 22.63,
+          "value": 1080,
+          "gain": 20
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 57.21,
+          "value": 934,
+          "gain": 3.8
+        }
+      ]
+    },
+    {
+      "date": "2018-04",
+      "monthLabel": "Apr 2018",
+      "totalValue": 4774,
+      "totalCost": 2800,
+      "totalGain": 70.5,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 505.53,
+          "value": 2615,
+          "gain": 180.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 23.34,
+          "value": 1094,
+          "gain": 17.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 59.06,
+          "value": 1065,
+          "gain": 14.1
+        }
+      ]
+    },
+    {
+      "date": "2018-05",
+      "monthLabel": "May 2018",
+      "totalValue": 5245,
+      "totalCost": 2900,
+      "totalGain": 80.9,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 511.28,
+          "value": 2966,
+          "gain": 206.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 24,
+          "value": 1214,
+          "gain": 25.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 60.97,
+          "value": 1065,
+          "gain": 10.1
+        }
+      ]
+    },
+    {
+      "date": "2018-06",
+      "monthLabel": "Jun 2018",
+      "totalValue": 5415,
+      "totalCost": 3000,
+      "totalGain": 80.5,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 517.39,
+          "value": 2819,
+          "gain": 181.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 24.64,
+          "value": 1280,
+          "gain": 28
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 62.55,
+          "value": 1316,
+          "gain": 31.6
+        }
+      ]
+    },
+    {
+      "date": "2018-07",
+      "monthLabel": "Jul 2018",
+      "totalValue": 5548,
+      "totalCost": 3100,
+      "totalGain": 79,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 523.31,
+          "value": 2947,
+          "gain": 185.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 25.23,
+          "value": 1424,
+          "gain": 37.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 64.38,
+          "value": 1177,
+          "gain": 13.9
+        }
+      ]
+    },
+    {
+      "date": "2018-08",
+      "monthLabel": "Aug 2018",
+      "totalValue": 6099,
+      "totalCost": 3200,
+      "totalGain": 90.6,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 528.48,
+          "value": 3412,
+          "gain": 219.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 25.82,
+          "value": 1463,
+          "gain": 37.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 66.18,
+          "value": 1224,
+          "gain": 14.8
+        }
+      ]
+    },
+    {
+      "date": "2018-09",
+      "monthLabel": "Sep 2018",
+      "totalValue": 6024,
+      "totalCost": 3300,
+      "totalGain": 82.5,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 533.63,
+          "value": 3449,
+          "gain": 213.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 26.42,
+          "value": 1467,
+          "gain": 33.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 68.23,
+          "value": 1108,
+          "gain": 0.7
+        }
+      ]
+    },
+    {
+      "date": "2018-10",
+      "monthLabel": "Oct 2018",
+      "totalValue": 5425,
+      "totalCost": 3400,
+      "totalGain": 59.6,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 540.51,
+          "value": 2621,
+          "gain": 131.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 27.09,
+          "value": 1359,
+          "gain": 19.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 69.84,
+          "value": 1445,
+          "gain": 27.5
+        }
+      ]
+    },
+    {
+      "date": "2018-11",
+      "monthLabel": "Nov 2018",
+      "totalValue": 5016,
+      "totalCost": 3500,
+      "totalGain": 43.3,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 549.37,
+          "value": 2065,
+          "gain": 77
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 27.74,
+          "value": 1416,
+          "gain": 21.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 71.39,
+          "value": 1535,
+          "gain": 31.5
+        }
+      ]
+    },
+    {
+      "date": "2018-12",
+      "monthLabel": "Dec 2018",
+      "totalValue": 4578,
+      "totalCost": 3600,
+      "totalGain": 27.2,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 560.23,
+          "value": 1720,
+          "gain": 43.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 28.43,
+          "value": 1367,
+          "gain": 13.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 73.03,
+          "value": 1491,
+          "gain": 24.2
+        }
+      ]
+    },
+    {
+      "date": "2019-01",
+      "monthLabel": "Jan 2019",
+      "totalValue": 4800,
+      "totalCost": 3700,
+      "totalGain": 29.7,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 570.31,
+          "value": 1886,
+          "gain": 52.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 29.08,
+          "value": 1506,
+          "gain": 22.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 74.8,
+          "value": 1408,
+          "gain": 14.2
+        }
+      ]
+    },
+    {
+      "date": "2019-02",
+      "monthLabel": "Feb 2019",
+      "totalValue": 5098,
+      "totalCost": 3800,
+      "totalGain": 34.2,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 579.71,
+          "value": 2057,
+          "gain": 62.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 29.72,
+          "value": 1540,
+          "gain": 21.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 76.5,
+          "value": 1501,
+          "gain": 18.5
+        }
+      ]
+    },
+    {
+      "date": "2019-03",
+      "monthLabel": "Mar 2019",
+      "totalValue": 5415,
+      "totalCost": 3900,
+      "totalGain": 38.8,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 587.78,
+          "value": 2427,
+          "gain": 86.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 30.33,
+          "value": 1642,
+          "gain": 26.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 78.44,
+          "value": 1346,
+          "gain": 3.6
+        }
+      ]
+    },
+    {
+      "date": "2019-04",
+      "monthLabel": "Apr 2019",
+      "totalValue": 5368,
+      "totalCost": 4000,
+      "totalGain": 34.2,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 595.79,
+          "value": 2480,
+          "gain": 86
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 30.94,
+          "value": 1706,
+          "gain": 28
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 80.71,
+          "value": 1182,
+          "gain": -11.4
+        }
+      ]
+    },
+    {
+      "date": "2019-05",
+      "monthLabel": "May 2019",
+      "totalValue": 4448,
+      "totalCost": 4100,
+      "totalGain": 8.5,
+      "progressPercent": 2,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 606.48,
+          "value": 1890,
+          "gain": 38.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 31.59,
+          "value": 1608,
+          "gain": 17.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 83.65,
+          "value": 950,
+          "gain": -30.5
+        }
+      ]
+    },
+    {
+      "date": "2019-06",
+      "monthLabel": "Jun 2019",
+      "totalValue": 5111,
+      "totalCost": 4200,
+      "totalGain": 21.7,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 615.31,
+          "value": 2324,
+          "gain": 66
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 32.26,
+          "value": 1607,
+          "gain": 14.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 86.08,
+          "value": 1180,
+          "gain": -15.7
+        }
+      ]
+    },
+    {
+      "date": "2019-07",
+      "monthLabel": "Jul 2019",
+      "totalValue": 5571,
+      "totalCost": 4300,
+      "totalGain": 29.6,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 623.9,
+          "value": 2421,
+          "gain": 68.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 32.86,
+          "value": 1841,
+          "gain": 28.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 88.33,
+          "value": 1309,
+          "gain": -8.7
+        }
+      ]
+    },
+    {
+      "date": "2019-08",
+      "monthLabel": "Aug 2019",
+      "totalValue": 5526,
+      "totalCost": 4400,
+      "totalGain": 25.6,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 632.55,
+          "value": 2437,
+          "gain": 66.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 33.47,
+          "value": 1833,
+          "gain": 25
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 90.74,
+          "value": 1256,
+          "gain": -14.4
+        }
+      ]
+    },
+    {
+      "date": "2019-09",
+      "monthLabel": "Sep 2019",
+      "totalValue": 5853,
+      "totalCost": 4500,
+      "totalGain": 30.1,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 640.88,
+          "value": 2566,
+          "gain": 71.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 34.06,
+          "value": 1913,
+          "gain": 27.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 93,
+          "value": 1374,
+          "gain": -8.4
+        }
+      ]
+    },
+    {
+      "date": "2019-10",
+      "monthLabel": "Oct 2019",
+      "totalValue": 6832,
+      "totalCost": 4600,
+      "totalGain": 48.5,
+      "progressPercent": 3,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 648.09,
+          "value": 2996,
+          "gain": 95.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 34.64,
+          "value": 2006,
+          "gain": 30.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 94.72,
+          "value": 1830,
+          "gain": 19.3
+        }
+      ]
+    },
+    {
+      "date": "2019-11",
+      "monthLabel": "Nov 2019",
+      "totalValue": 7325,
+      "totalCost": 4700,
+      "totalGain": 55.9,
+      "progressPercent": 4,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 654.77,
+          "value": 3264,
+          "gain": 108.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 35.19,
+          "value": 2111,
+          "gain": 34.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 96.37,
+          "value": 1950,
+          "gain": 24.5
+        }
+      ]
+    },
+    {
+      "date": "2019-12",
+      "monthLabel": "Dec 2019",
+      "totalValue": 8285,
+      "totalCost": 4800,
+      "totalGain": 72.6,
+      "progressPercent": 4,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 660.93,
+          "value": 3577,
+          "gain": 123.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 35.73,
+          "value": 2202,
+          "gain": 37.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 97.67,
+          "value": 2506,
+          "gain": 56.6
+        }
+      ]
+    },
+    {
+      "date": "2020-01",
+      "monthLabel": "Jan 2020",
+      "totalValue": 9945,
+      "totalCost": 4900,
+      "totalGain": 103,
+      "progressPercent": 5,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 667.06,
+          "value": 3627,
+          "gain": 122.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 36.24,
+          "value": 2388,
+          "gain": 46.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 98.5,
+          "value": 3930,
+          "gain": 140.6
+        }
+      ]
+    },
+    {
+      "date": "2020-02",
+      "monthLabel": "Feb 2020",
+      "totalValue": 10512,
+      "totalCost": 5000,
+      "totalGain": 110.2,
+      "progressPercent": 5,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 672.43,
+          "value": 4177,
+          "gain": 150.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 36.78,
+          "value": 2266,
+          "gain": 35.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 99.32,
+          "value": 4069,
+          "gain": 144.1
+        }
+      ]
+    },
+    {
+      "date": "2020-03",
+      "monthLabel": "Mar 2020",
+      "totalValue": 9334,
+      "totalCost": 5100,
+      "totalGain": 83,
+      "progressPercent": 5,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 677.93,
+          "value": 4110,
+          "gain": 141.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 37.4,
+          "value": 1999,
+          "gain": 17.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 100.35,
+          "value": 3225,
+          "gain": 89.7
+        }
+      ]
+    },
+    {
+      "date": "2020-04",
+      "monthLabel": "Apr 2020",
+      "totalValue": 11787,
+      "totalCost": 5200,
+      "totalGain": 126.7,
+      "progressPercent": 6,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 682.89,
+          "value": 4591,
+          "gain": 164.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 37.94,
+          "value": 2350,
+          "gain": 35.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 101.05,
+          "value": 4846,
+          "gain": 179.6
+        }
+      ]
+    },
+    {
+      "date": "2020-05",
+      "monthLabel": "May 2020",
+      "totalValue": 13352,
+      "totalCost": 5300,
+      "totalGain": 151.9,
+      "progressPercent": 7,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 686.97,
+          "value": 5609,
+          "gain": 217.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 38.45,
+          "value": 2535,
+          "gain": 43.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 101.7,
+          "value": 5208,
+          "gain": 194.8
+        }
+      ]
+    },
+    {
+      "date": "2020-06",
+      "monthLabel": "Jun 2020",
+      "totalValue": 15346,
+      "totalCost": 5400,
+      "totalGain": 184.2,
+      "progressPercent": 8,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 690.78,
+          "value": 6036,
+          "gain": 235.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 38.96,
+          "value": 2541,
+          "gain": 41.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 102.2,
+          "value": 6769,
+          "gain": 276
+        }
+      ]
+    },
+    {
+      "date": "2020-07",
+      "monthLabel": "Jul 2020",
+      "totalValue": 18481,
+      "totalCost": 5500,
+      "totalGain": 236,
+      "progressPercent": 9,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 694.2,
+          "value": 6779,
+          "gain": 269.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 39.44,
+          "value": 2700,
+          "gain": 47.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 102.58,
+          "value": 9002,
+          "gain": 391
+        }
+      ]
+    },
+    {
+      "date": "2020-08",
+      "monthLabel": "Aug 2020",
+      "totalValue": 27275,
+      "totalCost": 5600,
+      "totalGain": 387.1,
+      "progressPercent": 14,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 696.9,
+          "value": 8575,
+          "gain": 359.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 39.89,
+          "value": 2990,
+          "gain": 60.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 102.8,
+          "value": 15710,
+          "gain": 741.6
+        }
+      ]
+    },
+    {
+      "date": "2020-09",
+      "monthLabel": "Sep 2020",
+      "totalValue": 24989,
+      "totalCost": 5700,
+      "totalGain": 338.4,
+      "progressPercent": 12,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 699.58,
+          "value": 8708,
+          "gain": 358.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 40.38,
+          "value": 2723,
+          "gain": 43.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.05,
+          "value": 13558,
+          "gain": 613.6
+        }
+      ]
+    },
+    {
+      "date": "2020-10",
+      "monthLabel": "Oct 2020",
+      "totalValue": 23432,
+      "totalCost": 5800,
+      "totalGain": 304,
+      "progressPercent": 12,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 702.47,
+          "value": 8100,
+          "gain": 319
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 40.83,
+          "value": 3035,
+          "gain": 57
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.34,
+          "value": 12297,
+          "gain": 536
+        }
+      ]
+    },
+    {
+      "date": "2020-11",
+      "monthLabel": "Nov 2020",
+      "totalValue": 30043,
+      "totalCost": 5900,
+      "totalGain": 409.2,
+      "progressPercent": 15,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 705.18,
+          "value": 8694,
+          "gain": 342.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 41.24,
+          "value": 3329,
+          "gain": 69.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.53,
+          "value": 18020,
+          "gain": 816.3
+        }
+      ]
+    },
+    {
+      "date": "2020-12",
+      "monthLabel": "Dec 2020",
+      "totalValue": 34299,
+      "totalCost": 6000,
+      "totalGain": 471.7,
+      "progressPercent": 17,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 707.95,
+          "value": 8503,
+          "gain": 325.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 41.66,
+          "value": 3359,
+          "gain": 67.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.68,
+          "value": 22437,
+          "gain": 1021.9
+        }
+      ]
+    },
+    {
+      "date": "2021-01",
+      "monthLabel": "Jan 2021",
+      "totalValue": 37293,
+      "totalCost": 6100,
+      "totalGain": 511.4,
+      "progressPercent": 19,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 710.74,
+          "value": 8494,
+          "gain": 317.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 42.05,
+          "value": 3535,
+          "gain": 73.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.82,
+          "value": 25264,
+          "gain": 1142.5
+        }
+      ]
+    },
+    {
+      "date": "2021-02",
+      "monthLabel": "Feb 2021",
+      "totalValue": 34486,
+      "totalCost": 6200,
+      "totalGain": 456.2,
+      "progressPercent": 17,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 713.38,
+          "value": 9001,
+          "gain": 335.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 42.41,
+          "value": 3945,
+          "gain": 90.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 103.98,
+          "value": 21540,
+          "gain": 942.2
+        }
+      ]
+    },
+    {
+      "date": "2021-03",
+      "monthLabel": "Mar 2021",
+      "totalValue": 34182,
+      "totalCost": 6300,
+      "totalGain": 442.6,
+      "progressPercent": 17,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 716.1,
+          "value": 8794,
+          "gain": 318.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 42.76,
+          "value": 4057,
+          "gain": 93.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.14,
+          "value": 21331,
+          "gain": 915.8
+        }
+      ]
+    },
+    {
+      "date": "2021-04",
+      "monthLabel": "Apr 2021",
+      "totalValue": 37275,
+      "totalCost": 6400,
+      "totalGain": 482.4,
+      "progressPercent": 19,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 718.51,
+          "value": 9922,
+          "gain": 365.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 43.07,
+          "value": 4663,
+          "gain": 118.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.29,
+          "value": 22690,
+          "gain": 963.6
+        }
+      ]
+    },
+    {
+      "date": "2021-05",
+      "monthLabel": "May 2021",
+      "totalValue": 35504,
+      "totalCost": 6500,
+      "totalGain": 446.2,
+      "progressPercent": 18,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 720.74,
+          "value": 10771,
+          "gain": 397.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 43.38,
+          "value": 4703,
+          "gain": 117.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.47,
+          "value": 20030,
+          "gain": 824.5
+        }
+      ]
+    },
+    {
+      "date": "2021-06",
+      "monthLabel": "Jun 2021",
+      "totalValue": 40012,
+      "totalCost": 6600,
+      "totalGain": 506.2,
+      "progressPercent": 20,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 722.55,
+          "value": 13297,
+          "gain": 504.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 43.68,
+          "value": 4906,
+          "gain": 123
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.63,
+          "value": 21809,
+          "gain": 891.3
+        }
+      ]
+    },
+    {
+      "date": "2021-07",
+      "monthLabel": "Jul 2021",
+      "totalValue": 40525,
+      "totalCost": 6700,
+      "totalGain": 504.9,
+      "progressPercent": 20,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 724.41,
+          "value": 12995,
+          "gain": 481.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 43.95,
+          "value": 5447,
+          "gain": 143.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.79,
+          "value": 22083,
+          "gain": 888.8
+        }
+      ]
+    },
+    {
+      "date": "2021-08",
+      "monthLabel": "Aug 2021",
+      "totalValue": 44510,
+      "totalCost": 6800,
+      "totalGain": 554.6,
+      "progressPercent": 22,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 726.03,
+          "value": 14952,
+          "gain": 559.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 44.2,
+          "value": 5883,
+          "gain": 159.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 104.93,
+          "value": 23675,
+          "gain": 944.5
+        }
+      ]
+    },
+    {
+      "date": "2021-09",
+      "monthLabel": "Sep 2021",
+      "totalValue": 44328,
+      "totalCost": 6900,
+      "totalGain": 542.4,
+      "progressPercent": 22,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 727.78,
+          "value": 13871,
+          "gain": 503.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 44.47,
+          "value": 5469,
+          "gain": 137.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.07,
+          "value": 24988,
+          "gain": 986.4
+        }
+      ]
+    },
+    {
+      "date": "2021-10",
+      "monthLabel": "Oct 2021",
+      "totalValue": 59172,
+      "totalCost": 7000,
+      "totalGain": 745.3,
+      "progressPercent": 30,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 729.2,
+          "value": 17152,
+          "gain": 635.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 44.71,
+          "value": 6090,
+          "gain": 161
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.17,
+          "value": 35930,
+          "gain": 1439.8
+        }
+      ]
+    },
+    {
+      "date": "2021-11",
+      "monthLabel": "Nov 2021",
+      "totalValue": 64779,
+      "totalCost": 7100,
+      "totalGain": 812.4,
+      "progressPercent": 32,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 730.3,
+          "value": 21954,
+          "gain": 827.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 44.97,
+          "value": 5870,
+          "gain": 148
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.27,
+          "value": 36955,
+          "gain": 1461.5
+        }
+      ]
+    },
+    {
+      "date": "2021-12",
+      "monthLabel": "Dec 2021",
+      "totalValue": 59968,
+      "totalCost": 7200,
+      "totalGain": 732.9,
+      "progressPercent": 30,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 731.54,
+          "value": 19794,
+          "gain": 724.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 45.22,
+          "value": 6026,
+          "gain": 151.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.37,
+          "value": 34148,
+          "gain": 1322.8
+        }
+      ]
+    },
+    {
+      "date": "2022-01",
+      "monthLabel": "Jan 2022",
+      "totalValue": 52477,
+      "totalCost": 7300,
+      "totalGain": 618.9,
+      "progressPercent": 26,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 733.02,
+          "value": 16513,
+          "gain": 578.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 45.49,
+          "value": 5662,
+          "gain": 132.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.49,
+          "value": 30302,
+          "gain": 1145.3
+        }
+      ]
+    },
+    {
+      "date": "2022-02",
+      "monthLabel": "Feb 2022",
+      "totalValue": 50354,
+      "totalCost": 7400,
+      "totalGain": 580.5,
+      "progressPercent": 25,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 734.5,
+          "value": 16478,
+          "gain": 568
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 45.75,
+          "value": 5685,
+          "gain": 130.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.61,
+          "value": 28191,
+          "gain": 1042.9
+        }
+      ]
+    },
+    {
+      "date": "2022-03",
+      "monthLabel": "Mar 2022",
+      "totalValue": 59293,
+      "totalCost": 7500,
+      "totalGain": 690.6,
+      "progressPercent": 30,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 735.83,
+          "value": 18472,
+          "gain": 638.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 46.01,
+          "value": 5887,
+          "gain": 135.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.71,
+          "value": 34934,
+          "gain": 1297.4
+        }
+      ]
+    },
+    {
+      "date": "2022-04",
+      "monthLabel": "Apr 2022",
+      "totalValue": 45715,
+      "totalCost": 7600,
+      "totalGain": 501.5,
+      "progressPercent": 23,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 737.78,
+          "value": 12589,
+          "gain": 396.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 46.33,
+          "value": 4864,
+          "gain": 92
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.84,
+          "value": 28262,
+          "gain": 1015.6
+        }
+      ]
+    },
+    {
+      "date": "2022-05",
+      "monthLabel": "May 2022",
+      "totalValue": 42233,
+      "totalCost": 7700,
+      "totalGain": 448.5,
+      "progressPercent": 21,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 739.72,
+          "value": 12707,
+          "gain": 395.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 46.65,
+          "value": 4882,
+          "gain": 90.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 105.98,
+          "value": 24644,
+          "gain": 860.1
+        }
+      ]
+    },
+    {
+      "date": "2022-06",
+      "monthLabel": "Jun 2022",
+      "totalValue": 36980,
+      "totalCost": 7800,
+      "totalGain": 374.1,
+      "progressPercent": 18,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 742.11,
+          "value": 10350,
+          "gain": 298.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 46.98,
+          "value": 4710,
+          "gain": 81.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.14,
+          "value": 21920,
+          "gain": 743.1
+        }
+      ]
+    },
+    {
+      "date": "2022-07",
+      "monthLabel": "Jul 2022",
+      "totalValue": 46545,
+      "totalCost": 7900,
+      "totalGain": 489.2,
+      "progressPercent": 23,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 744.11,
+          "value": 12434,
+          "gain": 372.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 47.29,
+          "value": 5061,
+          "gain": 92.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.26,
+          "value": 29050,
+          "gain": 1003.2
+        }
+      ]
+    },
+    {
+      "date": "2022-08",
+      "monthLabel": "Aug 2022",
+      "totalValue": 42086,
+      "totalCost": 8000,
+      "totalGain": 426.1,
+      "progressPercent": 21,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 746.51,
+          "value": 10366,
+          "gain": 288.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 47.63,
+          "value": 4742,
+          "gain": 77.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.39,
+          "value": 26978,
+          "gain": 911.7
+        }
+      ]
+    },
+    {
+      "date": "2022-09",
+      "monthLabel": "Sep 2022",
+      "totalValue": 38592,
+      "totalCost": 8100,
+      "totalGain": 376.4,
+      "progressPercent": 19,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 749.49,
+          "value": 8370,
+          "gain": 210
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 48.01,
+          "value": 4225,
+          "gain": 56.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.53,
+          "value": 25997,
+          "gain": 862.8
+        }
+      ]
+    },
+    {
+      "date": "2022-10",
+      "monthLabel": "Oct 2022",
+      "totalValue": 35882,
+      "totalCost": 8200,
+      "totalGain": 337.6,
+      "progressPercent": 18,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 752.18,
+          "value": 9340,
+          "gain": 241.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 48.39,
+          "value": 4208,
+          "gain": 53.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.69,
+          "value": 22334,
+          "gain": 717.1
+        }
+      ]
+    },
+    {
+      "date": "2022-11",
+      "monthLabel": "Nov 2022",
+      "totalValue": 35417,
+      "totalCost": 8300,
+      "totalGain": 326.7,
+      "progressPercent": 18,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 754.32,
+          "value": 11744,
+          "gain": 324.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 48.75,
+          "value": 4529,
+          "gain": 63.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 106.88,
+          "value": 19144,
+          "gain": 592
+        }
+      ]
+    },
+    {
+      "date": "2022-12",
+      "monthLabel": "Dec 2022",
+      "totalValue": 26310,
+      "totalCost": 8400,
+      "totalGain": 213.2,
+      "progressPercent": 13,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 756.8,
+          "value": 10175,
+          "gain": 263.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 49.16,
+          "value": 3990,
+          "gain": 42.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 107.17,
+          "value": 12145,
+          "gain": 333.8
+        }
+      ]
+    },
+    {
+      "date": "2023-01",
+      "monthLabel": "Jan 2023",
+      "totalValue": 35252,
+      "totalCost": 8500,
+      "totalGain": 314.7,
+      "progressPercent": 18,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 758.65,
+          "value": 13636,
+          "gain": 381.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 49.53,
+          "value": 4504,
+          "gain": 59
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 107.38,
+          "value": 17112,
+          "gain": 504
+        }
+      ]
+    },
+    {
+      "date": "2023-02",
+      "monthLabel": "Feb 2023",
+      "totalValue": 40729,
+      "totalCost": 8600,
+      "totalGain": 373.6,
+      "progressPercent": 20,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 760.21,
+          "value": 16237,
+          "gain": 466.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 49.93,
+          "value": 4137,
+          "gain": 44.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 107.56,
+          "value": 20355,
+          "gain": 610.1
+        }
+      ]
+    },
+    {
+      "date": "2023-03",
+      "monthLabel": "Mar 2023",
+      "totalValue": 44820,
+      "totalCost": 8700,
+      "totalGain": 415.2,
+      "progressPercent": 22,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 761.52,
+          "value": 19460,
+          "gain": 571.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 50.28,
+          "value": 4798,
+          "gain": 65.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 107.73,
+          "value": 20562,
+          "gain": 609
+        }
+      ]
+    },
+    {
+      "date": "2023-04",
+      "monthLabel": "Apr 2023",
+      "totalValue": 40790,
+      "totalCost": 8800,
+      "totalGain": 363.5,
+      "progressPercent": 20,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 762.82,
+          "value": 19474,
+          "gain": 563.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 50.62,
+          "value": 4998,
+          "gain": 70.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 107.95,
+          "value": 16318,
+          "gain": 456.3
+        }
+      ]
+    },
+    {
+      "date": "2023-05",
+      "monthLabel": "May 2023",
+      "totalValue": 52627,
+      "totalCost": 8900,
+      "totalGain": 491.3,
+      "progressPercent": 26,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 763.78,
+          "value": 26585,
+          "gain": 796.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 50.91,
+          "value": 5755,
+          "gain": 94
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.13,
+          "value": 20287,
+          "gain": 583.8
+        }
+      ]
+    },
+    {
+      "date": "2023-06",
+      "monthLabel": "Jun 2023",
+      "totalValue": 61472,
+      "totalCost": 9000,
+      "totalGain": 583,
+      "progressPercent": 31,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 764.64,
+          "value": 29758,
+          "gain": 891.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 51.21,
+          "value": 5640,
+          "gain": 88
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.27,
+          "value": 26074,
+          "gain": 769.1
+        }
+      ]
+    },
+    {
+      "date": "2023-07",
+      "monthLabel": "Jul 2023",
+      "totalValue": 65864,
+      "totalCost": 9100,
+      "totalGain": 623.8,
+      "progressPercent": 33,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 765.41,
+          "value": 32906,
+          "gain": 984.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 51.49,
+          "value": 6287,
+          "gain": 107.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.4,
+          "value": 26671,
+          "gain": 779.3
+        }
+      ]
+    },
+    {
+      "date": "2023-08",
+      "monthLabel": "Aug 2023",
+      "totalValue": 67043,
+      "totalCost": 9200,
+      "totalGain": 628.7,
+      "progressPercent": 34,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 766.15,
+          "value": 34788,
+          "gain": 1034.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 51.75,
+          "value": 6483,
+          "gain": 111.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.54,
+          "value": 25772,
+          "gain": 740.4
+        }
+      ]
+    },
+    {
+      "date": "2023-09",
+      "monthLabel": "Sep 2023",
+      "totalValue": 61978,
+      "totalCost": 9300,
+      "totalGain": 566.4,
+      "progressPercent": 31,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 766.98,
+          "value": 30694,
+          "gain": 890.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 52.03,
+          "value": 6264,
+          "gain": 102.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.69,
+          "value": 25020,
+          "gain": 707.1
+        }
+      ]
+    },
+    {
+      "date": "2023-10",
+      "monthLabel": "Oct 2023",
+      "totalValue": 54898,
+      "totalCost": 9400,
+      "totalGain": 484,
+      "progressPercent": 27,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 767.87,
+          "value": 28809,
+          "gain": 819.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 52.32,
+          "value": 5973,
+          "gain": 90.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 108.87,
+          "value": 20116,
+          "gain": 542
+        }
+      ]
+    },
+    {
+      "date": "2023-11",
+      "monthLabel": "Nov 2023",
+      "totalValue": 63566,
+      "totalCost": 9500,
+      "totalGain": 569.1,
+      "progressPercent": 32,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 768.64,
+          "value": 33074,
+          "gain": 944.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 52.59,
+          "value": 6413,
+          "gain": 102.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.02,
+          "value": 24079,
+          "gain": 660.4
+        }
+      ]
+    },
+    {
+      "date": "2023-12",
+      "monthLabel": "Dec 2023",
+      "totalValue": 66801,
+      "totalCost": 9600,
+      "totalGain": 595.8,
+      "progressPercent": 33,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 769.38,
+          "value": 35053,
+          "gain": 995.4
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 52.85,
+          "value": 6793,
+          "gain": 112.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.16,
+          "value": 24955,
+          "gain": 679.9
+        }
+      ]
+    },
+    {
+      "date": "2024-01",
+      "monthLabel": "Jan 2024",
+      "totalValue": 69273,
+      "totalCost": 9700,
+      "totalGain": 614.2,
+      "progressPercent": 35,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 769.96,
+          "value": 43584,
+          "gain": 1247.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 53.11,
+          "value": 6846,
+          "gain": 111.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.36,
+          "value": 18843,
+          "gain": 482.8
+        }
+      ]
+    },
+    {
+      "date": "2024-02",
+      "monthLabel": "Feb 2024",
+      "totalValue": 83217,
+      "totalCost": 9800,
+      "totalGain": 749.2,
+      "progressPercent": 42,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 770.42,
+          "value": 56074,
+          "gain": 1616.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 53.37,
+          "value": 6799,
+          "gain": 108.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.54,
+          "value": 20344,
+          "gain": 522.8
+        }
+      ]
+    },
+    {
+      "date": "2024-03",
+      "monthLabel": "Mar 2024",
+      "totalValue": 89271,
+      "totalCost": 9900,
+      "totalGain": 801.7,
+      "progressPercent": 45,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 770.82,
+          "value": 64077,
+          "gain": 1841.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 53.61,
+          "value": 7445,
+          "gain": 125.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.74,
+          "value": 17749,
+          "gain": 437.8
+        }
+      ]
+    },
+    {
+      "date": "2024-04",
+      "monthLabel": "Apr 2024",
+      "totalValue": 87907,
+      "totalCost": 10000,
+      "totalGain": 779.1,
+      "progressPercent": 44,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 771.24,
+          "value": 61306,
+          "gain": 1739.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 53.84,
+          "value": 8063,
+          "gain": 141.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 109.94,
+          "value": 18538,
+          "gain": 456.1
+        }
+      ]
+    },
+    {
+      "date": "2024-05",
+      "monthLabel": "May 2024",
+      "totalValue": 104445,
+      "totalCost": 10100,
+      "totalGain": 934.1,
+      "progressPercent": 52,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 771.57,
+          "value": 77823,
+          "gain": 2211.6
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 54.05,
+          "value": 8577,
+          "gain": 154.8
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.15,
+          "value": 18045,
+          "gain": 436
+        }
+      ]
+    },
+    {
+      "date": "2024-06",
+      "monthLabel": "Jun 2024",
+      "totalValue": 116903,
+      "totalCost": 10200,
+      "totalGain": 1046.1,
+      "progressPercent": 58,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 771.87,
+          "value": 87728,
+          "gain": 2480.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 54.25,
+          "value": 9090,
+          "gain": 167.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.33,
+          "value": 20085,
+          "gain": 490.7
+        }
+      ]
+    },
+    {
+      "date": "2024-07",
+      "monthLabel": "Jul 2024",
+      "totalValue": 115314,
+      "totalCost": 10300,
+      "totalGain": 1019.6,
+      "progressPercent": 58,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 772.18,
+          "value": 83131,
+          "gain": 2321.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 54.46,
+          "value": 8594,
+          "gain": 150.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.48,
+          "value": 23589,
+          "gain": 587.1
+        }
+      ]
+    },
+    {
+      "date": "2024-08",
+      "monthLabel": "Aug 2024",
+      "totalValue": 114850,
+      "totalCost": 10400,
+      "totalGain": 1004.3,
+      "progressPercent": 57,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 772.48,
+          "value": 84834,
+          "gain": 2347.1
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 54.68,
+          "value": 8219,
+          "gain": 137.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.65,
+          "value": 21797,
+          "gain": 528.7
+        }
+      ]
+    },
+    {
+      "date": "2024-09",
+      "monthLabel": "Sep 2024",
+      "totalValue": 121382,
+      "totalCost": 10500,
+      "totalGain": 1056,
+      "progressPercent": 61,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 772.78,
+          "value": 86338,
+          "gain": 2366.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 54.9,
+          "value": 8376,
+          "gain": 139.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.79,
+          "value": 26668,
+          "gain": 661.9
+        }
+      ]
+    },
+    {
+      "date": "2024-10",
+      "monthLabel": "Oct 2024",
+      "totalValue": 128595,
+      "totalCost": 10600,
+      "totalGain": 1113.2,
+      "progressPercent": 64,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 773.05,
+          "value": 94420,
+          "gain": 2572.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 55.11,
+          "value": 8675,
+          "gain": 145.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 110.94,
+          "value": 25500,
+          "gain": 621.7
+        }
+      ]
+    },
+    {
+      "date": "2024-11",
+      "monthLabel": "Nov 2024",
+      "totalValue": 142218,
+      "totalCost": 10700,
+      "totalGain": 1229.1,
+      "progressPercent": 71,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 773.31,
+          "value": 98358,
+          "gain": 2657.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 55.32,
+          "value": 8599,
+          "gain": 141.1
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.04,
+          "value": 35261,
+          "gain": 888.6
+        }
+      ]
+    },
+    {
+      "date": "2024-12",
+      "monthLabel": "Dec 2024",
+      "totalValue": 146531,
+      "totalCost": 10800,
+      "totalGain": 1256.8,
+      "progressPercent": 73,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 773.58,
+          "value": 95574,
+          "gain": 2554.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 55.52,
+          "value": 9668,
+          "gain": 168.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.13,
+          "value": 41289,
+          "gain": 1046.9
+        }
+      ]
+    },
+    {
+      "date": "2025-01",
+      "monthLabel": "Jan 2025",
+      "totalValue": 137340,
+      "totalCost": 10900,
+      "totalGain": 1160,
+      "progressPercent": 69,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 773.88,
+          "value": 85487,
+          "gain": 2252.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 55.69,
+          "value": 10453,
+          "gain": 187.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.22,
+          "value": 41400,
+          "gain": 1039.5
+        }
+      ]
+    },
+    {
+      "date": "2025-02",
+      "monthLabel": "Feb 2025",
+      "totalValue": 127743,
+      "totalCost": 11000,
+      "totalGain": 1061.3,
+      "progressPercent": 64,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 774.17,
+          "value": 88973,
+          "gain": 2326.5
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 55.91,
+          "value": 8758,
+          "gain": 138.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.34,
+          "value": 30012,
+          "gain": 718.5
+        }
+      ]
+    },
+    {
+      "date": "2025-03",
+      "monthLabel": "Mar 2025",
+      "totalValue": 111794,
+      "totalCost": 11100,
+      "totalGain": 907.2,
+      "progressPercent": 56,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 774.51,
+          "value": 77226,
+          "gain": 1987.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 56.14,
+          "value": 7987,
+          "gain": 115.9
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.48,
+          "value": 26581,
+          "gain": 618.4
+        }
+      ]
+    },
+    {
+      "date": "2025-04",
+      "monthLabel": "Apr 2025",
+      "totalValue": 114852,
+      "totalCost": 11200,
+      "totalGain": 925.5,
+      "progressPercent": 57,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 774.84,
+          "value": 77644,
+          "gain": 1979.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 56.37,
+          "value": 8235,
+          "gain": 120.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.61,
+          "value": 28973,
+          "gain": 676.1
+        }
+      ]
+    },
+    {
+      "date": "2025-05",
+      "monthLabel": "May 2025",
+      "totalValue": 140910,
+      "totalCost": 11300,
+      "totalGain": 1147,
+      "progressPercent": 70,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 775.11,
+          "value": 96361,
+          "gain": 2458.3
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 56.58,
+          "value": 8940,
+          "gain": 137.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.72,
+          "value": 35609,
+          "gain": 845.4
+        }
+      ]
+    },
+    {
+      "date": "2025-06",
+      "monthLabel": "Jun 2025",
+      "totalValue": 154586,
+      "totalCost": 11400,
+      "totalGain": 1256,
+      "progressPercent": 77,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 775.34,
+          "value": 112696,
+          "gain": 2865.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 56.78,
+          "value": 9207,
+          "gain": 142.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.83,
+          "value": 32683,
+          "gain": 760.1
+        }
+      ]
+    },
+    {
+      "date": "2025-07",
+      "monthLabel": "Jul 2025",
+      "totalValue": 168719,
+      "totalCost": 11500,
+      "totalGain": 1367.1,
+      "progressPercent": 84,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 775.54,
+          "value": 126910,
+          "gain": 3210.7
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 56.97,
+          "value": 10059,
+          "gain": 162.4
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 111.95,
+          "value": 31750,
+          "gain": 728.3
+        }
+      ]
+    },
+    {
+      "date": "2025-08",
+      "monthLabel": "Aug 2025",
+      "totalValue": 169924,
+      "totalCost": 11600,
+      "totalGain": 1364.9,
+      "progressPercent": 85,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 775.75,
+          "value": 124311,
+          "gain": 3114.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.14,
+          "value": 11193,
+          "gain": 189.5
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.06,
+          "value": 34420,
+          "gain": 790.2
+        }
+      ]
+    },
+    {
+      "date": "2025-09",
+      "monthLabel": "Sep 2025",
+      "totalValue": 191889,
+      "totalCost": 11700,
+      "totalGain": 1540.1,
+      "progressPercent": 96,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 775.94,
+          "value": 133194,
+          "gain": 3315.2
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.29,
+          "value": 12814,
+          "gain": 228.6
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.14,
+          "value": 45881,
+          "gain": 1076.4
+        }
+      ]
+    },
+    {
+      "date": "2025-10",
+      "monthLabel": "Oct 2025",
+      "totalValue": 206576,
+      "totalCost": 11800,
+      "totalGain": 1650.6,
+      "progressPercent": 100,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 776.12,
+          "value": 144585,
+          "gain": 3575.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.42,
+          "value": 14855,
+          "gain": 277.7
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.22,
+          "value": 47136,
+          "gain": 1098.4
+        }
+      ]
+    },
+    {
+      "date": "2025-11",
+      "monthLabel": "Nov 2025",
+      "totalValue": 187810,
+      "totalCost": 11900,
+      "totalGain": 1478.2,
+      "progressPercent": 94,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 776.33,
+          "value": 126417,
+          "gain": 3087
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.53,
+          "value": 16948,
+          "gain": 327.3
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.3,
+          "value": 44445,
+          "gain": 1020.5
+        }
+      ]
+    },
+    {
+      "date": "2025-12",
+      "monthLabel": "Dec 2025",
+      "totalValue": 196335,
+      "totalCost": 12000,
+      "totalGain": 1536.1,
+      "progressPercent": 98,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 776.52,
+          "value": 133236,
+          "gain": 3230.9
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.65,
+          "value": 16601,
+          "gain": 315
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.38,
+          "value": 46498,
+          "gain": 1062.4
+        }
+      ]
+    },
+    {
+      "date": "2026-01",
+      "monthLabel": "Jan 2026",
+      "totalValue": 197023,
+      "totalCost": 12100,
+      "totalGain": 1528.3,
+      "progressPercent": 99,
+      "holdings": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA",
+          "abbrev": "NV",
+          "shares": 776.71,
+          "value": 134948,
+          "gain": 3245.8
+        },
+        {
+          "symbol": "GOOGL",
+          "name": "Google",
+          "abbrev": "GO",
+          "shares": 57.77,
+          "value": 16748,
+          "gain": 315.2
+        },
+        {
+          "symbol": "TSLA",
+          "name": "Tesla",
+          "abbrev": "TS",
+          "shares": 112.47,
+          "value": 45327,
+          "gain": 1023.8
+        }
+      ]
+    }
+  ]
+}
