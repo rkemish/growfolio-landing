@@ -4,17 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Growfolio landing page - a static marketing site for a European family investment platform. Built with Astro, Tailwind CSS, and deployed to Cloudflare Pages.
+Growfolio landing page - a static marketing site for a European family investment platform. Built with Astro, Tailwind CSS, and deployed to Cloudflare Workers.
 
 ## Deployment
 
-**Auto-deploy enabled**: The `main` branch is connected to Cloudflare Pages. Always commit and push changes to see them live.
+**Auto-deploy enabled**: The `main` branch is connected to Cloudflare Workers. Always commit and push changes to see them live.
 
 ```bash
 git add . && git commit -m "Your message" && git push
 ```
 
-Live site: https://growfolio.pages.dev
+Live site: https://growfolio-landing.rkemish.workers.dev/
 
 ## Commands
 
