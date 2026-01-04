@@ -12,8 +12,7 @@ const currentLangInfo = LANGUAGES[currentLang];
 
 <div class="language-switcher relative">
   <button
-    id="lang-toggle"
-    class="flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-medium transition-colors hover:bg-black/5"
+    class="lang-toggle flex items-center gap-1.5 px-2.5 py-1.5 rounded-lg text-sm font-medium transition-colors hover:bg-black/5"
     aria-expanded="false"
     aria-haspopup="listbox"
     aria-label="Select language"
@@ -26,8 +25,7 @@ const currentLangInfo = LANGUAGES[currentLang];
   </button>
 
   <div
-    id="lang-dropdown"
-    class="absolute top-full right-0 mt-2 w-72 max-h-96 overflow-hidden bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible transition-all duration-200 z-50"
+    class="lang-dropdown absolute top-full right-0 mt-2 w-72 max-h-96 overflow-hidden bg-white rounded-xl shadow-2xl border border-gray-100 opacity-0 invisible transition-all duration-200 z-50"
     role="listbox"
     aria-label="Available languages"
   >
@@ -40,9 +38,8 @@ const currentLangInfo = LANGUAGES[currentLang];
         </svg>
         <input
           type="text"
-          id="lang-search"
           placeholder="Search languages..."
-          class="w-full pl-9 pr-3 py-2 text-sm rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/50 focus:border-teal-500"
+          class="lang-search w-full pl-9 pr-3 py-2 text-sm rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-teal-500/50 focus:border-teal-500"
         />
       </div>
     </div>
@@ -86,84 +83,92 @@ const currentLangInfo = LANGUAGES[currentLang];
 </div>
 
 <script>
-  function initLanguageSwitcher() {
-    const toggle = document.getElementById('lang-toggle');
-    const dropdown = document.getElementById('lang-dropdown');
-    const search = document.getElementById('lang-search') as HTMLInputElement;
-    const options = document.querySelectorAll('.lang-option');
+  function initLanguageSwitchers() {
+    // Find all language switcher instances and initialize each one
+    const switchers = document.querySelectorAll('.language-switcher');
 
-    if (!toggle || !dropdown) return;
+    switchers.forEach((switcher) => {
+      const toggle = switcher.querySelector('.lang-toggle') as HTMLButtonElement;
+      const dropdown = switcher.querySelector('.lang-dropdown') as HTMLElement;
+      const search = switcher.querySelector('.lang-search') as HTMLInputElement;
+      const options = switcher.querySelectorAll('.lang-option');
 
-    // Toggle dropdown
-    function openDropdown() {
-      dropdown.classList.remove('opacity-0', 'invisible');
-      dropdown.classList.add('opacity-100', 'visible');
-      toggle.setAttribute('aria-expanded', 'true');
-      setTimeout(() => search?.focus(), 50);
-    }
+      if (!toggle || !dropdown) return;
 
-    function closeDropdown() {
-      dropdown.classList.remove('opacity-100', 'visible');
-      dropdown.classList.add('opacity-0', 'invisible');
-      toggle.setAttribute('aria-expanded', 'false');
-      if (search) search.value = '';
-      options.forEach(opt => (opt as HTMLElement).style.display = 'flex');
-      // Reset country groups visibility
-      document.querySelectorAll('[data-country]').forEach(group => {
-        (group as HTMLElement).style.display = 'block';
-      });
-    }
+      // Skip if already initialized
+      if (toggle.dataset.initialized) return;
+      toggle.dataset.initialized = 'true';
 
-    toggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      const isOpen = dropdown.classList.contains('opacity-100');
-      if (isOpen) {
-        closeDropdown();
-      } else {
-        openDropdown();
+      // Toggle dropdown
+      function openDropdown() {
+        dropdown.classList.remove('opacity-0', 'invisible');
+        dropdown.classList.add('opacity-100', 'visible');
+        toggle.setAttribute('aria-expanded', 'true');
+        setTimeout(() => search?.focus(), 50);
       }
-    });
 
-    // Search filter
-    search?.addEventListener('input', (e) => {
-      const query = (e.target as HTMLInputElement).value.toLowerCase();
-      const countryGroups = document.querySelectorAll('[data-country]');
+      function closeDropdown() {
+        dropdown.classList.remove('opacity-100', 'visible');
+        dropdown.classList.add('opacity-0', 'invisible');
+        toggle.setAttribute('aria-expanded', 'false');
+        if (search) search.value = '';
+        options.forEach(opt => (opt as HTMLElement).style.display = 'flex');
+        // Reset country groups visibility within this dropdown
+        dropdown.querySelectorAll('[data-country]').forEach(group => {
+          (group as HTMLElement).style.display = 'block';
+        });
+      }
 
-      options.forEach(option => {
-        const name = option.getAttribute('data-name') || '';
-        const matches = name.includes(query);
-        (option as HTMLElement).style.display = matches ? 'flex' : 'none';
+      toggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const isOpen = dropdown.classList.contains('opacity-100');
+        if (isOpen) {
+          closeDropdown();
+        } else {
+          openDropdown();
+        }
       });
 
-      // Hide empty country groups
-      countryGroups.forEach(group => {
-        const visibleOptions = group.querySelectorAll('.lang-option[style*="flex"], .lang-option:not([style*="none"])');
-        const hasVisible = Array.from(group.querySelectorAll('.lang-option')).some(
-          opt => (opt as HTMLElement).style.display !== 'none'
-        );
-        (group as HTMLElement).style.display = hasVisible ? 'block' : 'none';
+      // Search filter
+      search?.addEventListener('input', (e) => {
+        const query = (e.target as HTMLInputElement).value.toLowerCase();
+        const countryGroups = dropdown.querySelectorAll('[data-country]');
+
+        options.forEach(option => {
+          const name = option.getAttribute('data-name') || '';
+          const matches = name.includes(query);
+          (option as HTMLElement).style.display = matches ? 'flex' : 'none';
+        });
+
+        // Hide empty country groups
+        countryGroups.forEach(group => {
+          const hasVisible = Array.from(group.querySelectorAll('.lang-option')).some(
+            opt => (opt as HTMLElement).style.display !== 'none'
+          );
+          (group as HTMLElement).style.display = hasVisible ? 'block' : 'none';
+        });
       });
-    });
 
-    // Close on click outside
-    document.addEventListener('click', (e) => {
-      if (!toggle.contains(e.target as Node) && !dropdown.contains(e.target as Node)) {
-        closeDropdown();
-      }
-    });
+      // Close on click outside
+      document.addEventListener('click', (e) => {
+        if (!toggle.contains(e.target as Node) && !dropdown.contains(e.target as Node)) {
+          closeDropdown();
+        }
+      });
 
-    // Keyboard navigation
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && dropdown.classList.contains('opacity-100')) {
-        closeDropdown();
-        toggle.focus();
-      }
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+        if (e.key === 'Escape' && dropdown.classList.contains('opacity-100')) {
+          closeDropdown();
+          toggle.focus();
+        }
+      });
     });
   }
 
   // Initialize on page load
-  initLanguageSwitcher();
+  initLanguageSwitchers();
 
   // Re-initialize after Astro page transitions
-  document.addEventListener('astro:after-swap', initLanguageSwitcher);
+  document.addEventListener('astro:after-swap', initLanguageSwitchers);
 </script>
